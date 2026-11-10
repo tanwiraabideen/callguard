@@ -82,6 +82,36 @@ class Settings(BaseSettings):
     risk_medium_threshold: float = 40
     risk_high_threshold: float = 70
 
+    # Alerts: share of a dismissed red flag's points that remain
+    dismiss_points_factor: float = 0.25
+
+    # Spoken output. Without an ElevenLabs key the browser's own voice is used.
+    speech_enabled: bool = True
+    speech_model: str = "eleven_flash_v2_5"
+    speech_timeout_seconds: float = 10.0
+    tts_whisper_voice_id: str = "pFZP5JQG7iQjIQuC4Bku"  # Lily
+    tts_agent_voice_id: str = "onwK4e9ZLuTAKqWW03F9"  # Daniel
+
+    # Agent. Without an Anthropic key it follows a fixed policy instead.
+    agent_enabled: bool = True
+    agent_model: str = "claude-haiku-5-5"  # fast enough to help mid-call
+    agent_effort: str = "low"
+    agent_max_tokens: int = 2048
+    agent_max_steps: int = 6
+    agent_timeout_seconds: float = 12.0
+    agent_context_sentences: int = 40
+    whisper_max_words: int = 15
+    trigger_phrases: str = "let me grab a pen,let me find my glasses"
+    trigger_cooldown_seconds: float = 8.0
+    takeover_silence_seconds: float = 20.0  # user silence at high risk
+
+    # LangSmith tracing, on when a key is set
+    langsmith_api_key: str = ""
+    langsmith_project: str = "callguard"
+
+    # Live microphone calls
+    live_call_max_seconds: float = 180.0
+
     @property
     def cors_origin_list(self) -> list[str]:
         return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
@@ -93,6 +123,14 @@ class Settings(BaseSettings):
     @property
     def audio_bytes_per_second(self) -> int:
         return self.audio_sample_rate * self.audio_bytes_per_frame
+
+    @property
+    def trigger_phrase_list(self) -> list[str]:
+        return [phrase.strip() for phrase in self.trigger_phrases.split(",") if phrase.strip()]
+
+    @property
+    def agent_llm_active(self) -> bool:
+        return bool(self.anthropic_api_key)
 
     @property
     def llm_active(self) -> bool:

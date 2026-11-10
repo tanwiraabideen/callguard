@@ -1,0 +1,20 @@
+{
+  "id": "energy_bill_reminder",
+  "title": "Overdue energy bill reminder (legitimate)",
+  "label": "legit",
+  "turns": [
+    {"speaker": "caller", "text": "Hello, this is Jordan from the customer accounts team at Brightline Energy. Is that Mrs Clarke?"},
+    {"speaker": "user", "text": "Yes, that's me."},
+    {"speaker": "caller", "text": "Thanks. I'm calling because your account is two months overdue, with a balance of two hundred and eighteen pounds. I know that's not nice to hear."},
+    {"speaker": "user", "text": "Oh dear. Things have been a bit tight this year. Are you going to cut me off?"},
+    {"speaker": "caller", "text": "No, nothing like that. We aren't taking any legal action, and there's no deadline today. I just wanted to make sure you knew about the support we offer."},
+    {"speaker": "user", "text": "Do you need my card details to sort it out?"},
+    {"speaker": "caller", "text": "No, I don't want you to give me any payment details on this call. You can pay in your online account, or ring the number printed on your bill."},
+    {"speaker": "user", "text": "Hang on. Could I spread it over a few months?"},
+    {"speaker": "caller", "text": "Of course. We can set up a payment plan for you, and there's also a hardship fund that you might be able to apply for."},
+    {"speaker": "user", "text": "That would really help. What do I need to do?"},
+    {"speaker": "caller", "text": "Have a look at the letter we've sent you, then call us whenever suits you, and one of the team will talk it through. Take your time."},
+    {"speaker": "user", "text": "Thank you. I'll do that this week."},
+    {"speaker": "caller", "text": "You're welcome, Mrs Clarke. Bye for now."}
+  ]
+}

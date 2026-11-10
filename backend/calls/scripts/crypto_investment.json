@@ -1,0 +1,21 @@
+{
+  "id": "crypto_investment",
+  "title": "Crypto investment scam",
+  "label": "scam",
+  "turns": [
+    {"speaker": "caller", "text": "Good afternoon, it's Ryan from Apex Wealth. You signed up on our website about an investment opportunity last month."},
+    {"speaker": "user", "text": "Did I? I do remember looking at something like that."},
+    {"speaker": "caller", "text": "That's right. Our clients are seeing returns of around twelve percent a month, with our trading team doing all of the work for you."},
+    {"speaker": "user", "text": "Twelve percent a month? That sounds like a lot."},
+    {"speaker": "caller", "text": "It's an exclusive group, and I've managed to hold one place open for you. What sort of savings do you have available at the moment?"},
+    {"speaker": "user", "text": "I've got about eight thousand pounds put aside."},
+    {"speaker": "caller", "first_red_flag": true, "text": "Perfect. What we'll do is transfer your savings into a Bitcoin wallet, and I'll walk you through it step by step."},
+    {"speaker": "user", "trigger": true, "text": "Hang on, let me grab a pen."},
+    {"speaker": "caller", "text": "Good idea. The place closes at midnight tonight, so we'll need to get this done today."},
+    {"speaker": "user", "text": "I think I should speak to my son about it first."},
+    {"speaker": "caller", "gap_ms": -500, "text": "I'd keep this between us for now. Family never understand these opportunities, and don't tell your bank what it's for either, because they'll only try to block it."},
+    {"speaker": "user", "trigger": true, "text": "Hold on, let me find my glasses."},
+    {"speaker": "caller", "text": "Take your card, and I'll stay on the line while we open the account together."},
+    {"speaker": "user", "text": "Okay. I've got it."}
+  ]
+}

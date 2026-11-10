@@ -1,0 +1,1146 @@
+{
+  "id": "crypto_investment",
+  "title": "Crypto investment scam",
+  "label": "scam",
+  "duration_seconds": 67.172,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Good afternoon, it's Ryan from Apex Wealth. You signed up on our website about an investment opportunity last month.",
+      "start": 0.0,
+      "end": 6.92,
+      "words": [
+        {
+          "word": "Good",
+          "start": 0.0,
+          "end": 0.232
+        },
+        {
+          "word": "afternoon,",
+          "start": 0.267,
+          "end": 0.824
+        },
+        {
+          "word": "it's",
+          "start": 0.906,
+          "end": 1.091
+        },
+        {
+          "word": "Ryan",
+          "start": 1.161,
+          "end": 1.498
+        },
+        {
+          "word": "from",
+          "start": 1.556,
+          "end": 1.683
+        },
+        {
+          "word": "Apex",
+          "start": 1.765,
+          "end": 2.148
+        },
+        {
+          "word": "Wealth.",
+          "start": 2.218,
+          "end": 2.659
+        },
+        {
+          "word": "You",
+          "start": 2.984,
+          "end": 3.111
+        },
+        {
+          "word": "signed",
+          "start": 3.181,
+          "end": 3.437
+        },
+        {
+          "word": "up",
+          "start": 3.471,
+          "end": 3.564
+        },
+        {
+          "word": "on",
+          "start": 3.622,
+          "end": 3.692
+        },
+        {
+          "word": "our",
+          "start": 3.738,
+          "end": 3.843
+        },
+        {
+          "word": "website",
+          "start": 3.889,
+          "end": 4.354
+        },
+        {
+          "word": "about",
+          "start": 4.377,
+          "end": 4.598
+        },
+        {
+          "word": "an",
+          "start": 4.644,
+          "end": 4.702
+        },
+        {
+          "word": "investment",
+          "start": 4.748,
+          "end": 5.248
+        },
+        {
+          "word": "opportunity",
+          "start": 5.283,
+          "end": 5.875
+        },
+        {
+          "word": "last",
+          "start": 5.944,
+          "end": 6.177
+        },
+        {
+          "word": "month.",
+          "start": 6.246,
+          "end": 6.92
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Did I? I do remember looking at something like that.",
+      "start": 7.27,
+      "end": 10.706,
+      "words": [
+        {
+          "word": "Did",
+          "start": 7.27,
+          "end": 7.525
+        },
+        {
+          "word": "I?",
+          "start": 7.607,
+          "end": 7.932
+        },
+        {
+          "word": "I",
+          "start": 8.443,
+          "end": 8.512
+        },
+        {
+          "word": "do",
+          "start": 8.605,
+          "end": 8.733
+        },
+        {
+          "word": "remember",
+          "start": 8.814,
+          "end": 9.139
+        },
+        {
+          "word": "looking",
+          "start": 9.186,
+          "end": 9.441
+        },
+        {
+          "word": "at",
+          "start": 9.488,
+          "end": 9.546
+        },
+        {
+          "word": "something",
+          "start": 9.592,
+          "end": 9.894
+        },
+        {
+          "word": "like",
+          "start": 9.94,
+          "end": 10.103
+        },
+        {
+          "word": "that.",
+          "start": 10.126,
+          "end": 10.707
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "That's right. Our clients are seeing returns of around twelve percent a month, with our trading team doing all of the work for you.",
+      "start": 11.056,
+      "end": 18.161,
+      "words": [
+        {
+          "word": "That's",
+          "start": 11.056,
+          "end": 11.358
+        },
+        {
+          "word": "right.",
+          "start": 11.416,
+          "end": 11.845
+        },
+        {
+          "word": "Our",
+          "start": 12.287,
+          "end": 12.472
+        },
+        {
+          "word": "clients",
+          "start": 12.519,
+          "end": 12.879
+        },
+        {
+          "word": "are",
+          "start": 12.914,
+          "end": 13.006
+        },
+        {
+          "word": "seeing",
+          "start": 13.03,
+          "end": 13.274
+        },
+        {
+          "word": "returns",
+          "start": 13.332,
+          "end": 13.738
+        },
+        {
+          "word": "of",
+          "start": 13.773,
+          "end": 13.819
+        },
+        {
+          "word": "around",
+          "start": 13.866,
+          "end": 14.109
+        },
+        {
+          "word": "twelve",
+          "start": 14.156,
+          "end": 14.446
+        },
+        {
+          "word": "percent",
+          "start": 14.481,
+          "end": 14.794
+        },
+        {
+          "word": "a",
+          "start": 14.829,
+          "end": 14.864
+        },
+        {
+          "word": "month,",
+          "start": 14.911,
+          "end": 15.27
+        },
+        {
+          "word": "with",
+          "start": 15.398,
+          "end": 15.549
+        },
+        {
+          "word": "our",
+          "start": 15.584,
+          "end": 15.688
+        },
+        {
+          "word": "trading",
+          "start": 15.746,
+          "end": 16.083
+        },
+        {
+          "word": "team",
+          "start": 16.141,
+          "end": 16.408
+        },
+        {
+          "word": "doing",
+          "start": 16.478,
+          "end": 16.698
+        },
+        {
+          "word": "all",
+          "start": 16.768,
+          "end": 16.989
+        },
+        {
+          "word": "of",
+          "start": 17.024,
+          "end": 17.07
+        },
+        {
+          "word": "the",
+          "start": 17.105,
+          "end": 17.174
+        },
+        {
+          "word": "work",
+          "start": 17.221,
+          "end": 17.43
+        },
+        {
+          "word": "for",
+          "start": 17.476,
+          "end": 17.592
+        },
+        {
+          "word": "you.",
+          "start": 17.65,
+          "end": 18.161
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Twelve percent a month? That sounds like a lot.",
+      "start": 18.511,
+      "end": 21.251,
+      "words": [
+        {
+          "word": "Twelve",
+          "start": 18.511,
+          "end": 18.894
+        },
+        {
+          "word": "percent",
+          "start": 18.929,
+          "end": 19.277
+        },
+        {
+          "word": "a",
+          "start": 19.312,
+          "end": 19.335
+        },
+        {
+          "word": "month?",
+          "start": 19.393,
+          "end": 19.753
+        },
+        {
+          "word": "That",
+          "start": 19.776,
+          "end": 19.951
+        },
+        {
+          "word": "sounds",
+          "start": 20.009,
+          "end": 20.264
+        },
+        {
+          "word": "like",
+          "start": 20.299,
+          "end": 20.473
+        },
+        {
+          "word": "a",
+          "start": 20.508,
+          "end": 20.531
+        },
+        {
+          "word": "lot.",
+          "start": 20.601,
+          "end": 21.251
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "It's an exclusive group, and I've managed to hold one place open for you. What sort of savings do you have available at the moment?",
+      "start": 21.601,
+      "end": 28.66,
+      "words": [
+        {
+          "word": "It's",
+          "start": 21.601,
+          "end": 21.822
+        },
+        {
+          "word": "an",
+          "start": 21.845,
+          "end": 21.903
+        },
+        {
+          "word": "exclusive",
+          "start": 21.961,
+          "end": 22.507
+        },
+        {
+          "word": "group,",
+          "start": 22.541,
+          "end": 22.901
+        },
+        {
+          "word": "and",
+          "start": 22.936,
+          "end": 23.064
+        },
+        {
+          "word": "I've",
+          "start": 23.11,
+          "end": 23.238
+        },
+        {
+          "word": "managed",
+          "start": 23.273,
+          "end": 23.586
+        },
+        {
+          "word": "to",
+          "start": 23.61,
+          "end": 23.656
+        },
+        {
+          "word": "hold",
+          "start": 23.714,
+          "end": 23.911
+        },
+        {
+          "word": "one",
+          "start": 24.004,
+          "end": 24.178
+        },
+        {
+          "word": "place",
+          "start": 24.225,
+          "end": 24.503
+        },
+        {
+          "word": "open",
+          "start": 24.55,
+          "end": 24.817
+        },
+        {
+          "word": "for",
+          "start": 24.875,
+          "end": 25.026
+        },
+        {
+          "word": "you.",
+          "start": 25.096,
+          "end": 25.409
+        },
+        {
+          "word": "What",
+          "start": 25.85,
+          "end": 26.048
+        },
+        {
+          "word": "sort",
+          "start": 26.106,
+          "end": 26.303
+        },
+        {
+          "word": "of",
+          "start": 26.338,
+          "end": 26.396
+        },
+        {
+          "word": "savings",
+          "start": 26.454,
+          "end": 26.849
+        },
+        {
+          "word": "do",
+          "start": 26.884,
+          "end": 26.942
+        },
+        {
+          "word": "you",
+          "start": 27.0,
+          "end": 27.069
+        },
+        {
+          "word": "have",
+          "start": 27.127,
+          "end": 27.255
+        },
+        {
+          "word": "available",
+          "start": 27.278,
+          "end": 27.719
+        },
+        {
+          "word": "at",
+          "start": 27.743,
+          "end": 27.812
+        },
+        {
+          "word": "the",
+          "start": 27.847,
+          "end": 27.917
+        },
+        {
+          "word": "moment?",
+          "start": 27.963,
+          "end": 28.66
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "I've got about eight thousand pounds put aside.",
+      "start": 29.01,
+      "end": 31.982,
+      "words": [
+        {
+          "word": "I've",
+          "start": 29.01,
+          "end": 29.254
+        },
+        {
+          "word": "got",
+          "start": 29.289,
+          "end": 29.428
+        },
+        {
+          "word": "about",
+          "start": 29.463,
+          "end": 29.695
+        },
+        {
+          "word": "eight",
+          "start": 29.765,
+          "end": 29.997
+        },
+        {
+          "word": "thousand",
+          "start": 30.043,
+          "end": 30.45
+        },
+        {
+          "word": "pounds",
+          "start": 30.519,
+          "end": 30.856
+        },
+        {
+          "word": "put",
+          "start": 30.914,
+          "end": 31.077
+        },
+        {
+          "word": "aside.",
+          "start": 31.135,
+          "end": 31.982
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "first_red_flag": true,
+      "text": "Perfect. What we'll do is transfer your savings into a Bitcoin wallet, and I'll walk you through it step by step.",
+      "start": 32.332,
+      "end": 39.252,
+      "words": [
+        {
+          "word": "Perfect.",
+          "start": 32.332,
+          "end": 33.017
+        },
+        {
+          "word": "What",
+          "start": 33.528,
+          "end": 33.702
+        },
+        {
+          "word": "we'll",
+          "start": 33.748,
+          "end": 33.923
+        },
+        {
+          "word": "do",
+          "start": 33.969,
+          "end": 34.132
+        },
+        {
+          "word": "is",
+          "start": 34.213,
+          "end": 34.306
+        },
+        {
+          "word": "transfer",
+          "start": 34.352,
+          "end": 34.793
+        },
+        {
+          "word": "your",
+          "start": 34.863,
+          "end": 34.979
+        },
+        {
+          "word": "savings",
+          "start": 35.037,
+          "end": 35.455
+        },
+        {
+          "word": "into",
+          "start": 35.513,
+          "end": 35.687
+        },
+        {
+          "word": "a",
+          "start": 35.769,
+          "end": 35.792
+        },
+        {
+          "word": "Bitcoin",
+          "start": 35.838,
+          "end": 36.256
+        },
+        {
+          "word": "wallet,",
+          "start": 36.326,
+          "end": 36.779
+        },
+        {
+          "word": "and",
+          "start": 36.93,
+          "end": 37.069
+        },
+        {
+          "word": "I'll",
+          "start": 37.115,
+          "end": 37.231
+        },
+        {
+          "word": "walk",
+          "start": 37.278,
+          "end": 37.44
+        },
+        {
+          "word": "you",
+          "start": 37.498,
+          "end": 37.58
+        },
+        {
+          "word": "through",
+          "start": 37.638,
+          "end": 37.87
+        },
+        {
+          "word": "it",
+          "start": 37.916,
+          "end": 37.986
+        },
+        {
+          "word": "step",
+          "start": 38.056,
+          "end": 38.276
+        },
+        {
+          "word": "by",
+          "start": 38.323,
+          "end": 38.439
+        },
+        {
+          "word": "step.",
+          "start": 38.509,
+          "end": 39.252
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hang on, let me grab a pen.",
+      "start": 39.602,
+      "end": 41.32,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 39.602,
+          "end": 39.799
+        },
+        {
+          "word": "on,",
+          "start": 39.857,
+          "end": 40.02
+        },
+        {
+          "word": "let",
+          "start": 40.066,
+          "end": 40.194
+        },
+        {
+          "word": "me",
+          "start": 40.229,
+          "end": 40.299
+        },
+        {
+          "word": "grab",
+          "start": 40.345,
+          "end": 40.519
+        },
+        {
+          "word": "a",
+          "start": 40.566,
+          "end": 40.589
+        },
+        {
+          "word": "pen.",
+          "start": 40.647,
+          "end": 41.32
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Good idea. The place closes at midnight tonight, so we'll need to get this done today.",
+      "start": 41.67,
+      "end": 46.732,
+      "words": [
+        {
+          "word": "Good",
+          "start": 41.67,
+          "end": 41.914
+        },
+        {
+          "word": "idea.",
+          "start": 41.96,
+          "end": 42.541
+        },
+        {
+          "word": "The",
+          "start": 42.785,
+          "end": 42.901
+        },
+        {
+          "word": "place",
+          "start": 42.935,
+          "end": 43.191
+        },
+        {
+          "word": "closes",
+          "start": 43.226,
+          "end": 43.586
+        },
+        {
+          "word": "at",
+          "start": 43.62,
+          "end": 43.702
+        },
+        {
+          "word": "midnight",
+          "start": 43.76,
+          "end": 44.12
+        },
+        {
+          "word": "tonight,",
+          "start": 44.143,
+          "end": 44.572
+        },
+        {
+          "word": "so",
+          "start": 44.7,
+          "end": 44.816
+        },
+        {
+          "word": "we'll",
+          "start": 44.874,
+          "end": 45.037
+        },
+        {
+          "word": "need",
+          "start": 45.083,
+          "end": 45.246
+        },
+        {
+          "word": "to",
+          "start": 45.281,
+          "end": 45.327
+        },
+        {
+          "word": "get",
+          "start": 45.374,
+          "end": 45.49
+        },
+        {
+          "word": "this",
+          "start": 45.525,
+          "end": 45.664
+        },
+        {
+          "word": "done",
+          "start": 45.722,
+          "end": 45.954
+        },
+        {
+          "word": "today.",
+          "start": 45.989,
+          "end": 46.732
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "I think I should speak to my son about it first.",
+      "start": 47.082,
+      "end": 50.008,
+      "words": [
+        {
+          "word": "I",
+          "start": 47.082,
+          "end": 47.163
+        },
+        {
+          "word": "think",
+          "start": 47.256,
+          "end": 47.454
+        },
+        {
+          "word": "I",
+          "start": 47.523,
+          "end": 47.546
+        },
+        {
+          "word": "should",
+          "start": 47.604,
+          "end": 47.79
+        },
+        {
+          "word": "speak",
+          "start": 47.825,
+          "end": 48.069
+        },
+        {
+          "word": "to",
+          "start": 48.115,
+          "end": 48.173
+        },
+        {
+          "word": "my",
+          "start": 48.243,
+          "end": 48.347
+        },
+        {
+          "word": "son",
+          "start": 48.429,
+          "end": 48.638
+        },
+        {
+          "word": "about",
+          "start": 48.684,
+          "end": 48.963
+        },
+        {
+          "word": "it",
+          "start": 49.032,
+          "end": 49.114
+        },
+        {
+          "word": "first.",
+          "start": 49.183,
+          "end": 50.008
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "gap_ms": -500,
+      "text": "I'd keep this between us for now. Family never understand these opportunities, and don't tell your bank what it's for either, because they'll only try to block it.",
+      "start": 49.508,
+      "end": 58.053,
+      "words": [
+        {
+          "word": "I'd",
+          "start": 49.508,
+          "end": 49.717
+        },
+        {
+          "word": "keep",
+          "start": 49.763,
+          "end": 49.914
+        },
+        {
+          "word": "this",
+          "start": 49.961,
+          "end": 50.1
+        },
+        {
+          "word": "between",
+          "start": 50.158,
+          "end": 50.448
+        },
+        {
+          "word": "us",
+          "start": 50.495,
+          "end": 50.576
+        },
+        {
+          "word": "for",
+          "start": 50.623,
+          "end": 50.727
+        },
+        {
+          "word": "now.",
+          "start": 50.773,
+          "end": 51.168
+        },
+        {
+          "word": "Family",
+          "start": 51.551,
+          "end": 51.934
+        },
+        {
+          "word": "never",
+          "start": 51.993,
+          "end": 52.19
+        },
+        {
+          "word": "understand",
+          "start": 52.248,
+          "end": 52.712
+        },
+        {
+          "word": "these",
+          "start": 52.77,
+          "end": 52.933
+        },
+        {
+          "word": "opportunities,",
+          "start": 52.956,
+          "end": 53.711
+        },
+        {
+          "word": "and",
+          "start": 53.804,
+          "end": 53.943
+        },
+        {
+          "word": "don't",
+          "start": 54.001,
+          "end": 54.187
+        },
+        {
+          "word": "tell",
+          "start": 54.222,
+          "end": 54.361
+        },
+        {
+          "word": "your",
+          "start": 54.407,
+          "end": 54.524
+        },
+        {
+          "word": "bank",
+          "start": 54.582,
+          "end": 54.814
+        },
+        {
+          "word": "what",
+          "start": 54.872,
+          "end": 55.023
+        },
+        {
+          "word": "it's",
+          "start": 55.058,
+          "end": 55.174
+        },
+        {
+          "word": "for",
+          "start": 55.232,
+          "end": 55.487
+        },
+        {
+          "word": "either,",
+          "start": 55.58,
+          "end": 56.044
+        },
+        {
+          "word": "because",
+          "start": 56.253,
+          "end": 56.52
+        },
+        {
+          "word": "they'll",
+          "start": 56.544,
+          "end": 56.764
+        },
+        {
+          "word": "only",
+          "start": 56.799,
+          "end": 56.962
+        },
+        {
+          "word": "try",
+          "start": 57.008,
+          "end": 57.159
+        },
+        {
+          "word": "to",
+          "start": 57.217,
+          "end": 57.263
+        },
+        {
+          "word": "block",
+          "start": 57.322,
+          "end": 57.542
+        },
+        {
+          "word": "it.",
+          "start": 57.6,
+          "end": 58.053
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hold on, let me find my glasses.",
+      "start": 58.403,
+      "end": 60.493,
+      "words": [
+        {
+          "word": "Hold",
+          "start": 58.403,
+          "end": 58.658
+        },
+        {
+          "word": "on,",
+          "start": 58.728,
+          "end": 58.925
+        },
+        {
+          "word": "let",
+          "start": 58.995,
+          "end": 59.134
+        },
+        {
+          "word": "me",
+          "start": 59.181,
+          "end": 59.262
+        },
+        {
+          "word": "find",
+          "start": 59.32,
+          "end": 59.529
+        },
+        {
+          "word": "my",
+          "start": 59.576,
+          "end": 59.668
+        },
+        {
+          "word": "glasses.",
+          "start": 59.738,
+          "end": 60.493
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Take your card, and I'll stay on the line while we open the account together.",
+      "start": 60.843,
+      "end": 64.836,
+      "words": [
+        {
+          "word": "Take",
+          "start": 60.843,
+          "end": 61.122
+        },
+        {
+          "word": "your",
+          "start": 61.156,
+          "end": 61.273
+        },
+        {
+          "word": "card,",
+          "start": 61.331,
+          "end": 61.772
+        },
+        {
+          "word": "and",
+          "start": 61.841,
+          "end": 61.981
+        },
+        {
+          "word": "I'll",
+          "start": 62.039,
+          "end": 62.167
+        },
+        {
+          "word": "stay",
+          "start": 62.225,
+          "end": 62.41
+        },
+        {
+          "word": "on",
+          "start": 62.457,
+          "end": 62.526
+        },
+        {
+          "word": "the",
+          "start": 62.561,
+          "end": 62.631
+        },
+        {
+          "word": "line",
+          "start": 62.689,
+          "end": 62.956
+        },
+        {
+          "word": "while",
+          "start": 62.979,
+          "end": 63.153
+        },
+        {
+          "word": "we",
+          "start": 63.177,
+          "end": 63.269
+        },
+        {
+          "word": "open",
+          "start": 63.328,
+          "end": 63.56
+        },
+        {
+          "word": "the",
+          "start": 63.606,
+          "end": 63.676
+        },
+        {
+          "word": "account",
+          "start": 63.722,
+          "end": 64.036
+        },
+        {
+          "word": "together.",
+          "start": 64.082,
+          "end": 64.837
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Okay. I've got it.",
+      "start": 65.186,
+      "end": 66.672,
+      "words": [
+        {
+          "word": "Okay.",
+          "start": 65.186,
+          "end": 65.697
+        },
+        {
+          "word": "I've",
+          "start": 65.743,
+          "end": 65.929
+        },
+        {
+          "word": "got",
+          "start": 65.952,
+          "end": 66.15
+        },
+        {
+          "word": "it.",
+          "start": 66.231,
+          "end": 66.672
+        }
+      ]
+    }
+  ]
+}

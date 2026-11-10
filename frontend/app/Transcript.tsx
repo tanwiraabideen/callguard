@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export type Speaker = "caller" | "user";
+export type Speaker = "caller" | "user" | "agent" | "whisper";
 
 export type TranscriptSegment = {
   speaker: Speaker;
@@ -13,13 +13,20 @@ export type TranscriptSegment = {
 const SPEAKER_LABELS: Record<Speaker, string> = {
   caller: "Caller",
   user: "You",
+  agent: "Agent, to the caller",
+  whisper: "Whisper, only you hear",
 };
 
 function Line({ segment }: { segment: TranscriptSegment }) {
+  const isAgent = segment.speaker === "agent" || segment.speaker === "whisper";
   return (
     <p
       className="transcript-line"
-      style={{ margin: "4px 0", color: segment.is_final ? "inherit" : "gray" }}
+      style={{
+        margin: "4px 0",
+        color: segment.is_final ? "inherit" : "gray",
+        fontStyle: isAgent ? "italic" : "normal",
+      }}
     >
       <small>{segment.start.toFixed(1)}s</small>{" "}
       <strong>{SPEAKER_LABELS[segment.speaker]}:</strong> {segment.text}

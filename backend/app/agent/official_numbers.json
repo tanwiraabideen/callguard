@@ -1,0 +1,23 @@
+[
+  {
+    "name": "HMRC Income Tax helpline",
+    "aliases": ["hmrc", "hm revenue", "revenue and customs", "tax office", "tax"],
+    "number": "0300 200 3300",
+    "note": "Monday to Friday, 8am to 6pm.",
+    "source": "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/income-tax-enquiries-for-individuals-pensioners-and-employees"
+  },
+  {
+    "name": "159 bank safety line",
+    "aliases": ["bank", "barclays", "hsbc", "lloyds", "natwest", "santander", "nationwide", "monzo", "starling", "tsb", "revolut", "halifax"],
+    "number": "159",
+    "note": "Connects you to your bank. Most UK retail banks take part. The number on your card also works.",
+    "source": "https://stopscamsuk.org.uk/159"
+  },
+  {
+    "name": "Report Fraud",
+    "aliases": ["report fraud", "action fraud", "fraud reporting", "police"],
+    "number": "0300 123 2040",
+    "note": "The UK's national reporting centre for fraud. Monday to Friday, 8am to 8pm.",
+    "source": "https://www.citizensadvice.org.uk/consumer/scams/reporting-a-scam/"
+  }
+]

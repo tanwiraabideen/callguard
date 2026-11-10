@@ -21,11 +21,13 @@ class Rule:
     weight: float
     patterns: tuple[str, ...]
     guard: str | None = None
+    severe: bool = False  # a direct request for money, codes or access
 
 
 RULES = (
     Rule(
         category="codes_or_pins",
+        severe=True,
         label="asks for a code, PIN or card details",
         weight=settings.rule_weight_codes_or_pins,
         guard=NEVER_ASKS,
@@ -43,6 +45,7 @@ RULES = (
     ),
     Rule(
         category="safe_account",
+        severe=True,
         label="asks to move money to a 'safe' account",
         weight=settings.rule_weight_safe_account,
         guard=NEVER_ASKS,
@@ -54,6 +57,7 @@ RULES = (
     ),
     Rule(
         category="gift_cards_or_crypto",
+        severe=True,
         label="asks for gift cards or crypto",
         weight=settings.rule_weight_gift_cards_or_crypto,
         patterns=(
@@ -94,6 +98,7 @@ RULES = (
     ),
     Rule(
         category="remote_access",
+        severe=True,
         label="asks to install a remote-access app",
         weight=settings.rule_weight_remote_access,
         patterns=(
@@ -119,6 +124,7 @@ def find_rule_hits(sentence: str) -> list[dict]:
                         "category": rule.category,
                         "label": rule.label,
                         "weight": rule.weight,
+                        "severe": rule.severe,
                         "matched": match.group(0),
                     }
                 )

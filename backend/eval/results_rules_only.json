@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "scams_flagged": 5,
+    "scams_total": 5,
+    "legit_calls_with_false_alerts": 1,
+    "false_alerts_total": 2,
+    "legit_total": 4,
+    "mean_delay_seconds": 10.8,
+    "worst_delay_seconds": 19.8
+  },
+  "calls": [
+    {
+      "id": "bank_safe_account",
+      "title": "Bank \"safe account\" scam",
+      "label": "scam",
+      "flagged": true,
+      "first_red_flag": 29.664,
+      "first_alert": 36.1,
+      "delay_seconds": 6.5,
+      "alerts": 2,
+      "reached_high": true,
+      "peak_score": 99.9,
+      "correct": true
+    },
+    {
+      "id": "crypto_investment",
+      "title": "Crypto investment scam",
+      "label": "scam",
+      "flagged": true,
+      "first_red_flag": 32.332,
+      "first_alert": 42.5,
+      "delay_seconds": 10.2,
+      "alerts": 2,
+      "reached_high": true,
+      "peak_score": 97.0,
+      "correct": true
+    },
+    {
+      "id": "dentist_appointment",
+      "title": "Dentist appointment (legitimate)",
+      "label": "legit",
+      "flagged": false,
+      "first_red_flag": null,
+      "first_alert": null,
+      "delay_seconds": null,
+      "alerts": 0,
+      "reached_high": false,
+      "peak_score": 3.0,
+      "correct": true
+    },
+    {
+      "id": "energy_bill_reminder",
+      "title": "Overdue energy bill reminder (legitimate)",
+      "label": "legit",
+      "flagged": false,
+      "first_red_flag": null,
+      "first_alert": null,
+      "delay_seconds": null,
+      "alerts": 0,
+      "reached_high": false,
+      "peak_score": 27.7,
+      "correct": true
+    },
+    {
+      "id": "hmrc_tax_threat",
+      "title": "HMRC tax threat scam",
+      "label": "scam",
+      "flagged": true,
+      "first_red_flag": 21.787,
+      "first_alert": 41.6,
+      "delay_seconds": 19.8,
+      "alerts": 2,
+      "reached_high": true,
+      "peak_score": 99.1,
+      "correct": true
+    },
+    {
+      "id": "parcel_redelivery_fee",
+      "title": "Parcel redelivery fee scam",
+      "label": "scam",
+      "flagged": true,
+      "first_red_flag": 25.735,
+      "first_alert": 36.8,
+      "delay_seconds": 11.1,
+      "alerts": 2,
+      "reached_high": true,
+      "peak_score": 97.7,
+      "correct": true
+    },
+    {
+      "id": "real_bank_fraud_alert",
+      "title": "Real bank fraud alert (legitimate)",
+      "label": "legit",
+      "flagged": false,
+      "first_red_flag": null,
+      "first_alert": null,
+      "delay_seconds": null,
+      "alerts": 0,
+      "reached_high": false,
+      "peak_score": 3.0,
+      "correct": true
+    },
+    {
+      "id": "surprise_party_friend",
+      "title": "Friend planning a surprise party (legitimate)",
+      "label": "legit",
+      "flagged": true,
+      "first_red_flag": null,
+      "first_alert": 30.0,
+      "delay_seconds": null,
+      "alerts": 2,
+      "reached_high": true,
+      "peak_score": 97.9,
+      "correct": false
+    },
+    {
+      "id": "tech_support_remote_access",
+      "title": "Tech support remote-access scam",
+      "label": "scam",
+      "flagged": true,
+      "first_red_flag": 31.961,
+      "first_alert": 38.6,
+      "delay_seconds": 6.6,
+      "alerts": 2,
+      "reached_high": true,
+      "peak_score": 91.7,
+      "correct": true
+    }
+  ]
+}

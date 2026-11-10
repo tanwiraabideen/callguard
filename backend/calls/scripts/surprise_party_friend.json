@@ -1,0 +1,20 @@
+{
+  "id": "surprise_party_friend",
+  "title": "Friend planning a surprise party (legitimate)",
+  "label": "legit",
+  "turns": [
+    {"speaker": "caller", "text": "Hiya, it's Ben. Have you got a minute? It's about your mum's birthday."},
+    {"speaker": "user", "text": "Hi Ben. Yes, go on."},
+    {"speaker": "caller", "text": "So we're throwing her a surprise party on the twelfth at the cricket club. Don't tell your mum, whatever you do, she has no idea."},
+    {"speaker": "user", "text": "Oh, that's lovely! I won't say a word."},
+    {"speaker": "caller", "text": "Keep it between us for now, because your dad is terrible at keeping secrets, and he'd only let it slip."},
+    {"speaker": "user", "text": "Ha, that's very true. What can I do to help?"},
+    {"speaker": "caller", "text": "A few of us are clubbing together to get her a gift card for that spa she likes. Do you want to go in on it with us?"},
+    {"speaker": "user", "text": "Definitely. How much are you thinking?"},
+    {"speaker": "caller", "text": "About twenty pounds each. No rush at all, you can give it to me when I see you on Sunday."},
+    {"speaker": "user", "text": "Hang on, let me check what I'm doing on the twelfth. Yes, I'm free."},
+    {"speaker": "caller", "text": "Brilliant. I need to book the room right now, before someone else takes it, so I'll put you down for two people."},
+    {"speaker": "user", "text": "Perfect. Thanks for organising it, Ben."},
+    {"speaker": "caller", "text": "No worries. See you on Sunday. Bye!"}
+  ]
+}

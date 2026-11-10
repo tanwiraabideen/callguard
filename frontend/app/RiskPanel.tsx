@@ -1,14 +1,13 @@
-export type RiskFinding = { label: string };
+export type RiskFinding = { label: string; suppressed?: boolean };
 
 export type RiskUpdate = {
-  source: "sentence" | "llm";
+  source: "sentence" | "llm" | "dismissal";
   time: number;
   score: number;
   level: "low" | "medium" | "high";
   reason: string;
   rules: RiskFinding[];
   pressure: RiskFinding[];
-  llm: { score: number; reason: string; latency_ms: number; model: string } | null;
 };
 
 const LEVEL_COLOURS = {
@@ -17,24 +16,14 @@ const LEVEL_COLOURS = {
   high: "crimson",
 };
 
-export function describeFindings(update: RiskUpdate): string | null {
-  const time = `${update.time.toFixed(1)}s`;
-  if (update.llm) {
-    const { score, model, latency_ms: latency } = update.llm;
-    return `${time}  LLM scored ${score} (${model}, ${latency} ms)`;
-  }
-  const findings = [...update.rules, ...update.pressure].map((item) => item.label);
-  return findings.length > 0 ? `${time}  ${findings.join("; ")}` : null;
-}
-
 export function RiskPanel({
   risk,
-  findings,
   llmMode,
+  agentMode,
 }: {
   risk: RiskUpdate | null;
-  findings: string[];
   llmMode: string;
+  agentMode: string;
 }) {
   const score = risk?.score ?? 0;
   const level = risk?.level ?? "low";
@@ -61,9 +50,9 @@ export function RiskPanel({
         Reason: <span id="risk-reason">{risk?.reason ?? "No call yet"}</span>
       </p>
       <p>
-        LLM check: <strong id="llm-mode">{llmMode}</strong>
+        LLM check: <strong id="llm-mode">{llmMode}</strong>. Agent:{" "}
+        <strong id="agent-mode">{agentMode}</strong>
       </p>
-      <pre id="risk-findings">{findings.join("\n")}</pre>
     </div>
   );
 }

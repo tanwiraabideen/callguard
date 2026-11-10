@@ -1,21 +1,30 @@
 """Tracks one browser's connection: its messages and the call audio it sends.
 
 Audio arrives as binary frames of 16-bit stereo samples, left = caller and
-right = user. Each chunk is counted and passed on to transcription.
+right = user. Each chunk is counted and passed on to transcription, whose
+sentences feed the risk engine, the alerts and the agent.
 """
 
+import asyncio
 import json
 import logging
 import time
 from collections.abc import Awaitable, Callable
 
+from app.agent.controller import AgentController
 from app.calls import load_generated_calls
 from app.config import settings
+from app.risk.alerts import AlertManager
 from app.risk.engine import RiskEngine
+from app.speech import speech_message
+from app.summary import build_summary
+from app.trace import trace_event
 from app.transcription import create_transcriber
 from app.transcription.segments import TranscriptionError
 
 logger = logging.getLogger("uvicorn.error")
+
+LIVE_CALL_ID = "live"
 
 
 def error(detail: str) -> dict:
@@ -27,14 +36,24 @@ class CallSession:
         self.send = send
         self.connected = True
         self.call_id: str | None = None
+        self.title = ""
         self.transcriber = None
         self.risk_engine: RiskEngine | None = None
+        self.alerts = AlertManager()
+        self.agent: AgentController | None = None
+        self.speech_tasks: set[asyncio.Task] = set()
+        self.max_seconds: float | None = None
+        self.limit_reached = False
         self.bytes_received = 0
         self.next_progress_seconds = 0.0
 
     @property
     def seconds_received(self) -> float:
         return self.bytes_received / settings.audio_bytes_per_second
+
+    async def send_if_connected(self, message: dict) -> None:
+        if self.connected:
+            await self.send(message)
 
     async def handle_text(self, raw: str) -> None:
         try:
@@ -57,21 +76,34 @@ class CallSession:
             await self.start_call(message.get("call_id"))
         elif message_type == "call_end":
             await self.end_call(message.get("reason", "unknown"))
+        elif message_type == "dismiss_alert":
+            await self.dismiss_alert(message.get("alert_id"))
         else:
             await self.send(error(f"Unknown message type: {message_type}"))
 
     async def start_call(self, call_id: object) -> None:
         calls = load_generated_calls()
-        if not isinstance(call_id, str) or call_id not in calls:
+        is_live = call_id == LIVE_CALL_ID
+        if is_live and settings.active_transcription_mode != "elevenlabs":
+            await self.send(error("Live calls need ELEVENLABS_API_KEY in backend/.env"))
+            return
+        if not is_live and (not isinstance(call_id, str) or call_id not in calls):
             await self.send(error(f"Unknown call: {call_id}"))
             return
 
-        await self.stop_transcriber()
-        self.cancel_risk_engine()
+        await self.clean_up_call()
+        call = None if is_live else calls[call_id]
         self.call_id = call_id
-        self.risk_engine = RiskEngine(self.send_if_connected)
+        self.title = "Live call" if is_live else call["title"]
+        self.max_seconds = settings.live_call_max_seconds if is_live else None
+        self.limit_reached = False
         self.bytes_received = 0
         self.next_progress_seconds = settings.audio_progress_interval_seconds
+        self.alerts = AlertManager()
+        self.risk_engine = RiskEngine(self.handle_risk_message)
+        self.agent = AgentController(
+            self.risk_engine, self.speak, self.agent_end_call, self.send_if_connected
+        )
         logger.info("Call started: %s", call_id)
         await self.send(
             {
@@ -79,10 +111,14 @@ class CallSession:
                 "call_id": call_id,
                 "transcription_mode": settings.active_transcription_mode,
                 "llm_mode": settings.llm_model if settings.llm_active else "off (rules only)",
+                "agent_mode": settings.agent_model if settings.agent_llm_active else "fixed policy",
+                "max_seconds": self.max_seconds,
+                "medium_threshold": settings.risk_medium_threshold,
+                "high_threshold": settings.risk_high_threshold,
             }
         )
 
-        self.transcriber = create_transcriber(calls[call_id], self.send_segment)
+        self.transcriber = create_transcriber(call, self.send_segment)
         try:
             await self.transcriber.start()
         except TranscriptionError as failure:
@@ -95,20 +131,33 @@ class CallSession:
 
         # Finish first, so the last words and scores arrive before call_ended.
         await self.stop_transcriber()
-        if self.risk_engine is not None:
-            await self.risk_engine.finish()
-            self.risk_engine = None
+        await self.risk_engine.finish()
+        await self.agent.finish()
 
-        reply = {
-            "type": "call_ended",
-            "call_id": self.call_id,
-            "reason": reason,
-            "seconds_received": round(self.seconds_received, 2),
-            "bytes_received": self.bytes_received,
-        }
-        logger.info("Call ended: %s", reply)
+        await self.send(
+            {
+                "type": "call_ended",
+                "call_id": self.call_id,
+                "reason": reason,
+                "seconds_received": round(self.seconds_received, 2),
+                "bytes_received": self.bytes_received,
+            }
+        )
+        logger.info("Call ended: %s, %s", self.call_id, reason)
+        await self.send(
+            build_summary(
+                self.call_id,
+                self.title,
+                reason,
+                self.seconds_received,
+                self.risk_engine,
+                self.alerts,
+                self.agent,
+            )
+        )
         self.call_id = None
-        await self.send(reply)
+        self.risk_engine = None
+        self.agent = None
 
     async def handle_audio(self, chunk: bytes) -> None:
         if self.call_id is None:
@@ -116,6 +165,8 @@ class CallSession:
             return
         if len(chunk) % settings.audio_bytes_per_frame != 0:
             await self.send(error("Audio chunk is not a whole number of stereo frames"))
+            return
+        if self.limit_reached:
             return
 
         self.bytes_received += len(chunk)
@@ -131,14 +182,65 @@ class CallSession:
                 {"type": "audio_progress", "seconds_received": round(self.seconds_received, 2)}
             )
 
-    async def send_if_connected(self, message: dict) -> None:
-        if self.connected:
-            await self.send(message)
+        self.agent.check_silence(self.seconds_received)
+        if self.max_seconds is not None and self.seconds_received >= self.max_seconds:
+            self.limit_reached = True
+            await self.send({"type": "call_limit_reached", "seconds": self.max_seconds})
 
     async def send_segment(self, segment: dict) -> None:
         await self.send_if_connected({"type": "transcript", **segment})
-        if self.risk_engine is not None:
-            await self.risk_engine.add_segment(segment)
+        if self.risk_engine is None:
+            return
+        if segment["speaker"] == "user":
+            await self.agent.on_user_speech(segment["text"], self.seconds_received)
+        await self.risk_engine.add_segment(segment)
+
+    async def handle_risk_message(self, message: dict) -> None:
+        await self.send_if_connected(message)
+        if message["type"] == "risk_update" and self.risk_engine is not None:
+            alert = self.alerts.check(message, self.risk_engine.active_categories)
+            if alert is not None:
+                await self.send_if_connected(alert)
+                await self.send_if_connected(
+                    trace_event(
+                        "alert",
+                        alert["time"],
+                        id=alert["id"],
+                        level=alert["level"],
+                        reason=alert["reason"],
+                        is_realert=alert["is_realert"],
+                        whisper=alert["whisper"],
+                    )
+                )
+                if alert["whisper"]:
+                    self.speak_in_background("whisper", alert["whisper"])
+
+    async def dismiss_alert(self, alert_id: object) -> None:
+        if self.risk_engine is None:
+            await self.send(error("No call in progress"))
+            return
+        result = self.alerts.dismiss(alert_id, self.seconds_received)
+        if result is None:
+            await self.send(error(f"Unknown alert: {alert_id}"))
+            return
+
+        alert, trace = result
+        self.risk_engine.dismiss(alert["categories"])
+        await self.send({"type": "alert_dismissed", "alert_id": alert["id"]})
+        await self.send(trace)
+        await self.risk_engine.send_update("dismissal", self.seconds_received, [], [])
+
+    async def speak(self, kind: str, text: str) -> None:
+        await self.send_if_connected(await speech_message(kind, text))
+
+    def speak_in_background(self, kind: str, text: str) -> None:
+        # Generating speech takes a moment, and the audio must keep flowing.
+        task = asyncio.create_task(self.speak(kind, text))
+        self.speech_tasks.add(task)
+        task.add_done_callback(self.speech_tasks.discard)
+
+    async def agent_end_call(self, reason: str) -> None:
+        await self.send_if_connected({"type": "agent_end_call", "reason": reason})
 
     async def transcription_failed(self, failure: TranscriptionError) -> None:
         # The call keeps playing, and there is deliberately no switch to mock,
@@ -152,13 +254,18 @@ class CallSession:
             transcriber, self.transcriber = self.transcriber, None
             await transcriber.finish()
 
-    def cancel_risk_engine(self) -> None:
+    async def clean_up_call(self) -> None:
+        await self.stop_transcriber()
         if self.risk_engine is not None:
             self.risk_engine.cancel()
             self.risk_engine = None
+        if self.agent is not None:
+            self.agent.cancel()
+            self.agent = None
+        for task in self.speech_tasks:
+            task.cancel()
 
     async def close(self) -> None:
         """The browser has gone, so clean up without sending anything."""
         self.connected = False
-        await self.stop_transcriber()
-        self.cancel_risk_engine()
+        await self.clean_up_call()

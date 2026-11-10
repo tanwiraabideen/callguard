@@ -2,9 +2,9 @@
 
 import time
 
-from anthropic import AsyncAnthropic
 from pydantic import BaseModel
 
+from app.claude import get_client
 from app.config import settings
 
 INSTRUCTIONS = """You assess whether a phone call is a scam, from a live transcript.
@@ -33,25 +33,12 @@ class LlmAssessment(BaseModel):
     reason: str
 
 
-client: AsyncAnthropic | None = None
-
-
-def get_client() -> AsyncAnthropic:
-    global client
-    if client is None:
-        client = AsyncAnthropic(
-            api_key=settings.anthropic_api_key,
-            timeout=settings.llm_timeout_seconds,
-            max_retries=0,  # a late answer is no use during a live call
-        )
-    return client
-
-
 async def assess_sentences(sentences: list[dict]) -> dict:
     transcript = "\n".join(f"{SPEAKER_NAMES[s['speaker']]}: {s['text']}" for s in sentences)
 
     started = time.perf_counter()
-    response = await get_client().messages.parse(
+    client = get_client().with_options(timeout=settings.llm_timeout_seconds)
+    response = await client.messages.parse(
         model=settings.llm_model,
         max_tokens=settings.llm_max_tokens,
         system=INSTRUCTIONS,
@@ -71,4 +58,5 @@ async def assess_sentences(sentences: list[dict]) -> dict:
         "reason": assessment.reason,
         "model": settings.llm_model,
         "latency_ms": latency_ms,
+        "raw": "".join(block.text for block in response.content if block.type == "text"),
     }

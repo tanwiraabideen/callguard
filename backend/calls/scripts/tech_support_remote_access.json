@@ -1,0 +1,21 @@
+{
+  "id": "tech_support_remote_access",
+  "title": "Tech support remote-access scam",
+  "label": "scam",
+  "turns": [
+    {"speaker": "caller", "text": "Hello, I'm calling from the Windows security department. My name is Mark. We've had an alert that your computer is infected with a serious virus."},
+    {"speaker": "user", "text": "Oh no. It has been running a bit slowly lately."},
+    {"speaker": "caller", "text": "That's exactly what we'd expect. Hackers are using your computer right now to get into your personal files, and I can fix that for you today."},
+    {"speaker": "user", "text": "How did you get my number?"},
+    {"speaker": "caller", "text": "It's registered against your computer licence. Now, are you sitting in front of it? Please open your web browser for me."},
+    {"speaker": "user", "text": "Okay, it's open. What do I do?"},
+    {"speaker": "caller", "first_red_flag": true, "text": "I need you to download an app called AnyDesk, so that our engineer can take remote control and remove the virus."},
+    {"speaker": "user", "trigger": true, "text": "Hang on, let me grab a pen."},
+    {"speaker": "caller", "text": "You don't need a pen. Just give me the nine digit number it shows on your screen, and I'll connect."},
+    {"speaker": "user", "text": "I'm not sure about letting someone into my computer."},
+    {"speaker": "caller", "gap_ms": -600, "text": "If you don't do this immediately, the hackers will lock you out and you could lose everything. Please don't hang up."},
+    {"speaker": "user", "trigger": true, "text": "Hold on, let me find my glasses."},
+    {"speaker": "caller", "text": "Once I'm connected, you'll log in to your online banking, so that I can check nobody has stolen from you."},
+    {"speaker": "user", "text": "Alright. Give me a moment."}
+  ]
+}

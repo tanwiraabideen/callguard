@@ -1,0 +1,1151 @@
+{
+  "id": "tech_support_remote_access",
+  "title": "Tech support remote-access scam",
+  "label": "scam",
+  "duration_seconds": 66.144,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Hello, I'm calling from the Windows security department. My name is Mark. We've had an alert that your computer is infected with a serious virus.",
+      "start": 0.0,
+      "end": 8.359,
+      "words": [
+        {
+          "word": "Hello,",
+          "start": 0.0,
+          "end": 0.499
+        },
+        {
+          "word": "I'm",
+          "start": 0.534,
+          "end": 0.697
+        },
+        {
+          "word": "calling",
+          "start": 0.755,
+          "end": 1.045
+        },
+        {
+          "word": "from",
+          "start": 1.08,
+          "end": 1.196
+        },
+        {
+          "word": "the",
+          "start": 1.231,
+          "end": 1.3
+        },
+        {
+          "word": "Windows",
+          "start": 1.335,
+          "end": 1.672
+        },
+        {
+          "word": "security",
+          "start": 1.707,
+          "end": 2.148
+        },
+        {
+          "word": "department.",
+          "start": 2.206,
+          "end": 2.868
+        },
+        {
+          "word": "My",
+          "start": 3.379,
+          "end": 3.495
+        },
+        {
+          "word": "name",
+          "start": 3.553,
+          "end": 3.727
+        },
+        {
+          "word": "is",
+          "start": 3.762,
+          "end": 3.843
+        },
+        {
+          "word": "Mark.",
+          "start": 3.913,
+          "end": 4.377
+        },
+        {
+          "word": "We've",
+          "start": 4.493,
+          "end": 4.714
+        },
+        {
+          "word": "had",
+          "start": 4.737,
+          "end": 4.853
+        },
+        {
+          "word": "an",
+          "start": 4.899,
+          "end": 4.969
+        },
+        {
+          "word": "alert",
+          "start": 5.016,
+          "end": 5.352
+        },
+        {
+          "word": "that",
+          "start": 5.399,
+          "end": 5.515
+        },
+        {
+          "word": "your",
+          "start": 5.55,
+          "end": 5.666
+        },
+        {
+          "word": "computer",
+          "start": 5.712,
+          "end": 6.165
+        },
+        {
+          "word": "is",
+          "start": 6.211,
+          "end": 6.281
+        },
+        {
+          "word": "infected",
+          "start": 6.339,
+          "end": 6.815
+        },
+        {
+          "word": "with",
+          "start": 6.861,
+          "end": 6.978
+        },
+        {
+          "word": "a",
+          "start": 7.012,
+          "end": 7.047
+        },
+        {
+          "word": "serious",
+          "start": 7.105,
+          "end": 7.488
+        },
+        {
+          "word": "virus.",
+          "start": 7.546,
+          "end": 8.359
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Oh no. It has been running a bit slowly lately.",
+      "start": 8.709,
+      "end": 11.821,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 8.709,
+          "end": 8.906
+        },
+        {
+          "word": "no.",
+          "start": 8.999,
+          "end": 9.382
+        },
+        {
+          "word": "It",
+          "start": 9.661,
+          "end": 9.8
+        },
+        {
+          "word": "has",
+          "start": 9.835,
+          "end": 9.928
+        },
+        {
+          "word": "been",
+          "start": 9.974,
+          "end": 10.125
+        },
+        {
+          "word": "running",
+          "start": 10.149,
+          "end": 10.369
+        },
+        {
+          "word": "a",
+          "start": 10.416,
+          "end": 10.439
+        },
+        {
+          "word": "bit",
+          "start": 10.485,
+          "end": 10.648
+        },
+        {
+          "word": "slowly",
+          "start": 10.706,
+          "end": 11.054
+        },
+        {
+          "word": "lately.",
+          "start": 11.112,
+          "end": 11.82
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "That's exactly what we'd expect. Hackers are using your computer right now to get into your personal files, and I can fix that for you today.",
+      "start": 12.171,
+      "end": 20.483,
+      "words": [
+        {
+          "word": "That's",
+          "start": 12.171,
+          "end": 12.484
+        },
+        {
+          "word": "exactly",
+          "start": 12.531,
+          "end": 12.984
+        },
+        {
+          "word": "what",
+          "start": 13.03,
+          "end": 13.146
+        },
+        {
+          "word": "we'd",
+          "start": 13.181,
+          "end": 13.332
+        },
+        {
+          "word": "expect.",
+          "start": 13.378,
+          "end": 14.029
+        },
+        {
+          "word": "Hackers",
+          "start": 14.307,
+          "end": 14.725
+        },
+        {
+          "word": "are",
+          "start": 14.76,
+          "end": 14.853
+        },
+        {
+          "word": "using",
+          "start": 14.911,
+          "end": 15.143
+        },
+        {
+          "word": "your",
+          "start": 15.201,
+          "end": 15.317
+        },
+        {
+          "word": "computer",
+          "start": 15.364,
+          "end": 15.84
+        },
+        {
+          "word": "right",
+          "start": 15.898,
+          "end": 16.095
+        },
+        {
+          "word": "now",
+          "start": 16.142,
+          "end": 16.351
+        },
+        {
+          "word": "to",
+          "start": 16.56,
+          "end": 16.652
+        },
+        {
+          "word": "get",
+          "start": 16.711,
+          "end": 16.827
+        },
+        {
+          "word": "into",
+          "start": 16.873,
+          "end": 17.012
+        },
+        {
+          "word": "your",
+          "start": 17.082,
+          "end": 17.198
+        },
+        {
+          "word": "personal",
+          "start": 17.268,
+          "end": 17.674
+        },
+        {
+          "word": "files,",
+          "start": 17.744,
+          "end": 18.359
+        },
+        {
+          "word": "and",
+          "start": 18.533,
+          "end": 18.673
+        },
+        {
+          "word": "I",
+          "start": 18.731,
+          "end": 18.754
+        },
+        {
+          "word": "can",
+          "start": 18.812,
+          "end": 18.928
+        },
+        {
+          "word": "fix",
+          "start": 18.986,
+          "end": 19.172
+        },
+        {
+          "word": "that",
+          "start": 19.23,
+          "end": 19.358
+        },
+        {
+          "word": "for",
+          "start": 19.416,
+          "end": 19.532
+        },
+        {
+          "word": "you",
+          "start": 19.601,
+          "end": 19.671
+        },
+        {
+          "word": "today.",
+          "start": 19.741,
+          "end": 20.484
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "How did you get my number?",
+      "start": 20.833,
+      "end": 22.412,
+      "words": [
+        {
+          "word": "How",
+          "start": 20.833,
+          "end": 21.019
+        },
+        {
+          "word": "did",
+          "start": 21.077,
+          "end": 21.193
+        },
+        {
+          "word": "you",
+          "start": 21.216,
+          "end": 21.286
+        },
+        {
+          "word": "get",
+          "start": 21.321,
+          "end": 21.437
+        },
+        {
+          "word": "my",
+          "start": 21.483,
+          "end": 21.576
+        },
+        {
+          "word": "number?",
+          "start": 21.657,
+          "end": 22.412
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "It's registered against your computer licence. Now, are you sitting in front of it? Please open your web browser for me.",
+      "start": 22.762,
+      "end": 29.403,
+      "words": [
+        {
+          "word": "It's",
+          "start": 22.762,
+          "end": 22.959
+        },
+        {
+          "word": "registered",
+          "start": 23.017,
+          "end": 23.459
+        },
+        {
+          "word": "against",
+          "start": 23.493,
+          "end": 23.795
+        },
+        {
+          "word": "your",
+          "start": 23.842,
+          "end": 23.958
+        },
+        {
+          "word": "computer",
+          "start": 24.004,
+          "end": 24.457
+        },
+        {
+          "word": "licence.",
+          "start": 24.503,
+          "end": 25.119
+        },
+        {
+          "word": "Now,",
+          "start": 25.63,
+          "end": 25.873
+        },
+        {
+          "word": "are",
+          "start": 25.897,
+          "end": 26.024
+        },
+        {
+          "word": "you",
+          "start": 26.059,
+          "end": 26.129
+        },
+        {
+          "word": "sitting",
+          "start": 26.175,
+          "end": 26.431
+        },
+        {
+          "word": "in",
+          "start": 26.466,
+          "end": 26.524
+        },
+        {
+          "word": "front",
+          "start": 26.582,
+          "end": 26.779
+        },
+        {
+          "word": "of",
+          "start": 26.825,
+          "end": 26.884
+        },
+        {
+          "word": "it?",
+          "start": 26.93,
+          "end": 27.162
+        },
+        {
+          "word": "Please",
+          "start": 27.406,
+          "end": 27.708
+        },
+        {
+          "word": "open",
+          "start": 27.754,
+          "end": 27.952
+        },
+        {
+          "word": "your",
+          "start": 27.998,
+          "end": 28.103
+        },
+        {
+          "word": "web",
+          "start": 28.161,
+          "end": 28.312
+        },
+        {
+          "word": "browser",
+          "start": 28.346,
+          "end": 28.683
+        },
+        {
+          "word": "for",
+          "start": 28.718,
+          "end": 28.869
+        },
+        {
+          "word": "me.",
+          "start": 28.939,
+          "end": 29.403
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Okay, it's open. What do I do?",
+      "start": 29.753,
+      "end": 31.611,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 29.753,
+          "end": 30.125
+        },
+        {
+          "word": "it's",
+          "start": 30.159,
+          "end": 30.299
+        },
+        {
+          "word": "open.",
+          "start": 30.345,
+          "end": 30.67
+        },
+        {
+          "word": "What",
+          "start": 30.717,
+          "end": 30.879
+        },
+        {
+          "word": "do",
+          "start": 30.902,
+          "end": 30.96
+        },
+        {
+          "word": "I",
+          "start": 31.018,
+          "end": 31.042
+        },
+        {
+          "word": "do?",
+          "start": 31.111,
+          "end": 31.611
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "first_red_flag": true,
+      "text": "I need you to download an app called AnyDesk, so that our engineer can take remote control and remove the virus.",
+      "start": 31.961,
+      "end": 38.555,
+      "words": [
+        {
+          "word": "I",
+          "start": 31.961,
+          "end": 32.042
+        },
+        {
+          "word": "need",
+          "start": 32.158,
+          "end": 32.344
+        },
+        {
+          "word": "you",
+          "start": 32.379,
+          "end": 32.46
+        },
+        {
+          "word": "to",
+          "start": 32.518,
+          "end": 32.576
+        },
+        {
+          "word": "download",
+          "start": 32.634,
+          "end": 33.076
+        },
+        {
+          "word": "an",
+          "start": 33.11,
+          "end": 33.18
+        },
+        {
+          "word": "app",
+          "start": 33.261,
+          "end": 33.482
+        },
+        {
+          "word": "called",
+          "start": 33.563,
+          "end": 33.795
+        },
+        {
+          "word": "AnyDesk,",
+          "start": 33.865,
+          "end": 34.689
+        },
+        {
+          "word": "so",
+          "start": 34.84,
+          "end": 34.956
+        },
+        {
+          "word": "that",
+          "start": 35.014,
+          "end": 35.131
+        },
+        {
+          "word": "our",
+          "start": 35.177,
+          "end": 35.281
+        },
+        {
+          "word": "engineer",
+          "start": 35.34,
+          "end": 35.746
+        },
+        {
+          "word": "can",
+          "start": 35.804,
+          "end": 35.92
+        },
+        {
+          "word": "take",
+          "start": 35.966,
+          "end": 36.164
+        },
+        {
+          "word": "remote",
+          "start": 36.222,
+          "end": 36.501
+        },
+        {
+          "word": "control",
+          "start": 36.535,
+          "end": 37.023
+        },
+        {
+          "word": "and",
+          "start": 37.104,
+          "end": 37.22
+        },
+        {
+          "word": "remove",
+          "start": 37.278,
+          "end": 37.58
+        },
+        {
+          "word": "the",
+          "start": 37.615,
+          "end": 37.685
+        },
+        {
+          "word": "virus.",
+          "start": 37.731,
+          "end": 38.555
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hang on, let me grab a pen.",
+      "start": 38.905,
+      "end": 40.624,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 38.905,
+          "end": 39.184
+        },
+        {
+          "word": "on,",
+          "start": 39.265,
+          "end": 39.381
+        },
+        {
+          "word": "let",
+          "start": 39.416,
+          "end": 39.532
+        },
+        {
+          "word": "me",
+          "start": 39.567,
+          "end": 39.636
+        },
+        {
+          "word": "grab",
+          "start": 39.694,
+          "end": 39.857
+        },
+        {
+          "word": "a",
+          "start": 39.915,
+          "end": 39.938
+        },
+        {
+          "word": "pen.",
+          "start": 39.996,
+          "end": 40.623
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "You don't need a pen. Just give me the nine digit number it shows on your screen, and I'll connect.",
+      "start": 40.974,
+      "end": 46.268,
+      "words": [
+        {
+          "word": "You",
+          "start": 40.974,
+          "end": 41.125
+        },
+        {
+          "word": "don't",
+          "start": 41.183,
+          "end": 41.334
+        },
+        {
+          "word": "need",
+          "start": 41.369,
+          "end": 41.543
+        },
+        {
+          "word": "a",
+          "start": 41.578,
+          "end": 41.613
+        },
+        {
+          "word": "pen.",
+          "start": 41.671,
+          "end": 42.042
+        },
+        {
+          "word": "Just",
+          "start": 42.251,
+          "end": 42.437
+        },
+        {
+          "word": "give",
+          "start": 42.483,
+          "end": 42.634
+        },
+        {
+          "word": "me",
+          "start": 42.669,
+          "end": 42.75
+        },
+        {
+          "word": "the",
+          "start": 42.785,
+          "end": 42.855
+        },
+        {
+          "word": "nine",
+          "start": 42.924,
+          "end": 43.157
+        },
+        {
+          "word": "digit",
+          "start": 43.192,
+          "end": 43.493
+        },
+        {
+          "word": "number",
+          "start": 43.563,
+          "end": 43.795
+        },
+        {
+          "word": "it",
+          "start": 43.865,
+          "end": 43.946
+        },
+        {
+          "word": "shows",
+          "start": 43.993,
+          "end": 44.236
+        },
+        {
+          "word": "on",
+          "start": 44.283,
+          "end": 44.353
+        },
+        {
+          "word": "your",
+          "start": 44.399,
+          "end": 44.515
+        },
+        {
+          "word": "screen,",
+          "start": 44.561,
+          "end": 45.049
+        },
+        {
+          "word": "and",
+          "start": 45.119,
+          "end": 45.258
+        },
+        {
+          "word": "I'll",
+          "start": 45.316,
+          "end": 45.444
+        },
+        {
+          "word": "connect.",
+          "start": 45.49,
+          "end": 46.268
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "I'm not sure about letting someone into my computer.",
+      "start": 46.618,
+      "end": 49.636,
+      "words": [
+        {
+          "word": "I'm",
+          "start": 46.618,
+          "end": 46.815
+        },
+        {
+          "word": "not",
+          "start": 46.862,
+          "end": 47.001
+        },
+        {
+          "word": "sure",
+          "start": 47.059,
+          "end": 47.315
+        },
+        {
+          "word": "about",
+          "start": 47.361,
+          "end": 47.582
+        },
+        {
+          "word": "letting",
+          "start": 47.628,
+          "end": 47.895
+        },
+        {
+          "word": "someone",
+          "start": 47.953,
+          "end": 48.243
+        },
+        {
+          "word": "into",
+          "start": 48.278,
+          "end": 48.429
+        },
+        {
+          "word": "my",
+          "start": 48.487,
+          "end": 48.592
+        },
+        {
+          "word": "computer.",
+          "start": 48.661,
+          "end": 49.637
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "gap_ms": -600,
+      "text": "If you don't do this immediately, the hackers will lock you out and you could lose everything. Please don't hang up.",
+      "start": 49.036,
+      "end": 55.306,
+      "words": [
+        {
+          "word": "If",
+          "start": 49.036,
+          "end": 49.199
+        },
+        {
+          "word": "you",
+          "start": 49.245,
+          "end": 49.326
+        },
+        {
+          "word": "don't",
+          "start": 49.384,
+          "end": 49.57
+        },
+        {
+          "word": "do",
+          "start": 49.616,
+          "end": 49.721
+        },
+        {
+          "word": "this",
+          "start": 49.791,
+          "end": 49.953
+        },
+        {
+          "word": "immediately,",
+          "start": 50.011,
+          "end": 50.661
+        },
+        {
+          "word": "the",
+          "start": 50.777,
+          "end": 50.87
+        },
+        {
+          "word": "hackers",
+          "start": 50.94,
+          "end": 51.265
+        },
+        {
+          "word": "will",
+          "start": 51.3,
+          "end": 51.451
+        },
+        {
+          "word": "lock",
+          "start": 51.497,
+          "end": 51.66
+        },
+        {
+          "word": "you",
+          "start": 51.718,
+          "end": 51.799
+        },
+        {
+          "word": "out",
+          "start": 51.88,
+          "end": 52.124
+        },
+        {
+          "word": "and",
+          "start": 52.275,
+          "end": 52.438
+        },
+        {
+          "word": "you",
+          "start": 52.496,
+          "end": 52.565
+        },
+        {
+          "word": "could",
+          "start": 52.623,
+          "end": 52.798
+        },
+        {
+          "word": "lose",
+          "start": 52.867,
+          "end": 53.158
+        },
+        {
+          "word": "everything.",
+          "start": 53.204,
+          "end": 53.715
+        },
+        {
+          "word": "Please",
+          "start": 53.889,
+          "end": 54.214
+        },
+        {
+          "word": "don't",
+          "start": 54.249,
+          "end": 54.469
+        },
+        {
+          "word": "hang",
+          "start": 54.528,
+          "end": 54.69
+        },
+        {
+          "word": "up.",
+          "start": 54.76,
+          "end": 55.305
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hold on, let me find my glasses.",
+      "start": 55.656,
+      "end": 57.467,
+      "words": [
+        {
+          "word": "Hold",
+          "start": 55.656,
+          "end": 55.877
+        },
+        {
+          "word": "on,",
+          "start": 55.923,
+          "end": 56.016
+        },
+        {
+          "word": "let",
+          "start": 56.039,
+          "end": 56.144
+        },
+        {
+          "word": "me",
+          "start": 56.178,
+          "end": 56.236
+        },
+        {
+          "word": "find",
+          "start": 56.283,
+          "end": 56.434
+        },
+        {
+          "word": "my",
+          "start": 56.469,
+          "end": 56.538
+        },
+        {
+          "word": "glasses.",
+          "start": 56.585,
+          "end": 57.467
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Once I'm connected, you'll log in to your online banking, so that I can check nobody has stolen from you.",
+      "start": 57.817,
+      "end": 63.715,
+      "words": [
+        {
+          "word": "Once",
+          "start": 57.817,
+          "end": 58.072
+        },
+        {
+          "word": "I'm",
+          "start": 58.119,
+          "end": 58.247
+        },
+        {
+          "word": "connected,",
+          "start": 58.305,
+          "end": 58.932
+        },
+        {
+          "word": "you'll",
+          "start": 59.106,
+          "end": 59.303
+        },
+        {
+          "word": "log",
+          "start": 59.338,
+          "end": 59.5
+        },
+        {
+          "word": "in",
+          "start": 59.558,
+          "end": 59.628
+        },
+        {
+          "word": "to",
+          "start": 59.675,
+          "end": 59.733
+        },
+        {
+          "word": "your",
+          "start": 59.779,
+          "end": 59.918
+        },
+        {
+          "word": "online",
+          "start": 59.976,
+          "end": 60.371
+        },
+        {
+          "word": "banking,",
+          "start": 60.418,
+          "end": 60.987
+        },
+        {
+          "word": "so",
+          "start": 61.161,
+          "end": 61.277
+        },
+        {
+          "word": "that",
+          "start": 61.335,
+          "end": 61.451
+        },
+        {
+          "word": "I",
+          "start": 61.497,
+          "end": 61.521
+        },
+        {
+          "word": "can",
+          "start": 61.59,
+          "end": 61.706
+        },
+        {
+          "word": "check",
+          "start": 61.764,
+          "end": 62.02
+        },
+        {
+          "word": "nobody",
+          "start": 62.136,
+          "end": 62.461
+        },
+        {
+          "word": "has",
+          "start": 62.519,
+          "end": 62.612
+        },
+        {
+          "word": "stolen",
+          "start": 62.647,
+          "end": 62.983
+        },
+        {
+          "word": "from",
+          "start": 63.03,
+          "end": 63.192
+        },
+        {
+          "word": "you.",
+          "start": 63.25,
+          "end": 63.715
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Alright. Give me a moment.",
+      "start": 64.065,
+      "end": 65.644,
+      "words": [
+        {
+          "word": "Alright.",
+          "start": 64.065,
+          "end": 64.553
+        },
+        {
+          "word": "Give",
+          "start": 64.599,
+          "end": 64.762
+        },
+        {
+          "word": "me",
+          "start": 64.785,
+          "end": 64.854
+        },
+        {
+          "word": "a",
+          "start": 64.889,
+          "end": 64.913
+        },
+        {
+          "word": "moment.",
+          "start": 64.959,
+          "end": 65.644
+        }
+      ]
+    }
+  ]
+}

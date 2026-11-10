@@ -1,0 +1,1189 @@
+{
+  "id": "energy_bill_reminder",
+  "title": "Overdue energy bill reminder (legitimate)",
+  "label": "legit",
+  "duration_seconds": 68.276,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Hello, this is Jordan from the customer accounts team at Brightline Energy. Is that Mrs Clarke?",
+      "start": 0.0,
+      "end": 5.991,
+      "words": [
+        {
+          "word": "Hello,",
+          "start": 0.0,
+          "end": 0.464
+        },
+        {
+          "word": "this",
+          "start": 0.534,
+          "end": 0.708
+        },
+        {
+          "word": "is",
+          "start": 0.766,
+          "end": 0.836
+        },
+        {
+          "word": "Jordan",
+          "start": 0.906,
+          "end": 1.312
+        },
+        {
+          "word": "from",
+          "start": 1.37,
+          "end": 1.521
+        },
+        {
+          "word": "the",
+          "start": 1.556,
+          "end": 1.625
+        },
+        {
+          "word": "customer",
+          "start": 1.672,
+          "end": 2.078
+        },
+        {
+          "word": "accounts",
+          "start": 2.125,
+          "end": 2.496
+        },
+        {
+          "word": "team",
+          "start": 2.543,
+          "end": 2.786
+        },
+        {
+          "word": "at",
+          "start": 2.856,
+          "end": 2.949
+        },
+        {
+          "word": "Brightline",
+          "start": 2.984,
+          "end": 3.483
+        },
+        {
+          "word": "Energy.",
+          "start": 3.541,
+          "end": 4.145
+        },
+        {
+          "word": "Is",
+          "start": 4.528,
+          "end": 4.69
+        },
+        {
+          "word": "that",
+          "start": 4.737,
+          "end": 4.876
+        },
+        {
+          "word": "Mrs",
+          "start": 4.934,
+          "end": 5.178
+        },
+        {
+          "word": "Clarke?",
+          "start": 5.248,
+          "end": 5.991
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Yes, that's me.",
+      "start": 6.341,
+      "end": 7.78,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 6.341,
+          "end": 6.747
+        },
+        {
+          "word": "that's",
+          "start": 6.805,
+          "end": 7.119
+        },
+        {
+          "word": "me.",
+          "start": 7.2,
+          "end": 7.781
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Thanks. I'm calling because your account is two months overdue, with a balance of two hundred and eighteen pounds. I know that's not nice to hear.",
+      "start": 8.13,
+      "end": 16.536,
+      "words": [
+        {
+          "word": "Thanks.",
+          "start": 8.13,
+          "end": 8.71
+        },
+        {
+          "word": "I'm",
+          "start": 8.919,
+          "end": 9.07
+        },
+        {
+          "word": "calling",
+          "start": 9.128,
+          "end": 9.442
+        },
+        {
+          "word": "because",
+          "start": 9.5,
+          "end": 9.721
+        },
+        {
+          "word": "your",
+          "start": 9.755,
+          "end": 9.906
+        },
+        {
+          "word": "account",
+          "start": 9.941,
+          "end": 10.266
+        },
+        {
+          "word": "is",
+          "start": 10.313,
+          "end": 10.394
+        },
+        {
+          "word": "two",
+          "start": 10.44,
+          "end": 10.58
+        },
+        {
+          "word": "months",
+          "start": 10.649,
+          "end": 10.905
+        },
+        {
+          "word": "overdue,",
+          "start": 10.951,
+          "end": 11.694
+        },
+        {
+          "word": "with",
+          "start": 11.938,
+          "end": 12.101
+        },
+        {
+          "word": "a",
+          "start": 12.135,
+          "end": 12.17
+        },
+        {
+          "word": "balance",
+          "start": 12.217,
+          "end": 12.577
+        },
+        {
+          "word": "of",
+          "start": 12.6,
+          "end": 12.658
+        },
+        {
+          "word": "two",
+          "start": 12.704,
+          "end": 12.832
+        },
+        {
+          "word": "hundred",
+          "start": 12.89,
+          "end": 13.146
+        },
+        {
+          "word": "and",
+          "start": 13.169,
+          "end": 13.238
+        },
+        {
+          "word": "eighteen",
+          "start": 13.285,
+          "end": 13.633
+        },
+        {
+          "word": "pounds.",
+          "start": 13.703,
+          "end": 14.353
+        },
+        {
+          "word": "I",
+          "start": 14.794,
+          "end": 14.841
+        },
+        {
+          "word": "know",
+          "start": 14.922,
+          "end": 15.05
+        },
+        {
+          "word": "that's",
+          "start": 15.096,
+          "end": 15.282
+        },
+        {
+          "word": "not",
+          "start": 15.328,
+          "end": 15.456
+        },
+        {
+          "word": "nice",
+          "start": 15.514,
+          "end": 15.735
+        },
+        {
+          "word": "to",
+          "start": 15.758,
+          "end": 15.816
+        },
+        {
+          "word": "hear.",
+          "start": 15.897,
+          "end": 16.536
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Oh dear. Things have been a bit tight this year. Are you going to cut me off?",
+      "start": 16.886,
+      "end": 21.159,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 16.886,
+          "end": 17.107
+        },
+        {
+          "word": "dear.",
+          "start": 17.176,
+          "end": 17.675
+        },
+        {
+          "word": "Things",
+          "start": 17.85,
+          "end": 18.105
+        },
+        {
+          "word": "have",
+          "start": 18.128,
+          "end": 18.221
+        },
+        {
+          "word": "been",
+          "start": 18.244,
+          "end": 18.372
+        },
+        {
+          "word": "a",
+          "start": 18.395,
+          "end": 18.419
+        },
+        {
+          "word": "bit",
+          "start": 18.453,
+          "end": 18.604
+        },
+        {
+          "word": "tight",
+          "start": 18.651,
+          "end": 18.941
+        },
+        {
+          "word": "this",
+          "start": 18.987,
+          "end": 19.15
+        },
+        {
+          "word": "year.",
+          "start": 19.231,
+          "end": 19.58
+        },
+        {
+          "word": "Are",
+          "start": 19.696,
+          "end": 19.835
+        },
+        {
+          "word": "you",
+          "start": 19.87,
+          "end": 19.939
+        },
+        {
+          "word": "going",
+          "start": 19.974,
+          "end": 20.114
+        },
+        {
+          "word": "to",
+          "start": 20.148,
+          "end": 20.195
+        },
+        {
+          "word": "cut",
+          "start": 20.253,
+          "end": 20.427
+        },
+        {
+          "word": "me",
+          "start": 20.485,
+          "end": 20.566
+        },
+        {
+          "word": "off?",
+          "start": 20.624,
+          "end": 21.158
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "No, nothing like that. We aren't taking any legal action, and there's no deadline today. I just wanted to make sure you knew about the support we offer.",
+      "start": 21.509,
+      "end": 31.307,
+      "words": [
+        {
+          "word": "No,",
+          "start": 21.509,
+          "end": 21.95
+        },
+        {
+          "word": "nothing",
+          "start": 22.066,
+          "end": 22.357
+        },
+        {
+          "word": "like",
+          "start": 22.415,
+          "end": 22.577
+        },
+        {
+          "word": "that.",
+          "start": 22.612,
+          "end": 23.076
+        },
+        {
+          "word": "We",
+          "start": 23.587,
+          "end": 23.727
+        },
+        {
+          "word": "aren't",
+          "start": 23.785,
+          "end": 23.982
+        },
+        {
+          "word": "taking",
+          "start": 24.017,
+          "end": 24.306
+        },
+        {
+          "word": "any",
+          "start": 24.377,
+          "end": 24.539
+        },
+        {
+          "word": "legal",
+          "start": 24.609,
+          "end": 24.876
+        },
+        {
+          "word": "action,",
+          "start": 24.934,
+          "end": 25.526
+        },
+        {
+          "word": "and",
+          "start": 25.77,
+          "end": 25.898
+        },
+        {
+          "word": "there's",
+          "start": 25.944,
+          "end": 26.153
+        },
+        {
+          "word": "no",
+          "start": 26.199,
+          "end": 26.316
+        },
+        {
+          "word": "deadline",
+          "start": 26.408,
+          "end": 26.85
+        },
+        {
+          "word": "today.",
+          "start": 26.884,
+          "end": 27.523
+        },
+        {
+          "word": "I",
+          "start": 28.034,
+          "end": 28.092
+        },
+        {
+          "word": "just",
+          "start": 28.208,
+          "end": 28.428
+        },
+        {
+          "word": "wanted",
+          "start": 28.475,
+          "end": 28.73
+        },
+        {
+          "word": "to",
+          "start": 28.754,
+          "end": 28.8
+        },
+        {
+          "word": "make",
+          "start": 28.858,
+          "end": 29.009
+        },
+        {
+          "word": "sure",
+          "start": 29.055,
+          "end": 29.276
+        },
+        {
+          "word": "you",
+          "start": 29.323,
+          "end": 29.415
+        },
+        {
+          "word": "knew",
+          "start": 29.485,
+          "end": 29.671
+        },
+        {
+          "word": "about",
+          "start": 29.729,
+          "end": 29.949
+        },
+        {
+          "word": "the",
+          "start": 29.983,
+          "end": 30.053
+        },
+        {
+          "word": "support",
+          "start": 30.099,
+          "end": 30.46
+        },
+        {
+          "word": "we",
+          "start": 30.495,
+          "end": 30.588
+        },
+        {
+          "word": "offer.",
+          "start": 30.646,
+          "end": 31.308
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Do you need my card details to sort it out?",
+      "start": 31.657,
+      "end": 34.212,
+      "words": [
+        {
+          "word": "Do",
+          "start": 31.657,
+          "end": 31.796
+        },
+        {
+          "word": "you",
+          "start": 31.843,
+          "end": 31.912
+        },
+        {
+          "word": "need",
+          "start": 31.947,
+          "end": 32.098
+        },
+        {
+          "word": "my",
+          "start": 32.145,
+          "end": 32.237
+        },
+        {
+          "word": "card",
+          "start": 32.307,
+          "end": 32.539
+        },
+        {
+          "word": "details",
+          "start": 32.586,
+          "end": 32.981
+        },
+        {
+          "word": "to",
+          "start": 33.015,
+          "end": 33.085
+        },
+        {
+          "word": "sort",
+          "start": 33.143,
+          "end": 33.352
+        },
+        {
+          "word": "it",
+          "start": 33.398,
+          "end": 33.468
+        },
+        {
+          "word": "out?",
+          "start": 33.526,
+          "end": 34.211
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "No, I don't want you to give me any payment details on this call. You can pay in your online account, or ring the number printed on your bill.",
+      "start": 34.562,
+      "end": 41.945,
+      "words": [
+        {
+          "word": "No,",
+          "start": 34.562,
+          "end": 34.899
+        },
+        {
+          "word": "I",
+          "start": 34.945,
+          "end": 34.98
+        },
+        {
+          "word": "don't",
+          "start": 35.05,
+          "end": 35.212
+        },
+        {
+          "word": "want",
+          "start": 35.247,
+          "end": 35.375
+        },
+        {
+          "word": "you",
+          "start": 35.41,
+          "end": 35.491
+        },
+        {
+          "word": "to",
+          "start": 35.526,
+          "end": 35.584
+        },
+        {
+          "word": "give",
+          "start": 35.63,
+          "end": 35.793
+        },
+        {
+          "word": "me",
+          "start": 35.827,
+          "end": 35.909
+        },
+        {
+          "word": "any",
+          "start": 35.967,
+          "end": 36.129
+        },
+        {
+          "word": "payment",
+          "start": 36.187,
+          "end": 36.512
+        },
+        {
+          "word": "details",
+          "start": 36.559,
+          "end": 37.0
+        },
+        {
+          "word": "on",
+          "start": 37.047,
+          "end": 37.116
+        },
+        {
+          "word": "this",
+          "start": 37.151,
+          "end": 37.279
+        },
+        {
+          "word": "call.",
+          "start": 37.348,
+          "end": 37.766
+        },
+        {
+          "word": "You",
+          "start": 38.208,
+          "end": 38.324
+        },
+        {
+          "word": "can",
+          "start": 38.37,
+          "end": 38.486
+        },
+        {
+          "word": "pay",
+          "start": 38.544,
+          "end": 38.753
+        },
+        {
+          "word": "in",
+          "start": 38.8,
+          "end": 38.858
+        },
+        {
+          "word": "your",
+          "start": 38.904,
+          "end": 39.02
+        },
+        {
+          "word": "online",
+          "start": 39.078,
+          "end": 39.415
+        },
+        {
+          "word": "account,",
+          "start": 39.438,
+          "end": 39.809
+        },
+        {
+          "word": "or",
+          "start": 39.855,
+          "end": 40.007
+        },
+        {
+          "word": "ring",
+          "start": 40.077,
+          "end": 40.239
+        },
+        {
+          "word": "the",
+          "start": 40.285,
+          "end": 40.355
+        },
+        {
+          "word": "number",
+          "start": 40.401,
+          "end": 40.622
+        },
+        {
+          "word": "printed",
+          "start": 40.68,
+          "end": 40.971
+        },
+        {
+          "word": "on",
+          "start": 41.006,
+          "end": 41.075
+        },
+        {
+          "word": "your",
+          "start": 41.122,
+          "end": 41.226
+        },
+        {
+          "word": "bill.",
+          "start": 41.273,
+          "end": 41.946
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Hang on. Could I spread it over a few months?",
+      "start": 42.295,
+      "end": 44.896,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 42.295,
+          "end": 42.539
+        },
+        {
+          "word": "on.",
+          "start": 42.62,
+          "end": 42.852
+        },
+        {
+          "word": "Could",
+          "start": 43.003,
+          "end": 43.189
+        },
+        {
+          "word": "I",
+          "start": 43.235,
+          "end": 43.259
+        },
+        {
+          "word": "spread",
+          "start": 43.328,
+          "end": 43.572
+        },
+        {
+          "word": "it",
+          "start": 43.607,
+          "end": 43.665
+        },
+        {
+          "word": "over",
+          "start": 43.711,
+          "end": 43.897
+        },
+        {
+          "word": "a",
+          "start": 43.944,
+          "end": 43.967
+        },
+        {
+          "word": "few",
+          "start": 44.025,
+          "end": 44.164
+        },
+        {
+          "word": "months?",
+          "start": 44.199,
+          "end": 44.896
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Of course. We can set up a payment plan for you, and there's also a hardship fund that you might be able to apply for.",
+      "start": 45.246,
+      "end": 51.515,
+      "words": [
+        {
+          "word": "Of",
+          "start": 45.246,
+          "end": 45.385
+        },
+        {
+          "word": "course.",
+          "start": 45.467,
+          "end": 45.908
+        },
+        {
+          "word": "We",
+          "start": 46.082,
+          "end": 46.198
+        },
+        {
+          "word": "can",
+          "start": 46.244,
+          "end": 46.349
+        },
+        {
+          "word": "set",
+          "start": 46.395,
+          "end": 46.535
+        },
+        {
+          "word": "up",
+          "start": 46.57,
+          "end": 46.639
+        },
+        {
+          "word": "a",
+          "start": 46.686,
+          "end": 46.709
+        },
+        {
+          "word": "payment",
+          "start": 46.755,
+          "end": 47.092
+        },
+        {
+          "word": "plan",
+          "start": 47.138,
+          "end": 47.371
+        },
+        {
+          "word": "for",
+          "start": 47.44,
+          "end": 47.568
+        },
+        {
+          "word": "you,",
+          "start": 47.638,
+          "end": 47.87
+        },
+        {
+          "word": "and",
+          "start": 48.021,
+          "end": 48.148
+        },
+        {
+          "word": "there's",
+          "start": 48.183,
+          "end": 48.369
+        },
+        {
+          "word": "also",
+          "start": 48.404,
+          "end": 48.636
+        },
+        {
+          "word": "a",
+          "start": 48.694,
+          "end": 48.717
+        },
+        {
+          "word": "hardship",
+          "start": 48.787,
+          "end": 49.193
+        },
+        {
+          "word": "fund",
+          "start": 49.263,
+          "end": 49.553
+        },
+        {
+          "word": "that",
+          "start": 49.623,
+          "end": 49.751
+        },
+        {
+          "word": "you",
+          "start": 49.786,
+          "end": 49.855
+        },
+        {
+          "word": "might",
+          "start": 49.902,
+          "end": 50.053
+        },
+        {
+          "word": "be",
+          "start": 50.087,
+          "end": 50.157
+        },
+        {
+          "word": "able",
+          "start": 50.203,
+          "end": 50.378
+        },
+        {
+          "word": "to",
+          "start": 50.412,
+          "end": 50.459
+        },
+        {
+          "word": "apply",
+          "start": 50.529,
+          "end": 50.819
+        },
+        {
+          "word": "for.",
+          "start": 50.9,
+          "end": 51.515
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "That would really help. What do I need to do?",
+      "start": 51.865,
+      "end": 54.652,
+      "words": [
+        {
+          "word": "That",
+          "start": 51.865,
+          "end": 52.097
+        },
+        {
+          "word": "would",
+          "start": 52.132,
+          "end": 52.295
+        },
+        {
+          "word": "really",
+          "start": 52.341,
+          "end": 52.596
+        },
+        {
+          "word": "help.",
+          "start": 52.654,
+          "end": 53.003
+        },
+        {
+          "word": "What",
+          "start": 53.177,
+          "end": 53.363
+        },
+        {
+          "word": "do",
+          "start": 53.409,
+          "end": 53.479
+        },
+        {
+          "word": "I",
+          "start": 53.572,
+          "end": 53.595
+        },
+        {
+          "word": "need",
+          "start": 53.688,
+          "end": 53.885
+        },
+        {
+          "word": "to",
+          "start": 53.932,
+          "end": 54.001
+        },
+        {
+          "word": "do?",
+          "start": 54.083,
+          "end": 54.651
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Have a look at the letter we've sent you, then call us whenever suits you, and one of the team will talk it through. Take your time.",
+      "start": 55.002,
+      "end": 62.2,
+      "words": [
+        {
+          "word": "Have",
+          "start": 55.002,
+          "end": 55.223
+        },
+        {
+          "word": "a",
+          "start": 55.246,
+          "end": 55.269
+        },
+        {
+          "word": "look",
+          "start": 55.304,
+          "end": 55.443
+        },
+        {
+          "word": "at",
+          "start": 55.49,
+          "end": 55.548
+        },
+        {
+          "word": "the",
+          "start": 55.582,
+          "end": 55.652
+        },
+        {
+          "word": "letter",
+          "start": 55.699,
+          "end": 55.919
+        },
+        {
+          "word": "we've",
+          "start": 55.966,
+          "end": 56.14
+        },
+        {
+          "word": "sent",
+          "start": 56.163,
+          "end": 56.372
+        },
+        {
+          "word": "you,",
+          "start": 56.43,
+          "end": 56.697
+        },
+        {
+          "word": "then",
+          "start": 56.871,
+          "end": 57.045
+        },
+        {
+          "word": "call",
+          "start": 57.127,
+          "end": 57.336
+        },
+        {
+          "word": "us",
+          "start": 57.405,
+          "end": 57.487
+        },
+        {
+          "word": "whenever",
+          "start": 57.533,
+          "end": 57.858
+        },
+        {
+          "word": "suits",
+          "start": 57.916,
+          "end": 58.183
+        },
+        {
+          "word": "you,",
+          "start": 58.241,
+          "end": 58.531
+        },
+        {
+          "word": "and",
+          "start": 58.706,
+          "end": 58.845
+        },
+        {
+          "word": "one",
+          "start": 58.926,
+          "end": 59.042
+        },
+        {
+          "word": "of",
+          "start": 59.077,
+          "end": 59.124
+        },
+        {
+          "word": "the",
+          "start": 59.17,
+          "end": 59.24
+        },
+        {
+          "word": "team",
+          "start": 59.286,
+          "end": 59.507
+        },
+        {
+          "word": "will",
+          "start": 59.553,
+          "end": 59.704
+        },
+        {
+          "word": "talk",
+          "start": 59.739,
+          "end": 59.936
+        },
+        {
+          "word": "it",
+          "start": 59.983,
+          "end": 60.052
+        },
+        {
+          "word": "through.",
+          "start": 60.087,
+          "end": 60.575
+        },
+        {
+          "word": "Take",
+          "start": 61.086,
+          "end": 61.318
+        },
+        {
+          "word": "your",
+          "start": 61.353,
+          "end": 61.469
+        },
+        {
+          "word": "time.",
+          "start": 61.527,
+          "end": 62.2
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Thank you. I'll do that this week.",
+      "start": 62.55,
+      "end": 64.547,
+      "words": [
+        {
+          "word": "Thank",
+          "start": 62.55,
+          "end": 62.829
+        },
+        {
+          "word": "you.",
+          "start": 62.898,
+          "end": 63.119
+        },
+        {
+          "word": "I'll",
+          "start": 63.154,
+          "end": 63.351
+        },
+        {
+          "word": "do",
+          "start": 63.398,
+          "end": 63.49
+        },
+        {
+          "word": "that",
+          "start": 63.548,
+          "end": 63.676
+        },
+        {
+          "word": "this",
+          "start": 63.723,
+          "end": 63.874
+        },
+        {
+          "word": "week.",
+          "start": 63.943,
+          "end": 64.547
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "You're welcome, Mrs Clarke. Bye for now.",
+      "start": 64.897,
+      "end": 67.776,
+      "words": [
+        {
+          "word": "You're",
+          "start": 64.897,
+          "end": 65.176
+        },
+        {
+          "word": "welcome,",
+          "start": 65.199,
+          "end": 65.559
+        },
+        {
+          "word": "Mrs",
+          "start": 65.582,
+          "end": 65.849
+        },
+        {
+          "word": "Clarke.",
+          "start": 65.919,
+          "end": 66.395
+        },
+        {
+          "word": "Bye",
+          "start": 66.72,
+          "end": 66.952
+        },
+        {
+          "word": "for",
+          "start": 66.987,
+          "end": 67.091
+        },
+        {
+          "word": "now.",
+          "start": 67.138,
+          "end": 67.776
+        }
+      ]
+    }
+  ]
+}

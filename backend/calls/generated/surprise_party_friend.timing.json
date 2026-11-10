@@ -1,0 +1,1034 @@
+{
+  "id": "surprise_party_friend",
+  "title": "Friend planning a surprise party (legitimate)",
+  "label": "legit",
+  "duration_seconds": 56.806,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Hiya, it's Ben. Have you got a minute? It's about your mum's birthday.",
+      "start": 0.0,
+      "end": 4.505,
+      "words": [
+        {
+          "word": "Hiya,",
+          "start": 0.0,
+          "end": 0.441
+        },
+        {
+          "word": "it's",
+          "start": 0.476,
+          "end": 0.65
+        },
+        {
+          "word": "Ben.",
+          "start": 0.708,
+          "end": 1.196
+        },
+        {
+          "word": "Have",
+          "start": 1.44,
+          "end": 1.556
+        },
+        {
+          "word": "you",
+          "start": 1.579,
+          "end": 1.649
+        },
+        {
+          "word": "got",
+          "start": 1.683,
+          "end": 1.811
+        },
+        {
+          "word": "a",
+          "start": 1.846,
+          "end": 1.869
+        },
+        {
+          "word": "minute?",
+          "start": 1.904,
+          "end": 2.287
+        },
+        {
+          "word": "It's",
+          "start": 2.728,
+          "end": 2.902
+        },
+        {
+          "word": "about",
+          "start": 2.937,
+          "end": 3.158
+        },
+        {
+          "word": "your",
+          "start": 3.204,
+          "end": 3.309
+        },
+        {
+          "word": "mum's",
+          "start": 3.344,
+          "end": 3.599
+        },
+        {
+          "word": "birthday.",
+          "start": 3.634,
+          "end": 4.505
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Hi Ben. Yes, go on.",
+      "start": 4.855,
+      "end": 6.48,
+      "words": [
+        {
+          "word": "Hi",
+          "start": 4.855,
+          "end": 5.041
+        },
+        {
+          "word": "Ben.",
+          "start": 5.099,
+          "end": 5.401
+        },
+        {
+          "word": "Yes,",
+          "start": 5.47,
+          "end": 5.749
+        },
+        {
+          "word": "go",
+          "start": 5.795,
+          "end": 5.923
+        },
+        {
+          "word": "on.",
+          "start": 6.016,
+          "end": 6.48
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "So we're throwing her a surprise party on the twelfth at the cricket club. Don't tell your mum, whatever you do, she has no idea.",
+      "start": 6.83,
+      "end": 13.842,
+      "words": [
+        {
+          "word": "So",
+          "start": 6.83,
+          "end": 6.993
+        },
+        {
+          "word": "we're",
+          "start": 7.039,
+          "end": 7.225
+        },
+        {
+          "word": "throwing",
+          "start": 7.248,
+          "end": 7.515
+        },
+        {
+          "word": "her",
+          "start": 7.573,
+          "end": 7.678
+        },
+        {
+          "word": "a",
+          "start": 7.736,
+          "end": 7.759
+        },
+        {
+          "word": "surprise",
+          "start": 7.805,
+          "end": 8.223
+        },
+        {
+          "word": "party",
+          "start": 8.281,
+          "end": 8.583
+        },
+        {
+          "word": "on",
+          "start": 8.641,
+          "end": 8.711
+        },
+        {
+          "word": "the",
+          "start": 8.746,
+          "end": 8.815
+        },
+        {
+          "word": "twelfth",
+          "start": 8.862,
+          "end": 9.187
+        },
+        {
+          "word": "at",
+          "start": 9.233,
+          "end": 9.291
+        },
+        {
+          "word": "the",
+          "start": 9.326,
+          "end": 9.396
+        },
+        {
+          "word": "cricket",
+          "start": 9.431,
+          "end": 9.709
+        },
+        {
+          "word": "club.",
+          "start": 9.756,
+          "end": 10.15
+        },
+        {
+          "word": "Don't",
+          "start": 10.534,
+          "end": 10.766
+        },
+        {
+          "word": "tell",
+          "start": 10.801,
+          "end": 10.963
+        },
+        {
+          "word": "your",
+          "start": 11.021,
+          "end": 11.137
+        },
+        {
+          "word": "mum,",
+          "start": 11.195,
+          "end": 11.555
+        },
+        {
+          "word": "whatever",
+          "start": 11.625,
+          "end": 11.996
+        },
+        {
+          "word": "you",
+          "start": 12.054,
+          "end": 12.124
+        },
+        {
+          "word": "do,",
+          "start": 12.205,
+          "end": 12.461
+        },
+        {
+          "word": "she",
+          "start": 12.484,
+          "end": 12.6
+        },
+        {
+          "word": "has",
+          "start": 12.658,
+          "end": 12.786
+        },
+        {
+          "word": "no",
+          "start": 12.867,
+          "end": 12.983
+        },
+        {
+          "word": "idea.",
+          "start": 13.053,
+          "end": 13.842
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Oh, that's lovely! I won't say a word.",
+      "start": 14.193,
+      "end": 16.7,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 14.193,
+          "end": 14.46
+        },
+        {
+          "word": "that's",
+          "start": 14.482,
+          "end": 14.739
+        },
+        {
+          "word": "lovely!",
+          "start": 14.832,
+          "end": 15.308
+        },
+        {
+          "word": "I",
+          "start": 15.424,
+          "end": 15.47
+        },
+        {
+          "word": "won't",
+          "start": 15.54,
+          "end": 15.737
+        },
+        {
+          "word": "say",
+          "start": 15.784,
+          "end": 15.911
+        },
+        {
+          "word": "a",
+          "start": 15.946,
+          "end": 15.969
+        },
+        {
+          "word": "word.",
+          "start": 16.015,
+          "end": 16.701
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Keep it between us for now, because your dad is terrible at keeping secrets, and he'd only let it slip.",
+      "start": 17.05,
+      "end": 22.809,
+      "words": [
+        {
+          "word": "Keep",
+          "start": 17.05,
+          "end": 17.317
+        },
+        {
+          "word": "it",
+          "start": 17.363,
+          "end": 17.433
+        },
+        {
+          "word": "between",
+          "start": 17.48,
+          "end": 17.793
+        },
+        {
+          "word": "us",
+          "start": 17.839,
+          "end": 17.909
+        },
+        {
+          "word": "for",
+          "start": 17.967,
+          "end": 18.072
+        },
+        {
+          "word": "now,",
+          "start": 18.13,
+          "end": 18.49
+        },
+        {
+          "word": "because",
+          "start": 18.617,
+          "end": 18.873
+        },
+        {
+          "word": "your",
+          "start": 18.896,
+          "end": 19.035
+        },
+        {
+          "word": "dad",
+          "start": 19.082,
+          "end": 19.314
+        },
+        {
+          "word": "is",
+          "start": 19.36,
+          "end": 19.442
+        },
+        {
+          "word": "terrible",
+          "start": 19.5,
+          "end": 19.894
+        },
+        {
+          "word": "at",
+          "start": 19.929,
+          "end": 19.987
+        },
+        {
+          "word": "keeping",
+          "start": 20.045,
+          "end": 20.359
+        },
+        {
+          "word": "secrets,",
+          "start": 20.429,
+          "end": 20.997
+        },
+        {
+          "word": "and",
+          "start": 21.113,
+          "end": 21.264
+        },
+        {
+          "word": "he'd",
+          "start": 21.311,
+          "end": 21.45
+        },
+        {
+          "word": "only",
+          "start": 21.508,
+          "end": 21.74
+        },
+        {
+          "word": "let",
+          "start": 21.787,
+          "end": 21.926
+        },
+        {
+          "word": "it",
+          "start": 21.973,
+          "end": 22.054
+        },
+        {
+          "word": "slip.",
+          "start": 22.112,
+          "end": 22.809
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Ha, that's very true. What can I do to help?",
+      "start": 23.159,
+      "end": 25.759,
+      "words": [
+        {
+          "word": "Ha,",
+          "start": 23.159,
+          "end": 23.449
+        },
+        {
+          "word": "that's",
+          "start": 23.484,
+          "end": 23.716
+        },
+        {
+          "word": "very",
+          "start": 23.763,
+          "end": 23.948
+        },
+        {
+          "word": "true.",
+          "start": 24.007,
+          "end": 24.285
+        },
+        {
+          "word": "What",
+          "start": 24.308,
+          "end": 24.459
+        },
+        {
+          "word": "can",
+          "start": 24.506,
+          "end": 24.622
+        },
+        {
+          "word": "I",
+          "start": 24.68,
+          "end": 24.715
+        },
+        {
+          "word": "do",
+          "start": 24.796,
+          "end": 24.9
+        },
+        {
+          "word": "to",
+          "start": 24.959,
+          "end": 25.017
+        },
+        {
+          "word": "help?",
+          "start": 25.109,
+          "end": 25.76
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "A few of us are clubbing together to get her a gift card for that spa she likes. Do you want to go in on it with us?",
+      "start": 26.109,
+      "end": 32.239,
+      "words": [
+        {
+          "word": "A",
+          "start": 26.109,
+          "end": 26.202
+        },
+        {
+          "word": "few",
+          "start": 26.283,
+          "end": 26.434
+        },
+        {
+          "word": "of",
+          "start": 26.469,
+          "end": 26.527
+        },
+        {
+          "word": "us",
+          "start": 26.585,
+          "end": 26.666
+        },
+        {
+          "word": "are",
+          "start": 26.713,
+          "end": 26.794
+        },
+        {
+          "word": "clubbing",
+          "start": 26.817,
+          "end": 27.107
+        },
+        {
+          "word": "together",
+          "start": 27.154,
+          "end": 27.514
+        },
+        {
+          "word": "to",
+          "start": 27.572,
+          "end": 27.63
+        },
+        {
+          "word": "get",
+          "start": 27.676,
+          "end": 27.804
+        },
+        {
+          "word": "her",
+          "start": 27.839,
+          "end": 27.932
+        },
+        {
+          "word": "a",
+          "start": 27.978,
+          "end": 28.001
+        },
+        {
+          "word": "gift",
+          "start": 28.059,
+          "end": 28.292
+        },
+        {
+          "word": "card",
+          "start": 28.35,
+          "end": 28.605
+        },
+        {
+          "word": "for",
+          "start": 28.652,
+          "end": 28.733
+        },
+        {
+          "word": "that",
+          "start": 28.779,
+          "end": 28.907
+        },
+        {
+          "word": "spa",
+          "start": 28.977,
+          "end": 29.302
+        },
+        {
+          "word": "she",
+          "start": 29.36,
+          "end": 29.464
+        },
+        {
+          "word": "likes.",
+          "start": 29.534,
+          "end": 30.022
+        },
+        {
+          "word": "Do",
+          "start": 30.625,
+          "end": 30.73
+        },
+        {
+          "word": "you",
+          "start": 30.753,
+          "end": 30.823
+        },
+        {
+          "word": "want",
+          "start": 30.846,
+          "end": 30.974
+        },
+        {
+          "word": "to",
+          "start": 30.997,
+          "end": 31.043
+        },
+        {
+          "word": "go",
+          "start": 31.09,
+          "end": 31.171
+        },
+        {
+          "word": "in",
+          "start": 31.241,
+          "end": 31.299
+        },
+        {
+          "word": "on",
+          "start": 31.345,
+          "end": 31.415
+        },
+        {
+          "word": "it",
+          "start": 31.461,
+          "end": 31.519
+        },
+        {
+          "word": "with",
+          "start": 31.554,
+          "end": 31.682
+        },
+        {
+          "word": "us?",
+          "start": 31.728,
+          "end": 32.239
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Definitely. How much are you thinking?",
+      "start": 32.59,
+      "end": 34.865,
+      "words": [
+        {
+          "word": "Definitely.",
+          "start": 32.59,
+          "end": 33.297
+        },
+        {
+          "word": "How",
+          "start": 33.345,
+          "end": 33.507
+        },
+        {
+          "word": "much",
+          "start": 33.553,
+          "end": 33.751
+        },
+        {
+          "word": "are",
+          "start": 33.797,
+          "end": 33.879
+        },
+        {
+          "word": "you",
+          "start": 33.913,
+          "end": 33.995
+        },
+        {
+          "word": "thinking?",
+          "start": 34.053,
+          "end": 34.865
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "About twenty pounds each. No rush at all, you can give it to me when I see you on Sunday.",
+      "start": 35.215,
+      "end": 40.741,
+      "words": [
+        {
+          "word": "About",
+          "start": 35.215,
+          "end": 35.54
+        },
+        {
+          "word": "twenty",
+          "start": 35.575,
+          "end": 35.877
+        },
+        {
+          "word": "pounds",
+          "start": 35.935,
+          "end": 36.248
+        },
+        {
+          "word": "each.",
+          "start": 36.33,
+          "end": 36.794
+        },
+        {
+          "word": "No",
+          "start": 37.235,
+          "end": 37.398
+        },
+        {
+          "word": "rush",
+          "start": 37.467,
+          "end": 37.688
+        },
+        {
+          "word": "at",
+          "start": 37.723,
+          "end": 37.804
+        },
+        {
+          "word": "all,",
+          "start": 37.85,
+          "end": 38.176
+        },
+        {
+          "word": "you",
+          "start": 38.35,
+          "end": 38.431
+        },
+        {
+          "word": "can",
+          "start": 38.477,
+          "end": 38.594
+        },
+        {
+          "word": "give",
+          "start": 38.64,
+          "end": 38.779
+        },
+        {
+          "word": "it",
+          "start": 38.802,
+          "end": 38.872
+        },
+        {
+          "word": "to",
+          "start": 38.907,
+          "end": 38.953
+        },
+        {
+          "word": "me",
+          "start": 39.011,
+          "end": 39.116
+        },
+        {
+          "word": "when",
+          "start": 39.162,
+          "end": 39.29
+        },
+        {
+          "word": "I",
+          "start": 39.337,
+          "end": 39.36
+        },
+        {
+          "word": "see",
+          "start": 39.441,
+          "end": 39.604
+        },
+        {
+          "word": "you",
+          "start": 39.65,
+          "end": 39.731
+        },
+        {
+          "word": "on",
+          "start": 39.801,
+          "end": 39.882
+        },
+        {
+          "word": "Sunday.",
+          "start": 39.952,
+          "end": 40.741
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Hang on, let me check what I'm doing on the twelfth. Yes, I'm free.",
+      "start": 41.091,
+      "end": 44.667,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 41.091,
+          "end": 41.312
+        },
+        {
+          "word": "on,",
+          "start": 41.37,
+          "end": 41.544
+        },
+        {
+          "word": "let",
+          "start": 41.59,
+          "end": 41.718
+        },
+        {
+          "word": "me",
+          "start": 41.753,
+          "end": 41.822
+        },
+        {
+          "word": "check",
+          "start": 41.869,
+          "end": 42.066
+        },
+        {
+          "word": "what",
+          "start": 42.101,
+          "end": 42.206
+        },
+        {
+          "word": "I'm",
+          "start": 42.24,
+          "end": 42.345
+        },
+        {
+          "word": "doing",
+          "start": 42.403,
+          "end": 42.589
+        },
+        {
+          "word": "on",
+          "start": 42.624,
+          "end": 42.682
+        },
+        {
+          "word": "the",
+          "start": 42.716,
+          "end": 42.786
+        },
+        {
+          "word": "twelfth.",
+          "start": 42.821,
+          "end": 43.297
+        },
+        {
+          "word": "Yes,",
+          "start": 43.367,
+          "end": 43.692
+        },
+        {
+          "word": "I'm",
+          "start": 43.75,
+          "end": 43.935
+        },
+        {
+          "word": "free.",
+          "start": 44.017,
+          "end": 44.667
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Brilliant. I need to book the room right now, before someone else takes it, so I'll put you down for two people.",
+      "start": 45.017,
+      "end": 50.683,
+      "words": [
+        {
+          "word": "Brilliant.",
+          "start": 45.017,
+          "end": 45.632
+        },
+        {
+          "word": "I",
+          "start": 45.806,
+          "end": 45.853
+        },
+        {
+          "word": "need",
+          "start": 45.934,
+          "end": 46.085
+        },
+        {
+          "word": "to",
+          "start": 46.108,
+          "end": 46.155
+        },
+        {
+          "word": "book",
+          "start": 46.201,
+          "end": 46.352
+        },
+        {
+          "word": "the",
+          "start": 46.41,
+          "end": 46.48
+        },
+        {
+          "word": "room",
+          "start": 46.526,
+          "end": 46.735
+        },
+        {
+          "word": "right",
+          "start": 46.805,
+          "end": 47.002
+        },
+        {
+          "word": "now,",
+          "start": 47.049,
+          "end": 47.293
+        },
+        {
+          "word": "before",
+          "start": 47.339,
+          "end": 47.583
+        },
+        {
+          "word": "someone",
+          "start": 47.618,
+          "end": 47.885
+        },
+        {
+          "word": "else",
+          "start": 47.908,
+          "end": 48.07
+        },
+        {
+          "word": "takes",
+          "start": 48.105,
+          "end": 48.384
+        },
+        {
+          "word": "it,",
+          "start": 48.442,
+          "end": 48.651
+        },
+        {
+          "word": "so",
+          "start": 48.767,
+          "end": 48.872
+        },
+        {
+          "word": "I'll",
+          "start": 48.941,
+          "end": 49.069
+        },
+        {
+          "word": "put",
+          "start": 49.104,
+          "end": 49.243
+        },
+        {
+          "word": "you",
+          "start": 49.278,
+          "end": 49.348
+        },
+        {
+          "word": "down",
+          "start": 49.394,
+          "end": 49.591
+        },
+        {
+          "word": "for",
+          "start": 49.649,
+          "end": 49.742
+        },
+        {
+          "word": "two",
+          "start": 49.777,
+          "end": 49.905
+        },
+        {
+          "word": "people.",
+          "start": 49.974,
+          "end": 50.683
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Perfect. Thanks for organising it, Ben.",
+      "start": 51.033,
+      "end": 53.541,
+      "words": [
+        {
+          "word": "Perfect.",
+          "start": 51.033,
+          "end": 51.648
+        },
+        {
+          "word": "Thanks",
+          "start": 51.799,
+          "end": 52.066
+        },
+        {
+          "word": "for",
+          "start": 52.09,
+          "end": 52.194
+        },
+        {
+          "word": "organising",
+          "start": 52.252,
+          "end": 52.751
+        },
+        {
+          "word": "it,",
+          "start": 52.809,
+          "end": 52.902
+        },
+        {
+          "word": "Ben.",
+          "start": 52.925,
+          "end": 53.541
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "No worries. See you on Sunday. Bye!",
+      "start": 53.891,
+      "end": 56.306,
+      "words": [
+        {
+          "word": "No",
+          "start": 53.891,
+          "end": 54.088
+        },
+        {
+          "word": "worries.",
+          "start": 54.135,
+          "end": 54.588
+        },
+        {
+          "word": "See",
+          "start": 54.704,
+          "end": 54.878
+        },
+        {
+          "word": "you",
+          "start": 54.901,
+          "end": 54.971
+        },
+        {
+          "word": "on",
+          "start": 55.029,
+          "end": 55.098
+        },
+        {
+          "word": "Sunday.",
+          "start": 55.145,
+          "end": 55.574
+        },
+        {
+          "word": "Bye!",
+          "start": 55.609,
+          "end": 56.306
+        }
+      ]
+    }
+  ]
+}
