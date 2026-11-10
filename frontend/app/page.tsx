@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import { BACKEND_URL, RECONNECT_DELAY_MS, WEBSOCKET_URL } from "../lib/config";
 import { playCall, type CallInfo } from "../lib/callPlayer";
+import { Transcript, type Speaker, type TranscriptSegment } from "./Transcript";
+import { RiskPanel, describeFindings, type RiskUpdate } from "./RiskPanel";
 
 type SocketStatus = "connecting" | "connected" | "disconnected";
 type CallStatus = "idle" | "loading" | "playing";
@@ -16,6 +18,12 @@ export default function Home() {
   const [callStatus, setCallStatus] = useState<CallStatus>("idle");
   const [secondsPlayed, setSecondsPlayed] = useState(0);
   const [secondsReceived, setSecondsReceived] = useState(0);
+  const [transcriptionMode, setTranscriptionMode] = useState("not started");
+  const [finals, setFinals] = useState<TranscriptSegment[]>([]);
+  const [interim, setInterim] = useState<Partial<Record<Speaker, TranscriptSegment>>>({});
+  const [risk, setRisk] = useState<RiskUpdate | null>(null);
+  const [riskFindings, setRiskFindings] = useState<string[]>([]);
+  const [llmMode, setLlmMode] = useState("not started");
   const socketRef = useRef<WebSocket | null>(null);
   const stopCallRef = useRef<(() => void) | null>(null);
 
@@ -37,6 +45,10 @@ export default function Home() {
     setCallStatus("loading");
     setSecondsPlayed(0);
     setSecondsReceived(0);
+    setFinals([]);
+    setInterim({});
+    setRisk(null);
+    setRiskFindings([]);
     try {
       stopCallRef.current = await playCall(
         selectedCall,
@@ -100,9 +112,31 @@ export default function Home() {
           addToLog(`pong received in ${roundTrip.toFixed(1)} ms`);
         } else if (message.type === "audio_progress") {
           setSecondsReceived(message.seconds_received);
+        } else if (message.type === "transcript") {
+          const segment: TranscriptSegment = message;
+          // A final segment replaces that speaker's interim words.
+          setInterim((previous) => ({
+            ...previous,
+            [segment.speaker]: segment.is_final ? undefined : segment,
+          }));
+          if (segment.is_final) {
+            setFinals((previous) => [...previous, segment]);
+          }
+        } else if (message.type === "risk_update") {
+          const update: RiskUpdate = message;
+          setRisk(update);
+          const findings = describeFindings(update);
+          if (findings) {
+            setRiskFindings((previous) => [findings, ...previous].slice(0, 12));
+          }
         } else {
+          if (message.type === "call_started") {
+            setTranscriptionMode(message.transcription_mode);
+            setLlmMode(message.llm_mode);
+          }
           if (message.type === "call_ended") {
             setSecondsReceived(message.seconds_received);
+            setInterim({});
           }
           addToLog(`received: ${event.data}`);
         }
@@ -175,6 +209,15 @@ export default function Home() {
       <p>
         Received by backend: <strong id="seconds-received">{secondsReceived.toFixed(1)}s</strong>
       </p>
+
+      <h2>Live transcript</h2>
+      <p>
+        Transcription: <strong id="transcription-mode">{transcriptionMode}</strong>
+      </p>
+      <Transcript finals={finals} interim={interim} />
+
+      <h2>Call risk</h2>
+      <RiskPanel risk={risk} findings={riskFindings} llmMode={llmMode} />
 
       <h2>Log</h2>
       <pre id="log">{log.join("\n")}</pre>

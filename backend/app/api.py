@@ -45,7 +45,7 @@ async def websocket_endpoint(websocket: WebSocket) -> None:
     logger.info("WebSocket client connected")
     await websocket.send_json({"type": "connected"})
 
-    session = CallSession()
+    session = CallSession(websocket.send_json)
     try:
         while True:
             message = await websocket.receive()
@@ -54,12 +54,11 @@ async def websocket_endpoint(websocket: WebSocket) -> None:
 
             # A frame holds either binary audio or a JSON text message.
             if message.get("bytes") is not None:
-                reply = session.handle_audio(message["bytes"])
+                await session.handle_audio(message["bytes"])
             else:
-                reply = session.handle_text(message["text"])
-
-            if reply is not None:
-                await websocket.send_json(reply)
+                await session.handle_text(message["text"])
     except WebSocketDisconnect:
         pass
+    finally:
+        await session.close()
     logger.info("WebSocket client disconnected")
