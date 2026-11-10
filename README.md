@@ -91,19 +91,19 @@ make audio
 
 ## Deploy
 
-The frontend goes on Vercel and the backend on Heroku. Only committed code is deployed. Before you deploy, set spending limits with Anthropic and ElevenLabs, because the hosted link uses your keys.
+The frontend goes on Netlify and the backend on Heroku. Only committed code is deployed. Before you deploy, set spending limits with Anthropic and ElevenLabs, because the hosted link uses your keys.
 
 **Backend, from the repo root:**
 
 ```bash
 heroku create YOUR-APP-NAME
 heroku config:set DEMO_PASSCODE=choose-one ELEVENLABS_API_KEY=... ANTHROPIC_API_KEY=...
-heroku config:set CORS_ORIGINS=https://YOUR-SITE.vercel.app
+heroku config:set CORS_ORIGINS=https://YOUR-SITE.netlify.app
 make deploy-backend
 heroku ps:type basic
 ```
 
-**Frontend:** import the repo in Vercel, set the root directory to `frontend`, and add the environment variable `NEXT_PUBLIC_BACKEND_URL` with your Heroku app's `https://` address. Redeploy if you change it, because it is built into the page.
+**Frontend:** import the repo in Netlify, which reads its build settings from `netlify.toml`, and add the environment variable `NEXT_PUBLIC_BACKEND_URL` with your Heroku app's `https://` address. Redeploy if you change it, because it is built into the page.
 
 Anyone using the link needs the passcode. Every call is capped at 3 minutes by `MAX_CALL_SECONDS`.
 
