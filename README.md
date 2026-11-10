@@ -23,7 +23,7 @@ Open http://localhost:3100. Backend health should read `ok`, the WebSocket shoul
 
 To try a simulated call, pick one and press **Play call**. You'll hear it, and the page shows the live transcript, risk score, alerts and a "behind the scenes" log of every decision. A summary card appears when the call ends.
 
-To play the scammer yourself, press **Try to scam me (microphone)** in Chrome and improvise. Calls are capped at 3 minutes. Your voice is the caller. To answer as the person being scammed, hold the button that appears while you speak. Live calls need `ELEVENLABS_API_KEY`.
+To play the scammer yourself, press **Try to scam me (microphone)** in Chrome and improvise. Your voice is the caller. To answer as the person being scammed, hold the button that appears while you speak. Live calls need `ELEVENLABS_API_KEY`.
 
 **No keys are needed for simulated calls.** Each key adds something:
 
@@ -89,6 +89,24 @@ If you edit or add a script, put `ELEVENLABS_API_KEY` in `backend/.env` and run 
 make audio
 ```
 
+## Deploy
+
+The frontend goes on Vercel and the backend on Heroku. Only committed code is deployed. Before you deploy, set spending limits with Anthropic and ElevenLabs, because the hosted link uses your keys.
+
+**Backend, from the repo root:**
+
+```bash
+heroku create YOUR-APP-NAME
+heroku config:set DEMO_PASSCODE=choose-one ELEVENLABS_API_KEY=... ANTHROPIC_API_KEY=...
+heroku config:set CORS_ORIGINS=https://YOUR-SITE.vercel.app
+make deploy-backend
+heroku ps:type basic
+```
+
+**Frontend:** import the repo in Vercel, set the root directory to `frontend`, and add the environment variable `NEXT_PUBLIC_BACKEND_URL` with your Heroku app's `https://` address. Redeploy if you change it, because it is built into the page.
+
+Anyone using the link needs the passcode. Every call is capped at 3 minutes by `MAX_CALL_SECONDS`.
+
 ## Configuration
 
 Backend settings are all in `backend/app/config.py`, and each can be overridden by an environment variable. Frontend settings are in `frontend/lib/config.ts`.
@@ -118,6 +136,7 @@ backend/app/risk/        rules, voice pressure, LLM check, score, and alerts
 backend/app/agent/       trigger phrases, tools, fixed plan, and the LangGraph agent
 backend/app/speech.py    turns whispers and the agent's voice into audio
 backend/app/summary.py   builds the post-call card
+backend/app/auth.py      the demo passcode
 backend/app/claude.py    the shared Claude client
 backend/app/tracing.py   LangSmith set-up
 backend/app/trace.py     the format of a "behind the scenes" entry
@@ -130,10 +149,12 @@ frontend/lib/config.ts   all frontend settings
 frontend/lib/callPlayer.ts  plays a call and streams it to the backend
 frontend/lib/micCall.ts     streams the microphone to the backend
 frontend/lib/speechPlayer.ts  plays whispers and the agent's voice
+frontend/lib/passcode.ts    remembers the demo passcode
 frontend/public/micProcessor.js  collects microphone audio
 frontend/app/page.tsx    the single page's layout
 frontend/app/useCall.ts  the page's state and backend messages
 frontend/app/Transcript.tsx, RiskPanel.tsx, RiskChart.tsx  live call views
 frontend/app/AlertList.tsx, TracePanel.tsx, SummaryCard.tsx  alerts, log, and card
+frontend/app/PasscodeForm.tsx  asks for the demo passcode
 frontend/app/layout.tsx  HTML shell for the page
 ```

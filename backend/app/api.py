@@ -2,9 +2,10 @@
 
 import logging
 
-from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi import APIRouter, Depends, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse
 
+from app.auth import authenticate_websocket, require_passcode
 from app.call_session import CallSession
 from app.calls import audio_path, load_generated_calls
 
@@ -17,7 +18,7 @@ def health() -> dict:
     return {"status": "ok"}
 
 
-@router.get("/calls")
+@router.get("/calls", dependencies=[Depends(require_passcode)])
 def list_calls() -> list[dict]:
     # Only what the picker needs. Scam labels and timings stay on the server.
     return [
@@ -31,7 +32,7 @@ def list_calls() -> list[dict]:
     ]
 
 
-@router.get("/calls/{call_id}/audio")
+@router.get("/calls/{call_id}/audio", dependencies=[Depends(require_passcode)])
 def call_audio(call_id: str) -> FileResponse:
     # Checking the id against known calls means it can't be used to read other files.
     if call_id not in load_generated_calls():
@@ -42,11 +43,13 @@ def call_audio(call_id: str) -> FileResponse:
 @router.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket) -> None:
     await websocket.accept()
-    logger.info("WebSocket client connected")
-    await websocket.send_json({"type": "connected"})
-
     session = CallSession(websocket.send_json)
     try:
+        if not await authenticate_websocket(websocket):
+            return
+        logger.info("WebSocket client connected")
+        await websocket.send_json({"type": "connected"})
+
         while True:
             message = await websocket.receive()
             if message["type"] == "websocket.disconnect":

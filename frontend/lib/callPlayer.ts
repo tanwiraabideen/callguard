@@ -2,6 +2,7 @@
 // Both follow the audio clock, so the backend hears each moment as it is played.
 
 import { AGENT_HOLD_LINE_MS, AUDIO_SEND_INTERVAL_MS, BACKEND_URL } from "./config";
+import { passcodeHeaders } from "./passcode";
 
 export type CallInfo = {
   id: string;
@@ -53,7 +54,9 @@ export async function playCall(
 ): Promise<CallController> {
   // Using the call's own sample rate means the browser doesn't resample it.
   const context = new AudioContext({ sampleRate: call.sample_rate });
-  const response = await fetch(`${BACKEND_URL}/calls/${call.id}/audio`);
+  const response = await fetch(`${BACKEND_URL}/calls/${call.id}/audio`, {
+    headers: passcodeHeaders(),
+  });
   const audio = await context.decodeAudioData(await response.arrayBuffer());
 
   // Each channel goes to both ears. The caller has its own volume so that it

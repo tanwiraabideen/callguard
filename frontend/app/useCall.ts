@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import {
   CALLER_DUCK_LEVEL,
   BACKEND_URL,
+  KEEPALIVE_INTERVAL_MS,
   RECONNECT_DELAY_MS,
   WEBSOCKET_URL,
 } from "../lib/config";
@@ -16,6 +17,7 @@ import {
   type EndReason,
 } from "../lib/callPlayer";
 import { startMicCall } from "../lib/micCall";
+import { getPasscode, passcodeHeaders, setPasscode } from "../lib/passcode";
 import { SpeechPlayer, type SpeechMessage } from "../lib/speechPlayer";
 import type { Alert } from "./AlertList";
 import type { RiskPoint } from "./RiskChart";
@@ -50,6 +52,8 @@ export function useCall() {
   const [alerts, setAlerts] = useState<Alert[]>([]);
   const [trace, setTrace] = useState<TraceEntry[]>([]);
   const [summary, setSummary] = useState<CallSummary | null>(null);
+  const [needsPasscode, setNeedsPasscode] = useState(false);
+  const [passcodeError, setPasscodeError] = useState("");
 
   const socketRef = useRef<WebSocket | null>(null);
   const controllerRef = useRef<CallController | null>(null);
@@ -57,6 +61,7 @@ export function useCall() {
   const secondsPlayedRef = useRef(0);
   const speakingAsUserRef = useRef(false);
   const agentTakingOverRef = useRef(false);
+  const authenticatedRef = useRef(false);
 
   function addToLog(line: string) {
     const time = new Date().toLocaleTimeString();
@@ -67,6 +72,32 @@ export function useCall() {
     socketRef.current?.send(
       JSON.stringify({ type: "ping", sent_at: performance.now() }),
     );
+  }
+
+  function sendPasscode() {
+    socketRef.current?.send(JSON.stringify({ type: "auth", passcode: getPasscode() }));
+  }
+
+  function submitPasscode(passcode: string) {
+    setPasscode(passcode);
+    setPasscodeError("");
+    setNeedsPasscode(false);
+    if (socketRef.current?.readyState === WebSocket.OPEN) {
+      sendPasscode();
+    }
+    // Otherwise the next connection uses it automatically.
+  }
+
+  async function loadCalls() {
+    try {
+      const response = await fetch(`${BACKEND_URL}/calls`, { headers: passcodeHeaders() });
+      if (!response.ok) return;
+      const body: CallInfo[] = await response.json();
+      setCalls(body);
+      setSelectedId((current) => current || body[0]?.id || "");
+    } catch {
+      setCalls([]);
+    }
   }
 
   function updatePlayed(seconds: number) {
@@ -177,6 +208,26 @@ export function useCall() {
   function handleMessage(raw: string) {
     const message = JSON.parse(raw);
     switch (message.type) {
+      case "auth_required":
+        if (getPasscode()) {
+          sendPasscode();
+        } else {
+          setNeedsPasscode(true);
+        }
+        break;
+      case "auth_failed":
+        setPasscode("");
+        setNeedsPasscode(true);
+        setPasscodeError("That passcode didn't work. Please try again.");
+        break;
+      case "connected":
+        authenticatedRef.current = true;
+        setSocketStatus("connected");
+        setNeedsPasscode(false);
+        setPasscodeError("");
+        loadCalls();
+        sendPing();
+        break;
       case "pong": {
         const roundTrip = performance.now() - message.sent_at;
         addToLog(`pong received in ${roundTrip.toFixed(1)} ms`);
@@ -280,32 +331,25 @@ export function useCall() {
       }
     }
 
-    async function loadCalls() {
-      try {
-        const response = await fetch(`${BACKEND_URL}/calls`);
-        const body: CallInfo[] = await response.json();
-        setCalls(body);
-        setSelectedId((current) => current || body[0]?.id || "");
-      } catch {
-        setCalls([]);
-      }
-    }
-
     function connect() {
       setSocketStatus("connecting");
       const socket = new WebSocket(WEBSOCKET_URL);
       socketRef.current = socket;
 
-      socket.onopen = () => {
-        setSocketStatus("connected");
-        checkHealth();
-        loadCalls();
-        socket.send(JSON.stringify({ type: "ping", sent_at: performance.now() }));
-      };
+      // The backend says "connected" once any passcode check has passed.
+      socket.onopen = () => checkHealth();
+
+      const keepAlive = setInterval(() => {
+        if (authenticatedRef.current && socket.readyState === WebSocket.OPEN) {
+          socket.send(JSON.stringify({ type: "keepalive" }));
+        }
+      }, KEEPALIVE_INTERVAL_MS);
 
       socket.onmessage = (event) => handleMessageRef.current(event.data);
 
       socket.onclose = () => {
+        clearInterval(keepAlive);
+        authenticatedRef.current = false;
         if (stopped) return;
         setSocketStatus("disconnected");
         checkHealth();
@@ -346,6 +390,9 @@ export function useCall() {
     alerts,
     trace,
     summary,
+    needsPasscode,
+    passcodeError,
+    submitPasscode,
     sendPing,
     playSelectedCall,
     startLiveCall,

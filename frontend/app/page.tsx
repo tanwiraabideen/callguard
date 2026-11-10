@@ -1,6 +1,7 @@
 "use client";
 
 import { AlertList } from "./AlertList";
+import { PasscodeForm } from "./PasscodeForm";
 import { RiskChart } from "./RiskChart";
 import { RiskPanel } from "./RiskPanel";
 import { SummaryCard } from "./SummaryCard";
@@ -12,6 +13,10 @@ export default function Home() {
   const call = useCall();
   const isIdle = call.callStatus === "idle";
   const isConnected = call.socketStatus === "connected";
+
+  if (call.needsPasscode) {
+    return <PasscodeForm error={call.passcodeError} onSubmit={call.submitPasscode} />;
+  }
 
   return (
     <main style={{ display: "flex", flexWrap: "wrap", gap: 32 }}>

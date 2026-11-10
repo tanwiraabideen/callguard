@@ -109,8 +109,11 @@ class Settings(BaseSettings):
     langsmith_api_key: str = ""
     langsmith_project: str = "callguard"
 
-    # Live microphone calls
-    live_call_max_seconds: float = 180.0
+    # Protecting the hosted demo
+    demo_passcode: str = ""  # empty means no passcode is asked for
+    auth_timeout_seconds: float = 30.0  # wait for the passcode after connecting
+    auth_failure_delay_seconds: float = 1.0
+    max_call_seconds: float = 180.0  # applies to every call
 
     @property
     def cors_origin_list(self) -> list[str]:

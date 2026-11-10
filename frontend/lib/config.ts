@@ -8,6 +8,9 @@ export const WEBSOCKET_URL = `${BACKEND_URL.replace(/^http/, "ws")}/ws`;
 
 export const RECONNECT_DELAY_MS = 2000;
 
+// Heroku closes a connection after 55 seconds with no traffic.
+export const KEEPALIVE_INTERVAL_MS = 25000;
+
 // How often the browser sends the audio it has played so far to the backend.
 export const AUDIO_SEND_INTERVAL_MS = 100;
 

@@ -42,7 +42,6 @@ class CallSession:
         self.alerts = AlertManager()
         self.agent: AgentController | None = None
         self.speech_tasks: set[asyncio.Task] = set()
-        self.max_seconds: float | None = None
         self.limit_reached = False
         self.bytes_received = 0
         self.next_progress_seconds = 0.0
@@ -72,6 +71,8 @@ class CallSession:
             await self.send(
                 {"type": "pong", "sent_at": message.get("sent_at"), "server_time": time.time()}
             )
+        elif message_type == "keepalive":
+            pass  # any traffic stops the host from closing an idle connection
         elif message_type == "call_start":
             await self.start_call(message.get("call_id"))
         elif message_type == "call_end":
@@ -95,7 +96,6 @@ class CallSession:
         call = None if is_live else calls[call_id]
         self.call_id = call_id
         self.title = "Live call" if is_live else call["title"]
-        self.max_seconds = settings.live_call_max_seconds if is_live else None
         self.limit_reached = False
         self.bytes_received = 0
         self.next_progress_seconds = settings.audio_progress_interval_seconds
@@ -112,7 +112,7 @@ class CallSession:
                 "transcription_mode": settings.active_transcription_mode,
                 "llm_mode": settings.llm_model if settings.llm_active else "off (rules only)",
                 "agent_mode": settings.agent_model if settings.agent_llm_active else "fixed policy",
-                "max_seconds": self.max_seconds,
+                "max_seconds": settings.max_call_seconds,
                 "medium_threshold": settings.risk_medium_threshold,
                 "high_threshold": settings.risk_high_threshold,
             }
@@ -183,9 +183,9 @@ class CallSession:
             )
 
         self.agent.check_silence(self.seconds_received)
-        if self.max_seconds is not None and self.seconds_received >= self.max_seconds:
+        if self.seconds_received >= settings.max_call_seconds:
             self.limit_reached = True
-            await self.send({"type": "call_limit_reached", "seconds": self.max_seconds})
+            await self.send({"type": "call_limit_reached", "seconds": settings.max_call_seconds})
 
     async def send_segment(self, segment: dict) -> None:
         await self.send_if_connected({"type": "transcript", **segment})
