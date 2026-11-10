@@ -1,0 +1,21 @@
+{
+  "id": "parcel_redelivery_fee",
+  "title": "Parcel redelivery fee scam",
+  "label": "scam",
+  "turns": [
+    {"speaker": "caller", "text": "Good morning, this is Adam calling from Swift Parcel Delivery. We tried to drop off a parcel for you yesterday, but nobody was home."},
+    {"speaker": "user", "text": "Oh right. I wasn't expecting anything, but it could be a birthday present."},
+    {"speaker": "caller", "text": "That'll be it. It's being held at our depot. There's just a small redelivery fee of one pound forty-five so that our driver can bring it tomorrow."},
+    {"speaker": "user", "text": "Okay, that's not much. Can I pay when it arrives?"},
+    {"speaker": "caller", "first_red_flag": true, "text": "I'm afraid it has to be paid now, or the parcel goes back to the sender at midnight tonight. I can take your card details over the phone."},
+    {"speaker": "user", "trigger": true, "text": "Hang on, let me grab a pen."},
+    {"speaker": "caller", "text": "Of course. So I just need the long number on the card, the expiry date and the three digits on the back."},
+    {"speaker": "user", "text": "Is it safe to give that over the phone?"},
+    {"speaker": "caller", "text": "It's completely secure, this line is encrypted. You'll also get a text message with a six digit code in a moment. I'll need you to read that to me as well, to confirm the payment."},
+    {"speaker": "user", "text": "Why would you need a code for one pound forty-five?"},
+    {"speaker": "caller", "gap_ms": -500, "text": "It's only our security check, it takes two seconds. The driver's schedule closes in a few minutes, so we do need to do this right now."},
+    {"speaker": "user", "trigger": true, "text": "Hold on, let me find my glasses."},
+    {"speaker": "caller", "text": "No problem, I'll wait, but please be quick. Have you got the card in front of you?"},
+    {"speaker": "user", "text": "Yes, I've got it here."}
+  ]
+}

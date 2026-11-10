@@ -1,0 +1,1227 @@
+{
+  "id": "hmrc_tax_threat",
+  "title": "HMRC tax threat scam",
+  "label": "scam",
+  "duration_seconds": 72.724,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "This is Officer James Carter from HM Revenue and Customs. Is that Mrs Thompson?",
+      "start": 0.0,
+      "end": 5.48,
+      "words": [
+        {
+          "word": "This",
+          "start": 0.0,
+          "end": 0.221
+        },
+        {
+          "word": "is",
+          "start": 0.29,
+          "end": 0.372
+        },
+        {
+          "word": "Officer",
+          "start": 0.43,
+          "end": 0.766
+        },
+        {
+          "word": "James",
+          "start": 0.836,
+          "end": 1.161
+        },
+        {
+          "word": "Carter",
+          "start": 1.207,
+          "end": 1.602
+        },
+        {
+          "word": "from",
+          "start": 1.66,
+          "end": 1.8
+        },
+        {
+          "word": "HM",
+          "start": 1.881,
+          "end": 2.264
+        },
+        {
+          "word": "Revenue",
+          "start": 2.345,
+          "end": 2.717
+        },
+        {
+          "word": "and",
+          "start": 2.74,
+          "end": 2.821
+        },
+        {
+          "word": "Customs.",
+          "start": 2.879,
+          "end": 3.541
+        },
+        {
+          "word": "Is",
+          "start": 3.982,
+          "end": 4.122
+        },
+        {
+          "word": "that",
+          "start": 4.156,
+          "end": 4.284
+        },
+        {
+          "word": "Mrs",
+          "start": 4.342,
+          "end": 4.586
+        },
+        {
+          "word": "Thompson?",
+          "start": 4.644,
+          "end": 5.48
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Yes. Sorry, who did you say you were?",
+      "start": 5.83,
+      "end": 7.966,
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 5.83,
+          "end": 6.294
+        },
+        {
+          "word": "Sorry,",
+          "start": 6.445,
+          "end": 6.805
+        },
+        {
+          "word": "who",
+          "start": 6.828,
+          "end": 6.968
+        },
+        {
+          "word": "did",
+          "start": 7.014,
+          "end": 7.119
+        },
+        {
+          "word": "you",
+          "start": 7.165,
+          "end": 7.235
+        },
+        {
+          "word": "say",
+          "start": 7.281,
+          "end": 7.409
+        },
+        {
+          "word": "you",
+          "start": 7.444,
+          "end": 7.513
+        },
+        {
+          "word": "were?",
+          "start": 7.56,
+          "end": 7.966
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "HM Revenue and Customs, the enforcement division. Our records show you underpaid your tax by two thousand, three hundred pounds over the last three years.",
+      "start": 8.316,
+      "end": 17.697,
+      "words": [
+        {
+          "word": "HM",
+          "start": 8.316,
+          "end": 8.746
+        },
+        {
+          "word": "Revenue",
+          "start": 8.815,
+          "end": 9.175
+        },
+        {
+          "word": "and",
+          "start": 9.198,
+          "end": 9.28
+        },
+        {
+          "word": "Customs,",
+          "start": 9.349,
+          "end": 9.965
+        },
+        {
+          "word": "the",
+          "start": 10.046,
+          "end": 10.15
+        },
+        {
+          "word": "enforcement",
+          "start": 10.208,
+          "end": 10.754
+        },
+        {
+          "word": "division.",
+          "start": 10.789,
+          "end": 11.323
+        },
+        {
+          "word": "Our",
+          "start": 11.764,
+          "end": 11.962
+        },
+        {
+          "word": "records",
+          "start": 12.02,
+          "end": 12.391
+        },
+        {
+          "word": "show",
+          "start": 12.426,
+          "end": 12.6
+        },
+        {
+          "word": "you",
+          "start": 12.67,
+          "end": 12.751
+        },
+        {
+          "word": "underpaid",
+          "start": 12.867,
+          "end": 13.355
+        },
+        {
+          "word": "your",
+          "start": 13.401,
+          "end": 13.54
+        },
+        {
+          "word": "tax",
+          "start": 13.587,
+          "end": 13.912
+        },
+        {
+          "word": "by",
+          "start": 13.982,
+          "end": 14.121
+        },
+        {
+          "word": "two",
+          "start": 14.179,
+          "end": 14.342
+        },
+        {
+          "word": "thousand,",
+          "start": 14.411,
+          "end": 14.818
+        },
+        {
+          "word": "three",
+          "start": 14.841,
+          "end": 15.061
+        },
+        {
+          "word": "hundred",
+          "start": 15.096,
+          "end": 15.352
+        },
+        {
+          "word": "pounds",
+          "start": 15.398,
+          "end": 15.839
+        },
+        {
+          "word": "over",
+          "start": 16.048,
+          "end": 16.269
+        },
+        {
+          "word": "the",
+          "start": 16.304,
+          "end": 16.373
+        },
+        {
+          "word": "last",
+          "start": 16.42,
+          "end": 16.64
+        },
+        {
+          "word": "three",
+          "start": 16.687,
+          "end": 16.907
+        },
+        {
+          "word": "years.",
+          "start": 16.954,
+          "end": 17.697
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "That can't be right. My accountant handles all of that.",
+      "start": 18.047,
+      "end": 21.437,
+      "words": [
+        {
+          "word": "That",
+          "start": 18.047,
+          "end": 18.302
+        },
+        {
+          "word": "can't",
+          "start": 18.36,
+          "end": 18.627
+        },
+        {
+          "word": "be",
+          "start": 18.674,
+          "end": 18.778
+        },
+        {
+          "word": "right.",
+          "start": 18.848,
+          "end": 19.278
+        },
+        {
+          "word": "My",
+          "start": 19.603,
+          "end": 19.777
+        },
+        {
+          "word": "accountant",
+          "start": 19.812,
+          "end": 20.288
+        },
+        {
+          "word": "handles",
+          "start": 20.346,
+          "end": 20.694
+        },
+        {
+          "word": "all",
+          "start": 20.741,
+          "end": 20.857
+        },
+        {
+          "word": "of",
+          "start": 20.903,
+          "end": 20.949
+        },
+        {
+          "word": "that.",
+          "start": 20.996,
+          "end": 21.437
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "first_red_flag": true,
+      "text": "A case has been opened against you, madam. Unless this is settled today, a warrant will be issued and officers will come to your home.",
+      "start": 21.787,
+      "end": 28.939,
+      "words": [
+        {
+          "word": "A",
+          "start": 21.787,
+          "end": 21.88
+        },
+        {
+          "word": "case",
+          "start": 21.961,
+          "end": 22.251
+        },
+        {
+          "word": "has",
+          "start": 22.286,
+          "end": 22.379
+        },
+        {
+          "word": "been",
+          "start": 22.426,
+          "end": 22.6
+        },
+        {
+          "word": "opened",
+          "start": 22.658,
+          "end": 22.983
+        },
+        {
+          "word": "against",
+          "start": 23.006,
+          "end": 23.331
+        },
+        {
+          "word": "you,",
+          "start": 23.378,
+          "end": 23.505
+        },
+        {
+          "word": "madam.",
+          "start": 23.528,
+          "end": 23.935
+        },
+        {
+          "word": "Unless",
+          "start": 24.179,
+          "end": 24.504
+        },
+        {
+          "word": "this",
+          "start": 24.539,
+          "end": 24.678
+        },
+        {
+          "word": "is",
+          "start": 24.736,
+          "end": 24.817
+        },
+        {
+          "word": "settled",
+          "start": 24.864,
+          "end": 25.2
+        },
+        {
+          "word": "today,",
+          "start": 25.224,
+          "end": 25.723
+        },
+        {
+          "word": "a",
+          "start": 25.816,
+          "end": 25.885
+        },
+        {
+          "word": "warrant",
+          "start": 25.967,
+          "end": 26.28
+        },
+        {
+          "word": "will",
+          "start": 26.315,
+          "end": 26.454
+        },
+        {
+          "word": "be",
+          "start": 26.501,
+          "end": 26.57
+        },
+        {
+          "word": "issued",
+          "start": 26.628,
+          "end": 26.977
+        },
+        {
+          "word": "and",
+          "start": 27.023,
+          "end": 27.116
+        },
+        {
+          "word": "officers",
+          "start": 27.186,
+          "end": 27.592
+        },
+        {
+          "word": "will",
+          "start": 27.638,
+          "end": 27.778
+        },
+        {
+          "word": "come",
+          "start": 27.824,
+          "end": 27.987
+        },
+        {
+          "word": "to",
+          "start": 28.022,
+          "end": 28.068
+        },
+        {
+          "word": "your",
+          "start": 28.126,
+          "end": 28.254
+        },
+        {
+          "word": "home.",
+          "start": 28.312,
+          "end": 28.939
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "A warrant? For tax? Can you send me a letter so I can look at it?",
+      "start": 29.289,
+      "end": 33.515,
+      "words": [
+        {
+          "word": "A",
+          "start": 29.289,
+          "end": 29.405
+        },
+        {
+          "word": "warrant?",
+          "start": 29.498,
+          "end": 30.09
+        },
+        {
+          "word": "For",
+          "start": 30.206,
+          "end": 30.357
+        },
+        {
+          "word": "tax?",
+          "start": 30.415,
+          "end": 30.938
+        },
+        {
+          "word": "Can",
+          "start": 31.147,
+          "end": 31.286
+        },
+        {
+          "word": "you",
+          "start": 31.344,
+          "end": 31.414
+        },
+        {
+          "word": "send",
+          "start": 31.46,
+          "end": 31.623
+        },
+        {
+          "word": "me",
+          "start": 31.669,
+          "end": 31.739
+        },
+        {
+          "word": "a",
+          "start": 31.785,
+          "end": 31.82
+        },
+        {
+          "word": "letter",
+          "start": 31.878,
+          "end": 32.168
+        },
+        {
+          "word": "so",
+          "start": 32.215,
+          "end": 32.296
+        },
+        {
+          "word": "I",
+          "start": 32.377,
+          "end": 32.4
+        },
+        {
+          "word": "can",
+          "start": 32.447,
+          "end": 32.563
+        },
+        {
+          "word": "look",
+          "start": 32.621,
+          "end": 32.772
+        },
+        {
+          "word": "at",
+          "start": 32.807,
+          "end": 32.888
+        },
+        {
+          "word": "it?",
+          "start": 32.969,
+          "end": 33.515
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "gap_ms": -700,
+      "text": "The letters were already sent and you ignored them. We are past that stage now. Do not speak to your accountant about this, it is a confidential legal matter.",
+      "start": 32.815,
+      "end": 41.592,
+      "words": [
+        {
+          "word": "The",
+          "start": 32.815,
+          "end": 32.966
+        },
+        {
+          "word": "letters",
+          "start": 33.024,
+          "end": 33.314
+        },
+        {
+          "word": "were",
+          "start": 33.349,
+          "end": 33.477
+        },
+        {
+          "word": "already",
+          "start": 33.512,
+          "end": 33.825
+        },
+        {
+          "word": "sent",
+          "start": 33.883,
+          "end": 34.173
+        },
+        {
+          "word": "and",
+          "start": 34.231,
+          "end": 34.336
+        },
+        {
+          "word": "you",
+          "start": 34.382,
+          "end": 34.452
+        },
+        {
+          "word": "ignored",
+          "start": 34.51,
+          "end": 34.858
+        },
+        {
+          "word": "them.",
+          "start": 34.893,
+          "end": 35.218
+        },
+        {
+          "word": "We",
+          "start": 35.729,
+          "end": 35.845
+        },
+        {
+          "word": "are",
+          "start": 35.88,
+          "end": 35.973
+        },
+        {
+          "word": "past",
+          "start": 36.008,
+          "end": 36.275
+        },
+        {
+          "word": "that",
+          "start": 36.31,
+          "end": 36.449
+        },
+        {
+          "word": "stage",
+          "start": 36.507,
+          "end": 36.867
+        },
+        {
+          "word": "now.",
+          "start": 36.913,
+          "end": 37.285
+        },
+        {
+          "word": "Do",
+          "start": 37.459,
+          "end": 37.575
+        },
+        {
+          "word": "not",
+          "start": 37.633,
+          "end": 37.738
+        },
+        {
+          "word": "speak",
+          "start": 37.784,
+          "end": 38.028
+        },
+        {
+          "word": "to",
+          "start": 38.063,
+          "end": 38.109
+        },
+        {
+          "word": "your",
+          "start": 38.156,
+          "end": 38.283
+        },
+        {
+          "word": "accountant",
+          "start": 38.33,
+          "end": 38.771
+        },
+        {
+          "word": "about",
+          "start": 38.806,
+          "end": 39.026
+        },
+        {
+          "word": "this,",
+          "start": 39.061,
+          "end": 39.386
+        },
+        {
+          "word": "it",
+          "start": 39.56,
+          "end": 39.676
+        },
+        {
+          "word": "is",
+          "start": 39.711,
+          "end": 39.793
+        },
+        {
+          "word": "a",
+          "start": 39.827,
+          "end": 39.851
+        },
+        {
+          "word": "confidential",
+          "start": 39.897,
+          "end": 40.478
+        },
+        {
+          "word": "legal",
+          "start": 40.547,
+          "end": 40.826
+        },
+        {
+          "word": "matter.",
+          "start": 40.884,
+          "end": 41.592
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hang on, let me grab a pen.",
+      "start": 41.942,
+      "end": 43.475,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 41.942,
+          "end": 42.139
+        },
+        {
+          "word": "on,",
+          "start": 42.197,
+          "end": 42.302
+        },
+        {
+          "word": "let",
+          "start": 42.337,
+          "end": 42.441
+        },
+        {
+          "word": "me",
+          "start": 42.476,
+          "end": 42.546
+        },
+        {
+          "word": "grab",
+          "start": 42.581,
+          "end": 42.743
+        },
+        {
+          "word": "a",
+          "start": 42.801,
+          "end": 42.824
+        },
+        {
+          "word": "pen.",
+          "start": 42.882,
+          "end": 43.475
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Yes, write this down. You will need to pay the full amount today using gift vouchers, which you can buy at any supermarket.",
+      "start": 43.825,
+      "end": 50.466,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 43.825,
+          "end": 44.208
+        },
+        {
+          "word": "write",
+          "start": 44.255,
+          "end": 44.498
+        },
+        {
+          "word": "this",
+          "start": 44.522,
+          "end": 44.661
+        },
+        {
+          "word": "down.",
+          "start": 44.719,
+          "end": 45.125
+        },
+        {
+          "word": "You",
+          "start": 45.404,
+          "end": 45.508
+        },
+        {
+          "word": "will",
+          "start": 45.543,
+          "end": 45.648
+        },
+        {
+          "word": "need",
+          "start": 45.683,
+          "end": 45.81
+        },
+        {
+          "word": "to",
+          "start": 45.834,
+          "end": 45.88
+        },
+        {
+          "word": "pay",
+          "start": 45.926,
+          "end": 46.066
+        },
+        {
+          "word": "the",
+          "start": 46.124,
+          "end": 46.193
+        },
+        {
+          "word": "full",
+          "start": 46.24,
+          "end": 46.391
+        },
+        {
+          "word": "amount",
+          "start": 46.426,
+          "end": 46.669
+        },
+        {
+          "word": "today",
+          "start": 46.704,
+          "end": 47.006
+        },
+        {
+          "word": "using",
+          "start": 47.099,
+          "end": 47.354
+        },
+        {
+          "word": "gift",
+          "start": 47.412,
+          "end": 47.633
+        },
+        {
+          "word": "vouchers,",
+          "start": 47.68,
+          "end": 48.237
+        },
+        {
+          "word": "which",
+          "start": 48.411,
+          "end": 48.585
+        },
+        {
+          "word": "you",
+          "start": 48.62,
+          "end": 48.69
+        },
+        {
+          "word": "can",
+          "start": 48.724,
+          "end": 48.829
+        },
+        {
+          "word": "buy",
+          "start": 48.875,
+          "end": 49.073
+        },
+        {
+          "word": "at",
+          "start": 49.119,
+          "end": 49.2
+        },
+        {
+          "word": "any",
+          "start": 49.258,
+          "end": 49.421
+        },
+        {
+          "word": "supermarket.",
+          "start": 49.479,
+          "end": 50.466
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Gift vouchers? Why would the tax office want gift vouchers?",
+      "start": 50.816,
+      "end": 54.299,
+      "words": [
+        {
+          "word": "Gift",
+          "start": 50.816,
+          "end": 51.095
+        },
+        {
+          "word": "vouchers?",
+          "start": 51.129,
+          "end": 51.652
+        },
+        {
+          "word": "Why",
+          "start": 51.78,
+          "end": 51.942
+        },
+        {
+          "word": "would",
+          "start": 51.989,
+          "end": 52.14
+        },
+        {
+          "word": "the",
+          "start": 52.163,
+          "end": 52.232
+        },
+        {
+          "word": "tax",
+          "start": 52.279,
+          "end": 52.569
+        },
+        {
+          "word": "office",
+          "start": 52.627,
+          "end": 52.906
+        },
+        {
+          "word": "want",
+          "start": 52.941,
+          "end": 53.126
+        },
+        {
+          "word": "gift",
+          "start": 53.184,
+          "end": 53.405
+        },
+        {
+          "word": "vouchers?",
+          "start": 53.44,
+          "end": 54.299
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "gap_ms": -400,
+      "text": "It is a special government settlement process. You buy them, then read me the codes on the back. Stay on this line while you go to the shop.",
+      "start": 53.899,
+      "end": 61.654,
+      "words": [
+        {
+          "word": "It",
+          "start": 53.899,
+          "end": 54.05
+        },
+        {
+          "word": "is",
+          "start": 54.096,
+          "end": 54.189
+        },
+        {
+          "word": "a",
+          "start": 54.224,
+          "end": 54.259
+        },
+        {
+          "word": "special",
+          "start": 54.294,
+          "end": 54.677
+        },
+        {
+          "word": "government",
+          "start": 54.747,
+          "end": 55.13
+        },
+        {
+          "word": "settlement",
+          "start": 55.188,
+          "end": 55.617
+        },
+        {
+          "word": "process.",
+          "start": 55.664,
+          "end": 56.395
+        },
+        {
+          "word": "You",
+          "start": 56.906,
+          "end": 57.045
+        },
+        {
+          "word": "buy",
+          "start": 57.115,
+          "end": 57.278
+        },
+        {
+          "word": "them,",
+          "start": 57.347,
+          "end": 57.603
+        },
+        {
+          "word": "then",
+          "start": 57.684,
+          "end": 57.846
+        },
+        {
+          "word": "read",
+          "start": 57.916,
+          "end": 58.09
+        },
+        {
+          "word": "me",
+          "start": 58.137,
+          "end": 58.218
+        },
+        {
+          "word": "the",
+          "start": 58.253,
+          "end": 58.322
+        },
+        {
+          "word": "codes",
+          "start": 58.38,
+          "end": 58.717
+        },
+        {
+          "word": "on",
+          "start": 58.752,
+          "end": 58.822
+        },
+        {
+          "word": "the",
+          "start": 58.856,
+          "end": 58.926
+        },
+        {
+          "word": "back.",
+          "start": 58.973,
+          "end": 59.356
+        },
+        {
+          "word": "Stay",
+          "start": 59.449,
+          "end": 59.681
+        },
+        {
+          "word": "on",
+          "start": 59.727,
+          "end": 59.797
+        },
+        {
+          "word": "this",
+          "start": 59.843,
+          "end": 59.983
+        },
+        {
+          "word": "line",
+          "start": 60.052,
+          "end": 60.284
+        },
+        {
+          "word": "while",
+          "start": 60.308,
+          "end": 60.447
+        },
+        {
+          "word": "you",
+          "start": 60.482,
+          "end": 60.552
+        },
+        {
+          "word": "go",
+          "start": 60.61,
+          "end": 60.702
+        },
+        {
+          "word": "to",
+          "start": 60.76,
+          "end": 60.819
+        },
+        {
+          "word": "the",
+          "start": 60.877,
+          "end": 60.946
+        },
+        {
+          "word": "shop.",
+          "start": 60.981,
+          "end": 61.654
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hold on, let me find my glasses.",
+      "start": 62.004,
+      "end": 64.094,
+      "words": [
+        {
+          "word": "Hold",
+          "start": 62.004,
+          "end": 62.283
+        },
+        {
+          "word": "on,",
+          "start": 62.341,
+          "end": 62.492
+        },
+        {
+          "word": "let",
+          "start": 62.526,
+          "end": 62.654
+        },
+        {
+          "word": "me",
+          "start": 62.701,
+          "end": 62.77
+        },
+        {
+          "word": "find",
+          "start": 62.817,
+          "end": 62.991
+        },
+        {
+          "word": "my",
+          "start": 63.037,
+          "end": 63.13
+        },
+        {
+          "word": "glasses.",
+          "start": 63.188,
+          "end": 64.094
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Mrs Thompson, if this call ends, the arrest goes ahead automatically. Do you understand me?",
+      "start": 64.444,
+      "end": 70.388,
+      "words": [
+        {
+          "word": "Mrs",
+          "start": 64.444,
+          "end": 64.746
+        },
+        {
+          "word": "Thompson,",
+          "start": 64.804,
+          "end": 65.199
+        },
+        {
+          "word": "if",
+          "start": 65.222,
+          "end": 65.338
+        },
+        {
+          "word": "this",
+          "start": 65.396,
+          "end": 65.559
+        },
+        {
+          "word": "call",
+          "start": 65.64,
+          "end": 65.884
+        },
+        {
+          "word": "ends,",
+          "start": 66.0,
+          "end": 66.394
+        },
+        {
+          "word": "the",
+          "start": 66.545,
+          "end": 66.65
+        },
+        {
+          "word": "arrest",
+          "start": 66.696,
+          "end": 67.033
+        },
+        {
+          "word": "goes",
+          "start": 67.091,
+          "end": 67.277
+        },
+        {
+          "word": "ahead",
+          "start": 67.323,
+          "end": 67.59
+        },
+        {
+          "word": "automatically.",
+          "start": 67.66,
+          "end": 68.554
+        },
+        {
+          "word": "Do",
+          "start": 69.065,
+          "end": 69.181
+        },
+        {
+          "word": "you",
+          "start": 69.239,
+          "end": 69.32
+        },
+        {
+          "word": "understand",
+          "start": 69.378,
+          "end": 69.854
+        },
+        {
+          "word": "me?",
+          "start": 69.924,
+          "end": 70.388
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Yes, I understand.",
+      "start": 70.738,
+      "end": 72.224,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 70.738,
+          "end": 71.098
+        },
+        {
+          "word": "I",
+          "start": 71.168,
+          "end": 71.226
+        },
+        {
+          "word": "understand.",
+          "start": 71.318,
+          "end": 72.224
+        }
+      ]
+    }
+  ]
+}

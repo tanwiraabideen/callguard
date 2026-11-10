@@ -1,0 +1,21 @@
+{
+  "id": "dentist_appointment",
+  "title": "Dentist appointment (legitimate)",
+  "label": "legit",
+  "turns": [
+    {"speaker": "caller", "text": "Hello, it's Tom calling from Riverside Dental Practice. Is that Emma?"},
+    {"speaker": "user", "text": "Yes, hi Tom."},
+    {"speaker": "caller", "text": "Hi Emma. I'm just calling to confirm your check-up with Doctor Shah next Tuesday, at half past two. Is that still okay for you?"},
+    {"speaker": "user", "text": "Let me think. I've got a meeting that afternoon, but I should be finished by two."},
+    {"speaker": "caller", "text": "Lovely. If anything changes, just give us a ring at least a day before, and we can move it for you."},
+    {"speaker": "user", "text": "Will do. Do I need to bring anything with me?"},
+    {"speaker": "caller", "text": "Only a list of any medication you're taking, if it's changed since your last visit. And it's worth arriving five minutes early, as we've got a new check-in screen at reception."},
+    {"speaker": "user", "text": "No problem. How long will it take, roughly?"},
+    {"speaker": "caller", "text": "About twenty minutes for the check-up. If you need a clean with the hygienist, we can usually book that on the same day."},
+    {"speaker": "user", "text": "Oh yes, I'd like that. I haven't had one for a while."},
+    {"speaker": "caller", "text": "I'll put a note on your file, and you can pay at the desk after your appointment, as usual."},
+    {"speaker": "user", "text": "Perfect. Thank you for calling."},
+    {"speaker": "caller", "text": "You're welcome, Emma. See you on Tuesday. Bye for now."},
+    {"speaker": "user", "text": "Bye."}
+  ]
+}

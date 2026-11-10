@@ -1,0 +1,23 @@
+{
+  "id": "bank_safe_account",
+  "title": "Bank \"safe account\" scam",
+  "label": "scam",
+  "turns": [
+    {"speaker": "caller", "text": "Hello, this is David from the fraud team at Northgate Bank. Am I speaking with Mrs Patel?"},
+    {"speaker": "user", "text": "Yes, speaking. Is something wrong?"},
+    {"speaker": "caller", "text": "I'm afraid so. We've just blocked a payment of nine hundred and forty pounds from your current account to someone in Manchester. Did you make that payment?"},
+    {"speaker": "user", "text": "No, I didn't. Oh gosh."},
+    {"speaker": "caller", "text": "Don't worry, you've done the right thing by answering. But whoever did this has access to your account, and they could empty it within the hour."},
+    {"speaker": "user", "text": "Should I call the number on the back of my card?"},
+    {"speaker": "caller", "gap_ms": -600, "first_red_flag": true, "text": "No, please don't hang up, the line could be compromised and we would lose the trace. I need you to act quickly."},
+    {"speaker": "user", "trigger": true, "text": "Hang on, let me grab a pen."},
+    {"speaker": "caller", "text": "There's no time for that, Mrs Patel. To secure your money, I need you to move it to a safe account we've set up in your name."},
+    {"speaker": "user", "text": "A safe account? Is that normal?"},
+    {"speaker": "caller", "text": "It's standard procedure. I've just sent a one-time code to your phone. Read it out to me so I can verify you."},
+    {"speaker": "user", "text": "It says not to share it with anyone."},
+    {"speaker": "caller", "gap_ms": -500, "text": "That message is for other people, not the bank's own fraud team. And please don't tell anyone at your branch about this, it could alert the criminals. What's the code?"},
+    {"speaker": "user", "trigger": true, "text": "Hold on, let me find my glasses."},
+    {"speaker": "caller", "text": "Mrs Patel, every second counts. If you don't give me that code now, you could lose everything."},
+    {"speaker": "user", "text": "Okay, I understand. One moment."}
+  ]
+}

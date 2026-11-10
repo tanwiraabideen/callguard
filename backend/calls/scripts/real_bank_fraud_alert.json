@@ -1,0 +1,20 @@
+{
+  "id": "real_bank_fraud_alert",
+  "title": "Real bank fraud alert (legitimate)",
+  "label": "legit",
+  "turns": [
+    {"speaker": "caller", "text": "Hello, this is Simon from the fraud prevention team at Northgate Bank. Am I speaking with Mrs Okafor?"},
+    {"speaker": "user", "text": "Yes. Is everything alright?"},
+    {"speaker": "caller", "text": "We've spotted some unusual activity on your debit card, and we've put a temporary block on it to protect you. Before I go on, we will never ask for your PIN, your passwords or a one-time code, and we'll never ask you to move money."},
+    {"speaker": "user", "text": "Okay, that's good to know. What happened?"},
+    {"speaker": "caller", "text": "There were two card payments last night to an online electronics shop, four hundred and twelve pounds in total. Do you recognise those?"},
+    {"speaker": "user", "text": "No, definitely not. I was asleep. That's really worrying."},
+    {"speaker": "caller", "text": "I understand, it is alarming. The good news is they were stopped, and you won't lose any money. We'll cancel that card and send a new one, which should reach you in three to five working days."},
+    {"speaker": "user", "text": "Hang on. How do I know this is really the bank?"},
+    {"speaker": "caller", "text": "That's a very sensible question. Please hang up and call the number on the back of your card whenever you're ready, and quote the reference ending seven two four. Any of my colleagues can confirm all of this."},
+    {"speaker": "user", "text": "Okay, thank you. Is there anything I need to do right now?"},
+    {"speaker": "caller", "text": "Nothing urgent. When you've got a moment, check your statement in the app, and tell us if anything else looks wrong. Take your time."},
+    {"speaker": "user", "text": "Great. Thanks for your help, Simon."},
+    {"speaker": "caller", "text": "You're welcome, Mrs Okafor. Take care. Goodbye."}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hmrc_tax_threat",
+  "title": "HMRC tax threat scam",
+  "label": "scam",
+  "turns": [
+    {"speaker": "caller", "text": "This is Officer James Carter from HM Revenue and Customs. Is that Mrs Thompson?"},
+    {"speaker": "user", "text": "Yes. Sorry, who did you say you were?"},
+    {"speaker": "caller", "text": "HM Revenue and Customs, the enforcement division. Our records show you underpaid your tax by two thousand, three hundred pounds over the last three years."},
+    {"speaker": "user", "text": "That can't be right. My accountant handles all of that."},
+    {"speaker": "caller", "first_red_flag": true, "text": "A case has been opened against you, madam. Unless this is settled today, a warrant will be issued and officers will come to your home."},
+    {"speaker": "user", "text": "A warrant? For tax? Can you send me a letter so I can look at it?"},
+    {"speaker": "caller", "gap_ms": -700, "text": "The letters were already sent and you ignored them. We are past that stage now. Do not speak to your accountant about this, it is a confidential legal matter."},
+    {"speaker": "user", "trigger": true, "text": "Hang on, let me grab a pen."},
+    {"speaker": "caller", "text": "Yes, write this down. You will need to pay the full amount today using gift vouchers, which you can buy at any supermarket."},
+    {"speaker": "user", "text": "Gift vouchers? Why would the tax office want gift vouchers?"},
+    {"speaker": "caller", "gap_ms": -400, "text": "It is a special government settlement process. You buy them, then read me the codes on the back. Stay on this line while you go to the shop."},
+    {"speaker": "user", "trigger": true, "text": "Hold on, let me find my glasses."},
+    {"speaker": "caller", "text": "Mrs Thompson, if this call ends, the arrest goes ahead automatically. Do you understand me?"},
+    {"speaker": "user", "text": "Yes, I understand."}
+  ]
+}

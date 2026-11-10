@@ -2,14 +2,24 @@
 
 import { useEffect, useRef, useState } from "react";
 import { BACKEND_URL, RECONNECT_DELAY_MS, WEBSOCKET_URL } from "../lib/config";
+import { playCall, type CallInfo } from "../lib/callPlayer";
 
 type SocketStatus = "connecting" | "connected" | "disconnected";
+type CallStatus = "idle" | "loading" | "playing";
 
 export default function Home() {
   const [socketStatus, setSocketStatus] = useState<SocketStatus>("connecting");
   const [health, setHealth] = useState("checking");
   const [log, setLog] = useState<string[]>([]);
+  const [calls, setCalls] = useState<CallInfo[]>([]);
+  const [selectedId, setSelectedId] = useState("");
+  const [callStatus, setCallStatus] = useState<CallStatus>("idle");
+  const [secondsPlayed, setSecondsPlayed] = useState(0);
+  const [secondsReceived, setSecondsReceived] = useState(0);
   const socketRef = useRef<WebSocket | null>(null);
+  const stopCallRef = useRef<(() => void) | null>(null);
+
+  const selectedCall = calls.find((call) => call.id === selectedId);
 
   function addToLog(line: string) {
     const time = new Date().toLocaleTimeString();
@@ -20,6 +30,29 @@ export default function Home() {
     socketRef.current?.send(
       JSON.stringify({ type: "ping", sent_at: performance.now() }),
     );
+  }
+
+  async function startCall() {
+    if (!selectedCall || !socketRef.current) return;
+    setCallStatus("loading");
+    setSecondsPlayed(0);
+    setSecondsReceived(0);
+    try {
+      stopCallRef.current = await playCall(
+        selectedCall,
+        socketRef.current,
+        setSecondsPlayed,
+        (reason) => {
+          stopCallRef.current = null;
+          setCallStatus("idle");
+          addToLog(`call ended in browser: ${reason}`);
+        },
+      );
+      setCallStatus("playing");
+    } catch (error) {
+      setCallStatus("idle");
+      addToLog(`could not play call: ${error}`);
+    }
   }
 
   useEffect(() => {
@@ -37,6 +70,17 @@ export default function Home() {
       }
     }
 
+    async function loadCalls() {
+      try {
+        const response = await fetch(`${BACKEND_URL}/calls`);
+        const body: CallInfo[] = await response.json();
+        setCalls(body);
+        setSelectedId((current) => current || body[0]?.id || "");
+      } catch {
+        setCalls([]);
+      }
+    }
+
     function connect() {
       setSocketStatus("connecting");
       const socket = new WebSocket(WEBSOCKET_URL);
@@ -45,6 +89,7 @@ export default function Home() {
       socket.onopen = () => {
         setSocketStatus("connected");
         checkHealth();
+        loadCalls();
         sendPing();
       };
 
@@ -53,7 +98,12 @@ export default function Home() {
         if (message.type === "pong") {
           const roundTrip = performance.now() - message.sent_at;
           addToLog(`pong received in ${roundTrip.toFixed(1)} ms`);
+        } else if (message.type === "audio_progress") {
+          setSecondsReceived(message.seconds_received);
         } else {
+          if (message.type === "call_ended") {
+            setSecondsReceived(message.seconds_received);
+          }
           addToLog(`received: ${event.data}`);
         }
       };
@@ -71,6 +121,7 @@ export default function Home() {
     return () => {
       stopped = true;
       clearTimeout(retryTimer);
+      stopCallRef.current?.();
       socketRef.current?.close();
     };
   }, []);
@@ -87,6 +138,45 @@ export default function Home() {
       <button onClick={sendPing} disabled={socketStatus !== "connected"}>
         Send ping
       </button>
+
+      <h2>Simulated call</h2>
+      <select
+        id="call-picker"
+        value={selectedId}
+        onChange={(event) => setSelectedId(event.target.value)}
+        disabled={callStatus !== "idle"}
+      >
+        {calls.map((call) => (
+          <option key={call.id} value={call.id}>
+            {call.title} ({Math.round(call.duration_seconds)}s)
+          </option>
+        ))}
+      </select>{" "}
+      {callStatus === "playing" ? (
+        <button id="stop-call" onClick={() => stopCallRef.current?.()}>
+          Stop
+        </button>
+      ) : (
+        <button
+          id="play-call"
+          onClick={startCall}
+          disabled={
+            socketStatus !== "connected" ||
+            !selectedCall ||
+            callStatus === "loading"
+          }
+        >
+          Play call
+        </button>
+      )}
+      <p>
+        Played in browser: <strong id="seconds-played">{secondsPlayed.toFixed(1)}s</strong>
+      </p>
+      <p>
+        Received by backend: <strong id="seconds-received">{secondsReceived.toFixed(1)}s</strong>
+      </p>
+
+      <h2>Log</h2>
       <pre id="log">{log.join("\n")}</pre>
     </main>
   );

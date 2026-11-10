@@ -1,0 +1,1326 @@
+{
+  "id": "parcel_redelivery_fee",
+  "title": "Parcel redelivery fee scam",
+  "label": "scam",
+  "duration_seconds": 75.717,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Good morning, this is Adam calling from Swift Parcel Delivery. We tried to drop off a parcel for you yesterday, but nobody was home.",
+      "start": 0.0,
+      "end": 7.802,
+      "words": [
+        {
+          "word": "Good",
+          "start": 0.0,
+          "end": 0.232
+        },
+        {
+          "word": "morning,",
+          "start": 0.279,
+          "end": 0.72
+        },
+        {
+          "word": "this",
+          "start": 0.801,
+          "end": 0.975
+        },
+        {
+          "word": "is",
+          "start": 1.022,
+          "end": 1.103
+        },
+        {
+          "word": "Adam",
+          "start": 1.173,
+          "end": 1.474
+        },
+        {
+          "word": "calling",
+          "start": 1.556,
+          "end": 1.869
+        },
+        {
+          "word": "from",
+          "start": 1.916,
+          "end": 2.043
+        },
+        {
+          "word": "Swift",
+          "start": 2.113,
+          "end": 2.38
+        },
+        {
+          "word": "Parcel",
+          "start": 2.438,
+          "end": 2.786
+        },
+        {
+          "word": "Delivery.",
+          "start": 2.844,
+          "end": 3.483
+        },
+        {
+          "word": "We",
+          "start": 3.994,
+          "end": 4.133
+        },
+        {
+          "word": "tried",
+          "start": 4.18,
+          "end": 4.412
+        },
+        {
+          "word": "to",
+          "start": 4.435,
+          "end": 4.493
+        },
+        {
+          "word": "drop",
+          "start": 4.54,
+          "end": 4.737
+        },
+        {
+          "word": "off",
+          "start": 4.783,
+          "end": 4.888
+        },
+        {
+          "word": "a",
+          "start": 4.934,
+          "end": 4.957
+        },
+        {
+          "word": "parcel",
+          "start": 5.016,
+          "end": 5.364
+        },
+        {
+          "word": "for",
+          "start": 5.433,
+          "end": 5.561
+        },
+        {
+          "word": "you",
+          "start": 5.619,
+          "end": 5.689
+        },
+        {
+          "word": "yesterday,",
+          "start": 5.759,
+          "end": 6.409
+        },
+        {
+          "word": "but",
+          "start": 6.49,
+          "end": 6.641
+        },
+        {
+          "word": "nobody",
+          "start": 6.676,
+          "end": 6.954
+        },
+        {
+          "word": "was",
+          "start": 6.989,
+          "end": 7.094
+        },
+        {
+          "word": "home.",
+          "start": 7.163,
+          "end": 7.802
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Oh right. I wasn't expecting anything, but it could be a birthday present.",
+      "start": 8.152,
+      "end": 12.889,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 8.152,
+          "end": 8.361
+        },
+        {
+          "word": "right.",
+          "start": 8.442,
+          "end": 9.034
+        },
+        {
+          "word": "I",
+          "start": 9.313,
+          "end": 9.371
+        },
+        {
+          "word": "wasn't",
+          "start": 9.464,
+          "end": 9.731
+        },
+        {
+          "word": "expecting",
+          "start": 9.777,
+          "end": 10.346
+        },
+        {
+          "word": "anything,",
+          "start": 10.393,
+          "end": 10.822
+        },
+        {
+          "word": "but",
+          "start": 10.88,
+          "end": 11.031
+        },
+        {
+          "word": "it",
+          "start": 11.078,
+          "end": 11.136
+        },
+        {
+          "word": "could",
+          "start": 11.182,
+          "end": 11.368
+        },
+        {
+          "word": "be",
+          "start": 11.414,
+          "end": 11.496
+        },
+        {
+          "word": "a",
+          "start": 11.531,
+          "end": 11.565
+        },
+        {
+          "word": "birthday",
+          "start": 11.623,
+          "end": 12.007
+        },
+        {
+          "word": "present.",
+          "start": 12.053,
+          "end": 12.889
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "That'll be it. It's being held at our depot. There's just a small redelivery fee of one pound forty-five so that our driver can bring it tomorrow.",
+      "start": 13.239,
+      "end": 21.969,
+      "words": [
+        {
+          "word": "That'll",
+          "start": 13.239,
+          "end": 13.587
+        },
+        {
+          "word": "be",
+          "start": 13.622,
+          "end": 13.703
+        },
+        {
+          "word": "it.",
+          "start": 13.75,
+          "end": 14.075
+        },
+        {
+          "word": "It's",
+          "start": 14.319,
+          "end": 14.504
+        },
+        {
+          "word": "being",
+          "start": 14.551,
+          "end": 14.748
+        },
+        {
+          "word": "held",
+          "start": 14.818,
+          "end": 15.039
+        },
+        {
+          "word": "at",
+          "start": 15.085,
+          "end": 15.155
+        },
+        {
+          "word": "our",
+          "start": 15.189,
+          "end": 15.294
+        },
+        {
+          "word": "depot.",
+          "start": 15.34,
+          "end": 15.886
+        },
+        {
+          "word": "There's",
+          "start": 16.49,
+          "end": 16.71
+        },
+        {
+          "word": "just",
+          "start": 16.745,
+          "end": 16.931
+        },
+        {
+          "word": "a",
+          "start": 16.966,
+          "end": 16.989
+        },
+        {
+          "word": "small",
+          "start": 17.059,
+          "end": 17.337
+        },
+        {
+          "word": "redelivery",
+          "start": 17.43,
+          "end": 17.964
+        },
+        {
+          "word": "fee",
+          "start": 18.034,
+          "end": 18.266
+        },
+        {
+          "word": "of",
+          "start": 18.301,
+          "end": 18.359
+        },
+        {
+          "word": "one",
+          "start": 18.44,
+          "end": 18.614
+        },
+        {
+          "word": "pound",
+          "start": 18.672,
+          "end": 18.928
+        },
+        {
+          "word": "forty-five",
+          "start": 18.998,
+          "end": 19.775
+        },
+        {
+          "word": "so",
+          "start": 19.903,
+          "end": 20.031
+        },
+        {
+          "word": "that",
+          "start": 20.077,
+          "end": 20.193
+        },
+        {
+          "word": "our",
+          "start": 20.24,
+          "end": 20.344
+        },
+        {
+          "word": "driver",
+          "start": 20.391,
+          "end": 20.693
+        },
+        {
+          "word": "can",
+          "start": 20.739,
+          "end": 20.844
+        },
+        {
+          "word": "bring",
+          "start": 20.89,
+          "end": 21.053
+        },
+        {
+          "word": "it",
+          "start": 21.099,
+          "end": 21.157
+        },
+        {
+          "word": "tomorrow.",
+          "start": 21.192,
+          "end": 21.97
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Okay, that's not much. Can I pay when it arrives?",
+      "start": 22.319,
+      "end": 25.384,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 22.319,
+          "end": 22.725
+        },
+        {
+          "word": "that's",
+          "start": 22.76,
+          "end": 23.004
+        },
+        {
+          "word": "not",
+          "start": 23.062,
+          "end": 23.213
+        },
+        {
+          "word": "much.",
+          "start": 23.271,
+          "end": 23.724
+        },
+        {
+          "word": "Can",
+          "start": 23.84,
+          "end": 23.991
+        },
+        {
+          "word": "I",
+          "start": 24.049,
+          "end": 24.072
+        },
+        {
+          "word": "pay",
+          "start": 24.153,
+          "end": 24.304
+        },
+        {
+          "word": "when",
+          "start": 24.339,
+          "end": 24.455
+        },
+        {
+          "word": "it",
+          "start": 24.502,
+          "end": 24.56
+        },
+        {
+          "word": "arrives?",
+          "start": 24.595,
+          "end": 25.384
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "first_red_flag": true,
+      "text": "I'm afraid it has to be paid now, or the parcel goes back to the sender at midnight tonight. I can take your card details over the phone.",
+      "start": 25.735,
+      "end": 33.954,
+      "words": [
+        {
+          "word": "I'm",
+          "start": 25.735,
+          "end": 25.931
+        },
+        {
+          "word": "afraid",
+          "start": 25.979,
+          "end": 26.314
+        },
+        {
+          "word": "it",
+          "start": 26.361,
+          "end": 26.431
+        },
+        {
+          "word": "has",
+          "start": 26.477,
+          "end": 26.605
+        },
+        {
+          "word": "to",
+          "start": 26.652,
+          "end": 26.698
+        },
+        {
+          "word": "be",
+          "start": 26.756,
+          "end": 26.838
+        },
+        {
+          "word": "paid",
+          "start": 26.884,
+          "end": 27.151
+        },
+        {
+          "word": "now,",
+          "start": 27.209,
+          "end": 27.604
+        },
+        {
+          "word": "or",
+          "start": 27.777,
+          "end": 27.893
+        },
+        {
+          "word": "the",
+          "start": 27.941,
+          "end": 28.011
+        },
+        {
+          "word": "parcel",
+          "start": 28.056,
+          "end": 28.44
+        },
+        {
+          "word": "goes",
+          "start": 28.498,
+          "end": 28.672
+        },
+        {
+          "word": "back",
+          "start": 28.718,
+          "end": 28.87
+        },
+        {
+          "word": "to",
+          "start": 28.916,
+          "end": 28.974
+        },
+        {
+          "word": "the",
+          "start": 29.044,
+          "end": 29.114
+        },
+        {
+          "word": "sender",
+          "start": 29.16,
+          "end": 29.473
+        },
+        {
+          "word": "at",
+          "start": 29.53,
+          "end": 29.601
+        },
+        {
+          "word": "midnight",
+          "start": 29.659,
+          "end": 30.066
+        },
+        {
+          "word": "tonight.",
+          "start": 30.099,
+          "end": 30.692
+        },
+        {
+          "word": "I",
+          "start": 31.389,
+          "end": 31.447
+        },
+        {
+          "word": "can",
+          "start": 31.527,
+          "end": 31.643
+        },
+        {
+          "word": "take",
+          "start": 31.691,
+          "end": 31.887
+        },
+        {
+          "word": "your",
+          "start": 31.922,
+          "end": 32.05
+        },
+        {
+          "word": "card",
+          "start": 32.108,
+          "end": 32.34
+        },
+        {
+          "word": "details",
+          "start": 32.388,
+          "end": 32.84
+        },
+        {
+          "word": "over",
+          "start": 32.91,
+          "end": 33.106
+        },
+        {
+          "word": "the",
+          "start": 33.142,
+          "end": 33.212
+        },
+        {
+          "word": "phone.",
+          "start": 33.246,
+          "end": 33.955
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hang on, let me grab a pen.",
+      "start": 34.304,
+      "end": 35.837,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 34.304,
+          "end": 34.513
+        },
+        {
+          "word": "on,",
+          "start": 34.559,
+          "end": 34.664
+        },
+        {
+          "word": "let",
+          "start": 34.687,
+          "end": 34.792
+        },
+        {
+          "word": "me",
+          "start": 34.826,
+          "end": 34.884
+        },
+        {
+          "word": "grab",
+          "start": 34.931,
+          "end": 35.093
+        },
+        {
+          "word": "a",
+          "start": 35.14,
+          "end": 35.163
+        },
+        {
+          "word": "pen.",
+          "start": 35.21,
+          "end": 35.837
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Of course. So I just need the long number on the card, the expiry date and the three digits on the back.",
+      "start": 36.187,
+      "end": 42.224,
+      "words": [
+        {
+          "word": "Of",
+          "start": 36.187,
+          "end": 36.326
+        },
+        {
+          "word": "course.",
+          "start": 36.396,
+          "end": 36.849
+        },
+        {
+          "word": "So",
+          "start": 37.023,
+          "end": 37.139
+        },
+        {
+          "word": "I",
+          "start": 37.209,
+          "end": 37.232
+        },
+        {
+          "word": "just",
+          "start": 37.302,
+          "end": 37.464
+        },
+        {
+          "word": "need",
+          "start": 37.511,
+          "end": 37.673
+        },
+        {
+          "word": "the",
+          "start": 37.708,
+          "end": 37.778
+        },
+        {
+          "word": "long",
+          "start": 37.824,
+          "end": 37.998
+        },
+        {
+          "word": "number",
+          "start": 38.056,
+          "end": 38.288
+        },
+        {
+          "word": "on",
+          "start": 38.358,
+          "end": 38.439
+        },
+        {
+          "word": "the",
+          "start": 38.474,
+          "end": 38.544
+        },
+        {
+          "word": "card,",
+          "start": 38.602,
+          "end": 39.043
+        },
+        {
+          "word": "the",
+          "start": 39.217,
+          "end": 39.333
+        },
+        {
+          "word": "expiry",
+          "start": 39.391,
+          "end": 39.937
+        },
+        {
+          "word": "date",
+          "start": 39.995,
+          "end": 40.285
+        },
+        {
+          "word": "and",
+          "start": 40.32,
+          "end": 40.448
+        },
+        {
+          "word": "the",
+          "start": 40.494,
+          "end": 40.564
+        },
+        {
+          "word": "three",
+          "start": 40.599,
+          "end": 40.819
+        },
+        {
+          "word": "digits",
+          "start": 40.877,
+          "end": 41.249
+        },
+        {
+          "word": "on",
+          "start": 41.295,
+          "end": 41.365
+        },
+        {
+          "word": "the",
+          "start": 41.411,
+          "end": 41.481
+        },
+        {
+          "word": "back.",
+          "start": 41.528,
+          "end": 42.224
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Is it safe to give that over the phone?",
+      "start": 42.574,
+      "end": 44.757,
+      "words": [
+        {
+          "word": "Is",
+          "start": 42.574,
+          "end": 42.737
+        },
+        {
+          "word": "it",
+          "start": 42.795,
+          "end": 42.876
+        },
+        {
+          "word": "safe",
+          "start": 42.946,
+          "end": 43.236
+        },
+        {
+          "word": "to",
+          "start": 43.271,
+          "end": 43.329
+        },
+        {
+          "word": "give",
+          "start": 43.375,
+          "end": 43.526
+        },
+        {
+          "word": "that",
+          "start": 43.549,
+          "end": 43.689
+        },
+        {
+          "word": "over",
+          "start": 43.747,
+          "end": 43.909
+        },
+        {
+          "word": "the",
+          "start": 43.956,
+          "end": 44.025
+        },
+        {
+          "word": "phone?",
+          "start": 44.072,
+          "end": 44.757
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "It's completely secure, this line is encrypted. You'll also get a text message with a six digit code in a moment. I'll need you to read that to me as well, to confirm the payment.",
+      "start": 45.107,
+      "end": 55.277,
+      "words": [
+        {
+          "word": "It's",
+          "start": 45.107,
+          "end": 45.316
+        },
+        {
+          "word": "completely",
+          "start": 45.362,
+          "end": 45.78
+        },
+        {
+          "word": "secure,",
+          "start": 45.827,
+          "end": 46.361
+        },
+        {
+          "word": "this",
+          "start": 46.477,
+          "end": 46.64
+        },
+        {
+          "word": "line",
+          "start": 46.709,
+          "end": 46.93
+        },
+        {
+          "word": "is",
+          "start": 46.965,
+          "end": 47.034
+        },
+        {
+          "word": "encrypted.",
+          "start": 47.092,
+          "end": 47.719
+        },
+        {
+          "word": "You'll",
+          "start": 47.893,
+          "end": 48.091
+        },
+        {
+          "word": "also",
+          "start": 48.137,
+          "end": 48.369
+        },
+        {
+          "word": "get",
+          "start": 48.439,
+          "end": 48.567
+        },
+        {
+          "word": "a",
+          "start": 48.602,
+          "end": 48.625
+        },
+        {
+          "word": "text",
+          "start": 48.683,
+          "end": 48.95
+        },
+        {
+          "word": "message",
+          "start": 48.996,
+          "end": 49.391
+        },
+        {
+          "word": "with",
+          "start": 49.484,
+          "end": 49.658
+        },
+        {
+          "word": "a",
+          "start": 49.693,
+          "end": 49.716
+        },
+        {
+          "word": "six",
+          "start": 49.774,
+          "end": 49.995
+        },
+        {
+          "word": "digit",
+          "start": 50.064,
+          "end": 50.378
+        },
+        {
+          "word": "code",
+          "start": 50.448,
+          "end": 50.749
+        },
+        {
+          "word": "in",
+          "start": 50.773,
+          "end": 50.842
+        },
+        {
+          "word": "a",
+          "start": 50.877,
+          "end": 50.912
+        },
+        {
+          "word": "moment.",
+          "start": 50.958,
+          "end": 51.4
+        },
+        {
+          "word": "I'll",
+          "start": 51.841,
+          "end": 52.003
+        },
+        {
+          "word": "need",
+          "start": 52.038,
+          "end": 52.177
+        },
+        {
+          "word": "you",
+          "start": 52.212,
+          "end": 52.294
+        },
+        {
+          "word": "to",
+          "start": 52.34,
+          "end": 52.398
+        },
+        {
+          "word": "read",
+          "start": 52.468,
+          "end": 52.63
+        },
+        {
+          "word": "that",
+          "start": 52.665,
+          "end": 52.828
+        },
+        {
+          "word": "to",
+          "start": 52.874,
+          "end": 52.932
+        },
+        {
+          "word": "me",
+          "start": 53.002,
+          "end": 53.083
+        },
+        {
+          "word": "as",
+          "start": 53.141,
+          "end": 53.222
+        },
+        {
+          "word": "well,",
+          "start": 53.28,
+          "end": 53.698
+        },
+        {
+          "word": "to",
+          "start": 53.814,
+          "end": 53.907
+        },
+        {
+          "word": "confirm",
+          "start": 53.965,
+          "end": 54.372
+        },
+        {
+          "word": "the",
+          "start": 54.418,
+          "end": 54.488
+        },
+        {
+          "word": "payment.",
+          "start": 54.523,
+          "end": 55.277
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Why would you need a code for one pound forty-five?",
+      "start": 55.627,
+      "end": 58.878,
+      "words": [
+        {
+          "word": "Why",
+          "start": 55.627,
+          "end": 55.859
+        },
+        {
+          "word": "would",
+          "start": 55.906,
+          "end": 56.068
+        },
+        {
+          "word": "you",
+          "start": 56.115,
+          "end": 56.184
+        },
+        {
+          "word": "need",
+          "start": 56.231,
+          "end": 56.382
+        },
+        {
+          "word": "a",
+          "start": 56.428,
+          "end": 56.463
+        },
+        {
+          "word": "code",
+          "start": 56.544,
+          "end": 56.869
+        },
+        {
+          "word": "for",
+          "start": 56.904,
+          "end": 57.043
+        },
+        {
+          "word": "one",
+          "start": 57.125,
+          "end": 57.345
+        },
+        {
+          "word": "pound",
+          "start": 57.403,
+          "end": 57.682
+        },
+        {
+          "word": "forty-five?",
+          "start": 57.752,
+          "end": 58.878
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "gap_ms": -500,
+      "text": "It's only our security check, it takes two seconds. The driver's schedule closes in a few minutes, so we do need to do this right now.",
+      "start": 58.378,
+      "end": 65.994,
+      "words": [
+        {
+          "word": "It's",
+          "start": 58.378,
+          "end": 58.599
+        },
+        {
+          "word": "only",
+          "start": 58.645,
+          "end": 58.877
+        },
+        {
+          "word": "our",
+          "start": 58.935,
+          "end": 59.051
+        },
+        {
+          "word": "security",
+          "start": 59.098,
+          "end": 59.597
+        },
+        {
+          "word": "check,",
+          "start": 59.655,
+          "end": 59.957
+        },
+        {
+          "word": "it",
+          "start": 59.98,
+          "end": 60.085
+        },
+        {
+          "word": "takes",
+          "start": 60.108,
+          "end": 60.328
+        },
+        {
+          "word": "two",
+          "start": 60.375,
+          "end": 60.526
+        },
+        {
+          "word": "seconds.",
+          "start": 60.607,
+          "end": 61.222
+        },
+        {
+          "word": "The",
+          "start": 61.431,
+          "end": 61.536
+        },
+        {
+          "word": "driver's",
+          "start": 61.582,
+          "end": 61.954
+        },
+        {
+          "word": "schedule",
+          "start": 61.977,
+          "end": 62.407
+        },
+        {
+          "word": "closes",
+          "start": 62.441,
+          "end": 62.859
+        },
+        {
+          "word": "in",
+          "start": 62.918,
+          "end": 62.976
+        },
+        {
+          "word": "a",
+          "start": 63.022,
+          "end": 63.045
+        },
+        {
+          "word": "few",
+          "start": 63.103,
+          "end": 63.266
+        },
+        {
+          "word": "minutes,",
+          "start": 63.312,
+          "end": 63.742
+        },
+        {
+          "word": "so",
+          "start": 63.951,
+          "end": 64.067
+        },
+        {
+          "word": "we",
+          "start": 64.125,
+          "end": 64.206
+        },
+        {
+          "word": "do",
+          "start": 64.264,
+          "end": 64.369
+        },
+        {
+          "word": "need",
+          "start": 64.427,
+          "end": 64.578
+        },
+        {
+          "word": "to",
+          "start": 64.613,
+          "end": 64.671
+        },
+        {
+          "word": "do",
+          "start": 64.729,
+          "end": 64.822
+        },
+        {
+          "word": "this",
+          "start": 64.88,
+          "end": 65.019
+        },
+        {
+          "word": "right",
+          "start": 65.089,
+          "end": 65.274
+        },
+        {
+          "word": "now.",
+          "start": 65.332,
+          "end": 65.994
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hold on, let me find my glasses.",
+      "start": 66.344,
+      "end": 68.294,
+      "words": [
+        {
+          "word": "Hold",
+          "start": 66.344,
+          "end": 66.599
+        },
+        {
+          "word": "on,",
+          "start": 66.657,
+          "end": 66.774
+        },
+        {
+          "word": "let",
+          "start": 66.797,
+          "end": 66.901
+        },
+        {
+          "word": "me",
+          "start": 66.936,
+          "end": 67.006
+        },
+        {
+          "word": "find",
+          "start": 67.064,
+          "end": 67.226
+        },
+        {
+          "word": "my",
+          "start": 67.273,
+          "end": 67.354
+        },
+        {
+          "word": "glasses.",
+          "start": 67.412,
+          "end": 68.294
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "No problem, I'll wait, but please be quick. Have you got the card in front of you?",
+      "start": 68.644,
+      "end": 73.428,
+      "words": [
+        {
+          "word": "No",
+          "start": 68.644,
+          "end": 68.841
+        },
+        {
+          "word": "problem,",
+          "start": 68.911,
+          "end": 69.399
+        },
+        {
+          "word": "I'll",
+          "start": 69.468,
+          "end": 69.666
+        },
+        {
+          "word": "wait,",
+          "start": 69.712,
+          "end": 70.107
+        },
+        {
+          "word": "but",
+          "start": 70.177,
+          "end": 70.316
+        },
+        {
+          "word": "please",
+          "start": 70.351,
+          "end": 70.583
+        },
+        {
+          "word": "be",
+          "start": 70.629,
+          "end": 70.722
+        },
+        {
+          "word": "quick.",
+          "start": 70.78,
+          "end": 71.21
+        },
+        {
+          "word": "Have",
+          "start": 71.651,
+          "end": 71.802
+        },
+        {
+          "word": "you",
+          "start": 71.825,
+          "end": 71.895
+        },
+        {
+          "word": "got",
+          "start": 71.941,
+          "end": 72.069
+        },
+        {
+          "word": "the",
+          "start": 72.104,
+          "end": 72.173
+        },
+        {
+          "word": "card",
+          "start": 72.208,
+          "end": 72.487
+        },
+        {
+          "word": "in",
+          "start": 72.533,
+          "end": 72.591
+        },
+        {
+          "word": "front",
+          "start": 72.638,
+          "end": 72.825
+        },
+        {
+          "word": "of",
+          "start": 72.87,
+          "end": 72.928
+        },
+        {
+          "word": "you?",
+          "start": 72.975,
+          "end": 73.427
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Yes, I've got it here.",
+      "start": 73.778,
+      "end": 75.217,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 73.778,
+          "end": 74.103
+        },
+        {
+          "word": "I've",
+          "start": 74.15,
+          "end": 74.347
+        },
+        {
+          "word": "got",
+          "start": 74.382,
+          "end": 74.521
+        },
+        {
+          "word": "it",
+          "start": 74.556,
+          "end": 74.626
+        },
+        {
+          "word": "here.",
+          "start": 74.684,
+          "end": 75.218
+        }
+      ]
+    }
+  ]
+}

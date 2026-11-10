@@ -1,0 +1,1353 @@
+{
+  "id": "bank_safe_account",
+  "title": "Bank \"safe account\" scam",
+  "label": "scam",
+  "duration_seconds": 76.814,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Hello, this is David from the fraud team at Northgate Bank. Am I speaking with Mrs Patel?",
+      "start": 0.0,
+      "end": 5.48,
+      "words": [
+        {
+          "word": "Hello,",
+          "start": 0.0,
+          "end": 0.464
+        },
+        {
+          "word": "this",
+          "start": 0.488,
+          "end": 0.65
+        },
+        {
+          "word": "is",
+          "start": 0.708,
+          "end": 0.789
+        },
+        {
+          "word": "David",
+          "start": 0.848,
+          "end": 1.196
+        },
+        {
+          "word": "from",
+          "start": 1.231,
+          "end": 1.37
+        },
+        {
+          "word": "the",
+          "start": 1.416,
+          "end": 1.486
+        },
+        {
+          "word": "fraud",
+          "start": 1.533,
+          "end": 1.834
+        },
+        {
+          "word": "team",
+          "start": 1.869,
+          "end": 2.101
+        },
+        {
+          "word": "at",
+          "start": 2.148,
+          "end": 2.229
+        },
+        {
+          "word": "Northgate",
+          "start": 2.287,
+          "end": 2.74
+        },
+        {
+          "word": "Bank.",
+          "start": 2.786,
+          "end": 3.262
+        },
+        {
+          "word": "Am",
+          "start": 3.541,
+          "end": 3.669
+        },
+        {
+          "word": "I",
+          "start": 3.727,
+          "end": 3.75
+        },
+        {
+          "word": "speaking",
+          "start": 3.82,
+          "end": 4.18
+        },
+        {
+          "word": "with",
+          "start": 4.226,
+          "end": 4.342
+        },
+        {
+          "word": "Mrs",
+          "start": 4.389,
+          "end": 4.621
+        },
+        {
+          "word": "Patel?",
+          "start": 4.69,
+          "end": 5.48
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Yes, speaking. Is something wrong?",
+      "start": 5.83,
+      "end": 8.013,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 5.83,
+          "end": 6.248
+        },
+        {
+          "word": "speaking.",
+          "start": 6.271,
+          "end": 6.921
+        },
+        {
+          "word": "Is",
+          "start": 6.945,
+          "end": 7.049
+        },
+        {
+          "word": "something",
+          "start": 7.084,
+          "end": 7.363
+        },
+        {
+          "word": "wrong?",
+          "start": 7.409,
+          "end": 8.013
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "I'm afraid so. We've just blocked a payment of nine hundred and forty pounds from your current account to someone in Manchester. Did you make that payment?",
+      "start": 8.363,
+      "end": 17.233,
+      "words": [
+        {
+          "word": "I'm",
+          "start": 8.363,
+          "end": 8.549
+        },
+        {
+          "word": "afraid",
+          "start": 8.595,
+          "end": 8.897
+        },
+        {
+          "word": "so.",
+          "start": 8.955,
+          "end": 9.396
+        },
+        {
+          "word": "We've",
+          "start": 9.721,
+          "end": 9.942
+        },
+        {
+          "word": "just",
+          "start": 9.977,
+          "end": 10.151
+        },
+        {
+          "word": "blocked",
+          "start": 10.186,
+          "end": 10.453
+        },
+        {
+          "word": "a",
+          "start": 10.488,
+          "end": 10.511
+        },
+        {
+          "word": "payment",
+          "start": 10.557,
+          "end": 10.882
+        },
+        {
+          "word": "of",
+          "start": 10.929,
+          "end": 10.987
+        },
+        {
+          "word": "nine",
+          "start": 11.057,
+          "end": 11.277
+        },
+        {
+          "word": "hundred",
+          "start": 11.312,
+          "end": 11.544
+        },
+        {
+          "word": "and",
+          "start": 11.567,
+          "end": 11.637
+        },
+        {
+          "word": "forty",
+          "start": 11.707,
+          "end": 12.009
+        },
+        {
+          "word": "pounds",
+          "start": 12.078,
+          "end": 12.45
+        },
+        {
+          "word": "from",
+          "start": 12.496,
+          "end": 12.624
+        },
+        {
+          "word": "your",
+          "start": 12.67,
+          "end": 12.786
+        },
+        {
+          "word": "current",
+          "start": 12.844,
+          "end": 13.158
+        },
+        {
+          "word": "account",
+          "start": 13.193,
+          "end": 13.599
+        },
+        {
+          "word": "to",
+          "start": 13.773,
+          "end": 13.889
+        },
+        {
+          "word": "someone",
+          "start": 13.959,
+          "end": 14.249
+        },
+        {
+          "word": "in",
+          "start": 14.284,
+          "end": 14.342
+        },
+        {
+          "word": "Manchester.",
+          "start": 14.389,
+          "end": 15.12
+        },
+        {
+          "word": "Did",
+          "start": 15.817,
+          "end": 15.991
+        },
+        {
+          "word": "you",
+          "start": 16.037,
+          "end": 16.107
+        },
+        {
+          "word": "make",
+          "start": 16.153,
+          "end": 16.316
+        },
+        {
+          "word": "that",
+          "start": 16.339,
+          "end": 16.467
+        },
+        {
+          "word": "payment?",
+          "start": 16.513,
+          "end": 17.233
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "No, I didn't. Oh gosh.",
+      "start": 17.583,
+      "end": 19.58,
+      "words": [
+        {
+          "word": "No,",
+          "start": 17.583,
+          "end": 17.908
+        },
+        {
+          "word": "I",
+          "start": 17.943,
+          "end": 17.978
+        },
+        {
+          "word": "didn't.",
+          "start": 18.059,
+          "end": 18.616
+        },
+        {
+          "word": "Oh",
+          "start": 18.79,
+          "end": 18.941
+        },
+        {
+          "word": "gosh.",
+          "start": 18.999,
+          "end": 19.58
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Don't worry, you've done the right thing by answering. But whoever did this has access to your account, and they could empty it within the hour.",
+      "start": 19.93,
+      "end": 27.499,
+      "words": [
+        {
+          "word": "Don't",
+          "start": 19.93,
+          "end": 20.197
+        },
+        {
+          "word": "worry,",
+          "start": 20.232,
+          "end": 20.627
+        },
+        {
+          "word": "you've",
+          "start": 20.743,
+          "end": 20.917
+        },
+        {
+          "word": "done",
+          "start": 20.94,
+          "end": 21.079
+        },
+        {
+          "word": "the",
+          "start": 21.103,
+          "end": 21.172
+        },
+        {
+          "word": "right",
+          "start": 21.207,
+          "end": 21.381
+        },
+        {
+          "word": "thing",
+          "start": 21.416,
+          "end": 21.613
+        },
+        {
+          "word": "by",
+          "start": 21.683,
+          "end": 21.799
+        },
+        {
+          "word": "answering.",
+          "start": 21.88,
+          "end": 22.496
+        },
+        {
+          "word": "But",
+          "start": 22.74,
+          "end": 22.891
+        },
+        {
+          "word": "whoever",
+          "start": 22.925,
+          "end": 23.227
+        },
+        {
+          "word": "did",
+          "start": 23.285,
+          "end": 23.436
+        },
+        {
+          "word": "this",
+          "start": 23.483,
+          "end": 23.726
+        },
+        {
+          "word": "has",
+          "start": 23.901,
+          "end": 24.075
+        },
+        {
+          "word": "access",
+          "start": 24.144,
+          "end": 24.574
+        },
+        {
+          "word": "to",
+          "start": 24.609,
+          "end": 24.655
+        },
+        {
+          "word": "your",
+          "start": 24.725,
+          "end": 24.853
+        },
+        {
+          "word": "account,",
+          "start": 24.899,
+          "end": 25.398
+        },
+        {
+          "word": "and",
+          "start": 25.514,
+          "end": 25.642
+        },
+        {
+          "word": "they",
+          "start": 25.689,
+          "end": 25.805
+        },
+        {
+          "word": "could",
+          "start": 25.851,
+          "end": 25.979
+        },
+        {
+          "word": "empty",
+          "start": 26.014,
+          "end": 26.246
+        },
+        {
+          "word": "it",
+          "start": 26.292,
+          "end": 26.362
+        },
+        {
+          "word": "within",
+          "start": 26.397,
+          "end": 26.629
+        },
+        {
+          "word": "the",
+          "start": 26.675,
+          "end": 26.745
+        },
+        {
+          "word": "hour.",
+          "start": 26.803,
+          "end": 27.5
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Should I call the number on the back of my card?",
+      "start": 27.849,
+      "end": 30.264,
+      "words": [
+        {
+          "word": "Should",
+          "start": 27.849,
+          "end": 28.07
+        },
+        {
+          "word": "I",
+          "start": 28.116,
+          "end": 28.139
+        },
+        {
+          "word": "call",
+          "start": 28.221,
+          "end": 28.383
+        },
+        {
+          "word": "the",
+          "start": 28.441,
+          "end": 28.511
+        },
+        {
+          "word": "number",
+          "start": 28.546,
+          "end": 28.789
+        },
+        {
+          "word": "on",
+          "start": 28.836,
+          "end": 28.894
+        },
+        {
+          "word": "the",
+          "start": 28.929,
+          "end": 28.998
+        },
+        {
+          "word": "back",
+          "start": 29.033,
+          "end": 29.196
+        },
+        {
+          "word": "of",
+          "start": 29.254,
+          "end": 29.3
+        },
+        {
+          "word": "my",
+          "start": 29.37,
+          "end": 29.463
+        },
+        {
+          "word": "card?",
+          "start": 29.544,
+          "end": 30.264
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "gap_ms": -600,
+      "first_red_flag": true,
+      "text": "No, please don't hang up, the line could be compromised and we would lose the trace. I need you to act quickly.",
+      "start": 29.664,
+      "end": 36.119,
+      "words": [
+        {
+          "word": "No,",
+          "start": 29.664,
+          "end": 29.977
+        },
+        {
+          "word": "please",
+          "start": 30.001,
+          "end": 30.256
+        },
+        {
+          "word": "don't",
+          "start": 30.291,
+          "end": 30.488
+        },
+        {
+          "word": "hang",
+          "start": 30.535,
+          "end": 30.697
+        },
+        {
+          "word": "up,",
+          "start": 30.767,
+          "end": 31.08
+        },
+        {
+          "word": "the",
+          "start": 31.255,
+          "end": 31.347
+        },
+        {
+          "word": "line",
+          "start": 31.417,
+          "end": 31.649
+        },
+        {
+          "word": "could",
+          "start": 31.684,
+          "end": 31.823
+        },
+        {
+          "word": "be",
+          "start": 31.858,
+          "end": 31.928
+        },
+        {
+          "word": "compromised",
+          "start": 31.974,
+          "end": 32.543
+        },
+        {
+          "word": "and",
+          "start": 32.578,
+          "end": 32.659
+        },
+        {
+          "word": "we",
+          "start": 32.706,
+          "end": 32.775
+        },
+        {
+          "word": "would",
+          "start": 32.81,
+          "end": 32.961
+        },
+        {
+          "word": "lose",
+          "start": 33.008,
+          "end": 33.24
+        },
+        {
+          "word": "the",
+          "start": 33.275,
+          "end": 33.344
+        },
+        {
+          "word": "trace.",
+          "start": 33.391,
+          "end": 33.902
+        },
+        {
+          "word": "I",
+          "start": 34.505,
+          "end": 34.552
+        },
+        {
+          "word": "need",
+          "start": 34.633,
+          "end": 34.796
+        },
+        {
+          "word": "you",
+          "start": 34.83,
+          "end": 34.9
+        },
+        {
+          "word": "to",
+          "start": 34.947,
+          "end": 35.005
+        },
+        {
+          "word": "act",
+          "start": 35.086,
+          "end": 35.295
+        },
+        {
+          "word": "quickly.",
+          "start": 35.364,
+          "end": 36.119
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hang on, let me grab a pen.",
+      "start": 36.469,
+      "end": 38.002,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 36.469,
+          "end": 36.643
+        },
+        {
+          "word": "on,",
+          "start": 36.701,
+          "end": 36.794
+        },
+        {
+          "word": "let",
+          "start": 36.817,
+          "end": 36.922
+        },
+        {
+          "word": "me",
+          "start": 36.957,
+          "end": 37.015
+        },
+        {
+          "word": "grab",
+          "start": 37.049,
+          "end": 37.224
+        },
+        {
+          "word": "a",
+          "start": 37.27,
+          "end": 37.293
+        },
+        {
+          "word": "pen.",
+          "start": 37.351,
+          "end": 38.002
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "There's no time for that, Mrs Patel. To secure your money, I need you to move it to a safe account we've set up in your name.",
+      "start": 38.352,
+      "end": 45.132,
+      "words": [
+        {
+          "word": "There's",
+          "start": 38.352,
+          "end": 38.642
+        },
+        {
+          "word": "no",
+          "start": 38.689,
+          "end": 38.782
+        },
+        {
+          "word": "time",
+          "start": 38.851,
+          "end": 39.083
+        },
+        {
+          "word": "for",
+          "start": 39.107,
+          "end": 39.188
+        },
+        {
+          "word": "that,",
+          "start": 39.234,
+          "end": 39.455
+        },
+        {
+          "word": "Mrs",
+          "start": 39.49,
+          "end": 39.745
+        },
+        {
+          "word": "Patel.",
+          "start": 39.803,
+          "end": 40.302
+        },
+        {
+          "word": "To",
+          "start": 40.453,
+          "end": 40.558
+        },
+        {
+          "word": "secure",
+          "start": 40.628,
+          "end": 40.976
+        },
+        {
+          "word": "your",
+          "start": 41.011,
+          "end": 41.138
+        },
+        {
+          "word": "money,",
+          "start": 41.196,
+          "end": 41.591
+        },
+        {
+          "word": "I",
+          "start": 41.707,
+          "end": 41.765
+        },
+        {
+          "word": "need",
+          "start": 41.858,
+          "end": 42.044
+        },
+        {
+          "word": "you",
+          "start": 42.079,
+          "end": 42.148
+        },
+        {
+          "word": "to",
+          "start": 42.218,
+          "end": 42.265
+        },
+        {
+          "word": "move",
+          "start": 42.334,
+          "end": 42.52
+        },
+        {
+          "word": "it",
+          "start": 42.555,
+          "end": 42.624
+        },
+        {
+          "word": "to",
+          "start": 42.659,
+          "end": 42.717
+        },
+        {
+          "word": "a",
+          "start": 42.799,
+          "end": 42.822
+        },
+        {
+          "word": "safe",
+          "start": 42.892,
+          "end": 43.135
+        },
+        {
+          "word": "account",
+          "start": 43.159,
+          "end": 43.495
+        },
+        {
+          "word": "we've",
+          "start": 43.553,
+          "end": 43.727
+        },
+        {
+          "word": "set",
+          "start": 43.751,
+          "end": 43.925
+        },
+        {
+          "word": "up",
+          "start": 43.983,
+          "end": 44.076
+        },
+        {
+          "word": "in",
+          "start": 44.122,
+          "end": 44.18
+        },
+        {
+          "word": "your",
+          "start": 44.238,
+          "end": 44.378
+        },
+        {
+          "word": "name.",
+          "start": 44.436,
+          "end": 45.132
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "A safe account? Is that normal?",
+      "start": 45.482,
+      "end": 47.618,
+      "words": [
+        {
+          "word": "A",
+          "start": 45.482,
+          "end": 45.563
+        },
+        {
+          "word": "safe",
+          "start": 45.679,
+          "end": 46.016
+        },
+        {
+          "word": "account?",
+          "start": 46.051,
+          "end": 46.539
+        },
+        {
+          "word": "Is",
+          "start": 46.573,
+          "end": 46.701
+        },
+        {
+          "word": "that",
+          "start": 46.747,
+          "end": 46.875
+        },
+        {
+          "word": "normal?",
+          "start": 46.945,
+          "end": 47.618
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "It's standard procedure. I've just sent a one-time code to your phone. Read it out to me so I can verify you.",
+      "start": 47.968,
+      "end": 54.47,
+      "words": [
+        {
+          "word": "It's",
+          "start": 47.968,
+          "end": 48.177
+        },
+        {
+          "word": "standard",
+          "start": 48.212,
+          "end": 48.607
+        },
+        {
+          "word": "procedure.",
+          "start": 48.653,
+          "end": 49.396
+        },
+        {
+          "word": "I've",
+          "start": 49.57,
+          "end": 49.744
+        },
+        {
+          "word": "just",
+          "start": 49.779,
+          "end": 49.965
+        },
+        {
+          "word": "sent",
+          "start": 50.0,
+          "end": 50.244
+        },
+        {
+          "word": "a",
+          "start": 50.29,
+          "end": 50.313
+        },
+        {
+          "word": "one-time",
+          "start": 50.406,
+          "end": 50.894
+        },
+        {
+          "word": "code",
+          "start": 50.952,
+          "end": 51.242
+        },
+        {
+          "word": "to",
+          "start": 51.277,
+          "end": 51.323
+        },
+        {
+          "word": "your",
+          "start": 51.381,
+          "end": 51.509
+        },
+        {
+          "word": "phone.",
+          "start": 51.555,
+          "end": 52.008
+        },
+        {
+          "word": "Read",
+          "start": 52.252,
+          "end": 52.449
+        },
+        {
+          "word": "it",
+          "start": 52.496,
+          "end": 52.554
+        },
+        {
+          "word": "out",
+          "start": 52.6,
+          "end": 52.74
+        },
+        {
+          "word": "to",
+          "start": 52.775,
+          "end": 52.821
+        },
+        {
+          "word": "me",
+          "start": 52.879,
+          "end": 52.984
+        },
+        {
+          "word": "so",
+          "start": 53.03,
+          "end": 53.134
+        },
+        {
+          "word": "I",
+          "start": 53.216,
+          "end": 53.239
+        },
+        {
+          "word": "can",
+          "start": 53.297,
+          "end": 53.413
+        },
+        {
+          "word": "verify",
+          "start": 53.471,
+          "end": 53.901
+        },
+        {
+          "word": "you.",
+          "start": 53.959,
+          "end": 54.47
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "It says not to share it with anyone.",
+      "start": 54.82,
+      "end": 57.095,
+      "words": [
+        {
+          "word": "It",
+          "start": 54.82,
+          "end": 54.994
+        },
+        {
+          "word": "says",
+          "start": 55.052,
+          "end": 55.296
+        },
+        {
+          "word": "not",
+          "start": 55.354,
+          "end": 55.54
+        },
+        {
+          "word": "to",
+          "start": 55.575,
+          "end": 55.633
+        },
+        {
+          "word": "share",
+          "start": 55.702,
+          "end": 55.958
+        },
+        {
+          "word": "it",
+          "start": 56.004,
+          "end": 56.074
+        },
+        {
+          "word": "with",
+          "start": 56.097,
+          "end": 56.236
+        },
+        {
+          "word": "anyone.",
+          "start": 56.283,
+          "end": 57.096
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "gap_ms": -500,
+      "text": "That message is for other people, not the bank's own fraud team. And please don't tell anyone at your branch about this, it could alert the criminals. What's the code?",
+      "start": 56.595,
+      "end": 66.023,
+      "words": [
+        {
+          "word": "That",
+          "start": 56.595,
+          "end": 56.862
+        },
+        {
+          "word": "message",
+          "start": 56.932,
+          "end": 57.28
+        },
+        {
+          "word": "is",
+          "start": 57.315,
+          "end": 57.384
+        },
+        {
+          "word": "for",
+          "start": 57.419,
+          "end": 57.512
+        },
+        {
+          "word": "other",
+          "start": 57.57,
+          "end": 57.768
+        },
+        {
+          "word": "people,",
+          "start": 57.814,
+          "end": 58.29
+        },
+        {
+          "word": "not",
+          "start": 58.441,
+          "end": 58.615
+        },
+        {
+          "word": "the",
+          "start": 58.65,
+          "end": 58.72
+        },
+        {
+          "word": "bank's",
+          "start": 58.778,
+          "end": 59.091
+        },
+        {
+          "word": "own",
+          "start": 59.149,
+          "end": 59.335
+        },
+        {
+          "word": "fraud",
+          "start": 59.416,
+          "end": 59.718
+        },
+        {
+          "word": "team.",
+          "start": 59.753,
+          "end": 60.171
+        },
+        {
+          "word": "And",
+          "start": 60.45,
+          "end": 60.589
+        },
+        {
+          "word": "please",
+          "start": 60.658,
+          "end": 60.891
+        },
+        {
+          "word": "don't",
+          "start": 60.926,
+          "end": 61.1
+        },
+        {
+          "word": "tell",
+          "start": 61.135,
+          "end": 61.309
+        },
+        {
+          "word": "anyone",
+          "start": 61.378,
+          "end": 61.715
+        },
+        {
+          "word": "at",
+          "start": 61.738,
+          "end": 61.796
+        },
+        {
+          "word": "your",
+          "start": 61.843,
+          "end": 61.959
+        },
+        {
+          "word": "branch",
+          "start": 62.005,
+          "end": 62.295
+        },
+        {
+          "word": "about",
+          "start": 62.33,
+          "end": 62.551
+        },
+        {
+          "word": "this,",
+          "start": 62.586,
+          "end": 62.934
+        },
+        {
+          "word": "it",
+          "start": 63.062,
+          "end": 63.178
+        },
+        {
+          "word": "could",
+          "start": 63.213,
+          "end": 63.329
+        },
+        {
+          "word": "alert",
+          "start": 63.364,
+          "end": 63.631
+        },
+        {
+          "word": "the",
+          "start": 63.665,
+          "end": 63.735
+        },
+        {
+          "word": "criminals.",
+          "start": 63.77,
+          "end": 64.455
+        },
+        {
+          "word": "What's",
+          "start": 64.896,
+          "end": 65.175
+        },
+        {
+          "word": "the",
+          "start": 65.221,
+          "end": 65.291
+        },
+        {
+          "word": "code?",
+          "start": 65.349,
+          "end": 66.022
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "trigger": true,
+      "text": "Hold on, let me find my glasses.",
+      "start": 66.373,
+      "end": 68.23,
+      "words": [
+        {
+          "word": "Hold",
+          "start": 66.373,
+          "end": 66.64
+        },
+        {
+          "word": "on,",
+          "start": 66.71,
+          "end": 66.861
+        },
+        {
+          "word": "let",
+          "start": 66.895,
+          "end": 67.023
+        },
+        {
+          "word": "me",
+          "start": 67.07,
+          "end": 67.139
+        },
+        {
+          "word": "find",
+          "start": 67.197,
+          "end": 67.383
+        },
+        {
+          "word": "my",
+          "start": 67.43,
+          "end": 67.522
+        },
+        {
+          "word": "glasses.",
+          "start": 67.592,
+          "end": 68.231
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Mrs Patel, every second counts. If you don't give me that code now, you could lose everything.",
+      "start": 68.58,
+      "end": 73.921,
+      "words": [
+        {
+          "word": "Mrs",
+          "start": 68.58,
+          "end": 68.905
+        },
+        {
+          "word": "Patel,",
+          "start": 68.963,
+          "end": 69.404
+        },
+        {
+          "word": "every",
+          "start": 69.451,
+          "end": 69.718
+        },
+        {
+          "word": "second",
+          "start": 69.776,
+          "end": 70.078
+        },
+        {
+          "word": "counts.",
+          "start": 70.159,
+          "end": 70.681
+        },
+        {
+          "word": "If",
+          "start": 70.96,
+          "end": 71.076
+        },
+        {
+          "word": "you",
+          "start": 71.123,
+          "end": 71.192
+        },
+        {
+          "word": "don't",
+          "start": 71.239,
+          "end": 71.401
+        },
+        {
+          "word": "give",
+          "start": 71.436,
+          "end": 71.587
+        },
+        {
+          "word": "me",
+          "start": 71.622,
+          "end": 71.703
+        },
+        {
+          "word": "that",
+          "start": 71.738,
+          "end": 71.877
+        },
+        {
+          "word": "code",
+          "start": 71.947,
+          "end": 72.214
+        },
+        {
+          "word": "now,",
+          "start": 72.26,
+          "end": 72.539
+        },
+        {
+          "word": "you",
+          "start": 72.585,
+          "end": 72.678
+        },
+        {
+          "word": "could",
+          "start": 72.725,
+          "end": 72.864
+        },
+        {
+          "word": "lose",
+          "start": 72.911,
+          "end": 73.12
+        },
+        {
+          "word": "everything.",
+          "start": 73.154,
+          "end": 73.921
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Okay, I understand. One moment.",
+      "start": 74.271,
+      "end": 76.314,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 74.271,
+          "end": 74.724
+        },
+        {
+          "word": "I",
+          "start": 74.782,
+          "end": 74.828
+        },
+        {
+          "word": "understand.",
+          "start": 74.921,
+          "end": 75.513
+        },
+        {
+          "word": "One",
+          "start": 75.595,
+          "end": 75.78
+        },
+        {
+          "word": "moment.",
+          "start": 75.827,
+          "end": 76.314
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1319 @@
+{
+  "id": "real_bank_fraud_alert",
+  "title": "Real bank fraud alert (legitimate)",
+  "label": "legit",
+  "duration_seconds": 82.394,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Hello, this is Simon from the fraud prevention team at Northgate Bank. Am I speaking with Mrs Okafor?",
+      "start": 0.0,
+      "end": 6.223,
+      "words": [
+        {
+          "word": "Hello,",
+          "start": 0.0,
+          "end": 0.488
+        },
+        {
+          "word": "this",
+          "start": 0.511,
+          "end": 0.685
+        },
+        {
+          "word": "is",
+          "start": 0.743,
+          "end": 0.813
+        },
+        {
+          "word": "Simon",
+          "start": 0.859,
+          "end": 1.207
+        },
+        {
+          "word": "from",
+          "start": 1.254,
+          "end": 1.382
+        },
+        {
+          "word": "the",
+          "start": 1.428,
+          "end": 1.498
+        },
+        {
+          "word": "fraud",
+          "start": 1.544,
+          "end": 1.811
+        },
+        {
+          "word": "prevention",
+          "start": 1.858,
+          "end": 2.31
+        },
+        {
+          "word": "team",
+          "start": 2.38,
+          "end": 2.624
+        },
+        {
+          "word": "at",
+          "start": 2.682,
+          "end": 2.763
+        },
+        {
+          "word": "Northgate",
+          "start": 2.833,
+          "end": 3.274
+        },
+        {
+          "word": "Bank.",
+          "start": 3.32,
+          "end": 3.773
+        },
+        {
+          "word": "Am",
+          "start": 4.156,
+          "end": 4.296
+        },
+        {
+          "word": "I",
+          "start": 4.354,
+          "end": 4.377
+        },
+        {
+          "word": "speaking",
+          "start": 4.447,
+          "end": 4.795
+        },
+        {
+          "word": "with",
+          "start": 4.83,
+          "end": 4.946
+        },
+        {
+          "word": "Mrs",
+          "start": 4.992,
+          "end": 5.236
+        },
+        {
+          "word": "Okafor?",
+          "start": 5.317,
+          "end": 6.223
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Yes. Is everything alright?",
+      "start": 6.573,
+      "end": 8.291,
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 6.573,
+          "end": 6.979
+        },
+        {
+          "word": "Is",
+          "start": 7.003,
+          "end": 7.13
+        },
+        {
+          "word": "everything",
+          "start": 7.177,
+          "end": 7.467
+        },
+        {
+          "word": "alright?",
+          "start": 7.513,
+          "end": 8.291
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "We've spotted some unusual activity on your debit card, and we've put a temporary block on it to protect you. Before I go on, we will never ask for your PIN, your passwords or a one-time code, and we'll never ask you to move money.",
+      "start": 8.641,
+      "end": 22.109,
+      "words": [
+        {
+          "word": "We've",
+          "start": 8.641,
+          "end": 8.92
+        },
+        {
+          "word": "spotted",
+          "start": 8.954,
+          "end": 9.314
+        },
+        {
+          "word": "some",
+          "start": 9.361,
+          "end": 9.5
+        },
+        {
+          "word": "unusual",
+          "start": 9.547,
+          "end": 9.988
+        },
+        {
+          "word": "activity",
+          "start": 10.046,
+          "end": 10.51
+        },
+        {
+          "word": "on",
+          "start": 10.568,
+          "end": 10.638
+        },
+        {
+          "word": "your",
+          "start": 10.684,
+          "end": 10.789
+        },
+        {
+          "word": "debit",
+          "start": 10.847,
+          "end": 11.114
+        },
+        {
+          "word": "card,",
+          "start": 11.16,
+          "end": 11.59
+        },
+        {
+          "word": "and",
+          "start": 11.764,
+          "end": 11.892
+        },
+        {
+          "word": "we've",
+          "start": 11.95,
+          "end": 12.101
+        },
+        {
+          "word": "put",
+          "start": 12.136,
+          "end": 12.275
+        },
+        {
+          "word": "a",
+          "start": 12.321,
+          "end": 12.345
+        },
+        {
+          "word": "temporary",
+          "start": 12.403,
+          "end": 12.867
+        },
+        {
+          "word": "block",
+          "start": 12.925,
+          "end": 13.157
+        },
+        {
+          "word": "on",
+          "start": 13.215,
+          "end": 13.285
+        },
+        {
+          "word": "it",
+          "start": 13.331,
+          "end": 13.401
+        },
+        {
+          "word": "to",
+          "start": 13.436,
+          "end": 13.482
+        },
+        {
+          "word": "protect",
+          "start": 13.54,
+          "end": 13.935
+        },
+        {
+          "word": "you.",
+          "start": 13.993,
+          "end": 14.26
+        },
+        {
+          "word": "Before",
+          "start": 14.771,
+          "end": 15.119
+        },
+        {
+          "word": "I",
+          "start": 15.166,
+          "end": 15.189
+        },
+        {
+          "word": "go",
+          "start": 15.305,
+          "end": 15.421
+        },
+        {
+          "word": "on,",
+          "start": 15.502,
+          "end": 15.839
+        },
+        {
+          "word": "we",
+          "start": 15.909,
+          "end": 16.013
+        },
+        {
+          "word": "will",
+          "start": 16.06,
+          "end": 16.199
+        },
+        {
+          "word": "never",
+          "start": 16.246,
+          "end": 16.431
+        },
+        {
+          "word": "ask",
+          "start": 16.501,
+          "end": 16.768
+        },
+        {
+          "word": "for",
+          "start": 16.814,
+          "end": 16.896
+        },
+        {
+          "word": "your",
+          "start": 16.942,
+          "end": 17.058
+        },
+        {
+          "word": "PIN,",
+          "start": 17.128,
+          "end": 17.523
+        },
+        {
+          "word": "your",
+          "start": 17.65,
+          "end": 17.79
+        },
+        {
+          "word": "passwords",
+          "start": 17.848,
+          "end": 18.428
+        },
+        {
+          "word": "or",
+          "start": 18.498,
+          "end": 18.637
+        },
+        {
+          "word": "a",
+          "start": 18.695,
+          "end": 18.718
+        },
+        {
+          "word": "one-time",
+          "start": 18.8,
+          "end": 19.264
+        },
+        {
+          "word": "code,",
+          "start": 19.334,
+          "end": 19.81
+        },
+        {
+          "word": "and",
+          "start": 20.019,
+          "end": 20.135
+        },
+        {
+          "word": "we'll",
+          "start": 20.181,
+          "end": 20.332
+        },
+        {
+          "word": "never",
+          "start": 20.379,
+          "end": 20.576
+        },
+        {
+          "word": "ask",
+          "start": 20.646,
+          "end": 20.901
+        },
+        {
+          "word": "you",
+          "start": 20.959,
+          "end": 21.029
+        },
+        {
+          "word": "to",
+          "start": 21.098,
+          "end": 21.145
+        },
+        {
+          "word": "move",
+          "start": 21.215,
+          "end": 21.435
+        },
+        {
+          "word": "money.",
+          "start": 21.482,
+          "end": 22.109
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Okay, that's good to know. What happened?",
+      "start": 22.459,
+      "end": 24.874,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 22.459,
+          "end": 22.912
+        },
+        {
+          "word": "that's",
+          "start": 22.947,
+          "end": 23.179
+        },
+        {
+          "word": "good",
+          "start": 23.225,
+          "end": 23.388
+        },
+        {
+          "word": "to",
+          "start": 23.423,
+          "end": 23.481
+        },
+        {
+          "word": "know.",
+          "start": 23.539,
+          "end": 23.759
+        },
+        {
+          "word": "What",
+          "start": 23.783,
+          "end": 23.957
+        },
+        {
+          "word": "happened?",
+          "start": 24.026,
+          "end": 24.874
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "There were two card payments last night to an online electronics shop, four hundred and twelve pounds in total. Do you recognise those?",
+      "start": 25.224,
+      "end": 32.793,
+      "words": [
+        {
+          "word": "There",
+          "start": 25.224,
+          "end": 25.433
+        },
+        {
+          "word": "were",
+          "start": 25.456,
+          "end": 25.561
+        },
+        {
+          "word": "two",
+          "start": 25.584,
+          "end": 25.723
+        },
+        {
+          "word": "card",
+          "start": 25.793,
+          "end": 26.037
+        },
+        {
+          "word": "payments",
+          "start": 26.083,
+          "end": 26.431
+        },
+        {
+          "word": "last",
+          "start": 26.478,
+          "end": 26.675
+        },
+        {
+          "word": "night",
+          "start": 26.733,
+          "end": 26.931
+        },
+        {
+          "word": "to",
+          "start": 26.977,
+          "end": 27.047
+        },
+        {
+          "word": "an",
+          "start": 27.116,
+          "end": 27.174
+        },
+        {
+          "word": "online",
+          "start": 27.233,
+          "end": 27.674
+        },
+        {
+          "word": "electronics",
+          "start": 27.709,
+          "end": 28.231
+        },
+        {
+          "word": "shop,",
+          "start": 28.254,
+          "end": 28.661
+        },
+        {
+          "word": "four",
+          "start": 29.044,
+          "end": 29.229
+        },
+        {
+          "word": "hundred",
+          "start": 29.264,
+          "end": 29.496
+        },
+        {
+          "word": "and",
+          "start": 29.52,
+          "end": 29.589
+        },
+        {
+          "word": "twelve",
+          "start": 29.636,
+          "end": 29.903
+        },
+        {
+          "word": "pounds",
+          "start": 29.949,
+          "end": 30.251
+        },
+        {
+          "word": "in",
+          "start": 30.298,
+          "end": 30.367
+        },
+        {
+          "word": "total.",
+          "start": 30.437,
+          "end": 30.948
+        },
+        {
+          "word": "Do",
+          "start": 31.331,
+          "end": 31.435
+        },
+        {
+          "word": "you",
+          "start": 31.482,
+          "end": 31.551
+        },
+        {
+          "word": "recognise",
+          "start": 31.621,
+          "end": 32.097
+        },
+        {
+          "word": "those?",
+          "start": 32.132,
+          "end": 32.794
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "No, definitely not. I was asleep. That's really worrying.",
+      "start": 33.143,
+      "end": 36.812,
+      "words": [
+        {
+          "word": "No,",
+          "start": 33.143,
+          "end": 33.515
+        },
+        {
+          "word": "definitely",
+          "start": 33.561,
+          "end": 34.037
+        },
+        {
+          "word": "not.",
+          "start": 34.107,
+          "end": 34.35
+        },
+        {
+          "word": "I",
+          "start": 34.385,
+          "end": 34.42
+        },
+        {
+          "word": "was",
+          "start": 34.49,
+          "end": 34.606
+        },
+        {
+          "word": "asleep.",
+          "start": 34.652,
+          "end": 35.21
+        },
+        {
+          "word": "That's",
+          "start": 35.384,
+          "end": 35.639
+        },
+        {
+          "word": "really",
+          "start": 35.697,
+          "end": 35.929
+        },
+        {
+          "word": "worrying.",
+          "start": 35.976,
+          "end": 36.812
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "I understand, it is alarming. The good news is they were stopped, and you won't lose any money. We'll cancel that card and send a new one, which should reach you in three to five working days.",
+      "start": 37.162,
+      "end": 48.215,
+      "words": [
+        {
+          "word": "I",
+          "start": 37.162,
+          "end": 37.255
+        },
+        {
+          "word": "understand,",
+          "start": 37.371,
+          "end": 38.056
+        },
+        {
+          "word": "it",
+          "start": 38.091,
+          "end": 38.207
+        },
+        {
+          "word": "is",
+          "start": 38.253,
+          "end": 38.346
+        },
+        {
+          "word": "alarming.",
+          "start": 38.393,
+          "end": 39.043
+        },
+        {
+          "word": "The",
+          "start": 39.484,
+          "end": 39.6
+        },
+        {
+          "word": "good",
+          "start": 39.658,
+          "end": 39.809
+        },
+        {
+          "word": "news",
+          "start": 39.867,
+          "end": 40.099
+        },
+        {
+          "word": "is",
+          "start": 40.169,
+          "end": 40.355
+        },
+        {
+          "word": "they",
+          "start": 40.436,
+          "end": 40.587
+        },
+        {
+          "word": "were",
+          "start": 40.622,
+          "end": 40.738
+        },
+        {
+          "word": "stopped,",
+          "start": 40.773,
+          "end": 41.249
+        },
+        {
+          "word": "and",
+          "start": 41.365,
+          "end": 41.493
+        },
+        {
+          "word": "you",
+          "start": 41.539,
+          "end": 41.609
+        },
+        {
+          "word": "won't",
+          "start": 41.655,
+          "end": 41.841
+        },
+        {
+          "word": "lose",
+          "start": 41.887,
+          "end": 42.119
+        },
+        {
+          "word": "any",
+          "start": 42.154,
+          "end": 42.305
+        },
+        {
+          "word": "money.",
+          "start": 42.363,
+          "end": 42.828
+        },
+        {
+          "word": "We'll",
+          "start": 43.153,
+          "end": 43.385
+        },
+        {
+          "word": "cancel",
+          "start": 43.431,
+          "end": 43.745
+        },
+        {
+          "word": "that",
+          "start": 43.803,
+          "end": 43.942
+        },
+        {
+          "word": "card",
+          "start": 44.012,
+          "end": 44.349
+        },
+        {
+          "word": "and",
+          "start": 44.395,
+          "end": 44.465
+        },
+        {
+          "word": "send",
+          "start": 44.523,
+          "end": 44.697
+        },
+        {
+          "word": "a",
+          "start": 44.755,
+          "end": 44.79
+        },
+        {
+          "word": "new",
+          "start": 44.848,
+          "end": 44.976
+        },
+        {
+          "word": "one,",
+          "start": 45.045,
+          "end": 45.347
+        },
+        {
+          "word": "which",
+          "start": 45.463,
+          "end": 45.649
+        },
+        {
+          "word": "should",
+          "start": 45.684,
+          "end": 45.846
+        },
+        {
+          "word": "reach",
+          "start": 45.893,
+          "end": 46.078
+        },
+        {
+          "word": "you",
+          "start": 46.125,
+          "end": 46.206
+        },
+        {
+          "word": "in",
+          "start": 46.264,
+          "end": 46.334
+        },
+        {
+          "word": "three",
+          "start": 46.392,
+          "end": 46.636
+        },
+        {
+          "word": "to",
+          "start": 46.671,
+          "end": 46.729
+        },
+        {
+          "word": "five",
+          "start": 46.798,
+          "end": 47.065
+        },
+        {
+          "word": "working",
+          "start": 47.112,
+          "end": 47.437
+        },
+        {
+          "word": "days.",
+          "start": 47.495,
+          "end": 48.215
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Hang on. How do I know this is really the bank?",
+      "start": 48.565,
+      "end": 51.305,
+      "words": [
+        {
+          "word": "Hang",
+          "start": 48.565,
+          "end": 48.809
+        },
+        {
+          "word": "on.",
+          "start": 48.902,
+          "end": 49.145
+        },
+        {
+          "word": "How",
+          "start": 49.262,
+          "end": 49.401
+        },
+        {
+          "word": "do",
+          "start": 49.436,
+          "end": 49.505
+        },
+        {
+          "word": "I",
+          "start": 49.575,
+          "end": 49.598
+        },
+        {
+          "word": "know",
+          "start": 49.656,
+          "end": 49.796
+        },
+        {
+          "word": "this",
+          "start": 49.854,
+          "end": 49.97
+        },
+        {
+          "word": "is",
+          "start": 50.028,
+          "end": 50.109
+        },
+        {
+          "word": "really",
+          "start": 50.167,
+          "end": 50.388
+        },
+        {
+          "word": "the",
+          "start": 50.434,
+          "end": 50.504
+        },
+        {
+          "word": "bank?",
+          "start": 50.562,
+          "end": 51.305
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "That's a very sensible question. Please hang up and call the number on the back of your card whenever you're ready, and quote the reference ending seven two four. Any of my colleagues can confirm all of this.",
+      "start": 51.655,
+      "end": 63.961,
+      "words": [
+        {
+          "word": "That's",
+          "start": 51.655,
+          "end": 51.968
+        },
+        {
+          "word": "a",
+          "start": 52.003,
+          "end": 52.027
+        },
+        {
+          "word": "very",
+          "start": 52.073,
+          "end": 52.282
+        },
+        {
+          "word": "sensible",
+          "start": 52.34,
+          "end": 52.77
+        },
+        {
+          "word": "question.",
+          "start": 52.804,
+          "end": 53.443
+        },
+        {
+          "word": "Please",
+          "start": 53.954,
+          "end": 54.302
+        },
+        {
+          "word": "hang",
+          "start": 54.36,
+          "end": 54.523
+        },
+        {
+          "word": "up",
+          "start": 54.592,
+          "end": 54.72
+        },
+        {
+          "word": "and",
+          "start": 54.79,
+          "end": 54.883
+        },
+        {
+          "word": "call",
+          "start": 54.941,
+          "end": 55.126
+        },
+        {
+          "word": "the",
+          "start": 55.173,
+          "end": 55.242
+        },
+        {
+          "word": "number",
+          "start": 55.289,
+          "end": 55.521
+        },
+        {
+          "word": "on",
+          "start": 55.579,
+          "end": 55.649
+        },
+        {
+          "word": "the",
+          "start": 55.684,
+          "end": 55.753
+        },
+        {
+          "word": "back",
+          "start": 55.8,
+          "end": 55.986
+        },
+        {
+          "word": "of",
+          "start": 56.032,
+          "end": 56.078
+        },
+        {
+          "word": "your",
+          "start": 56.125,
+          "end": 56.253
+        },
+        {
+          "word": "card",
+          "start": 56.322,
+          "end": 56.729
+        },
+        {
+          "word": "whenever",
+          "start": 56.879,
+          "end": 57.251
+        },
+        {
+          "word": "you're",
+          "start": 57.297,
+          "end": 57.483
+        },
+        {
+          "word": "ready,",
+          "start": 57.506,
+          "end": 57.936
+        },
+        {
+          "word": "and",
+          "start": 58.11,
+          "end": 58.261
+        },
+        {
+          "word": "quote",
+          "start": 58.331,
+          "end": 58.563
+        },
+        {
+          "word": "the",
+          "start": 58.586,
+          "end": 58.656
+        },
+        {
+          "word": "reference",
+          "start": 58.714,
+          "end": 59.085
+        },
+        {
+          "word": "ending",
+          "start": 59.132,
+          "end": 59.503
+        },
+        {
+          "word": "seven",
+          "start": 59.631,
+          "end": 59.956
+        },
+        {
+          "word": "two",
+          "start": 60.026,
+          "end": 60.188
+        },
+        {
+          "word": "four.",
+          "start": 60.281,
+          "end": 60.792
+        },
+        {
+          "word": "Any",
+          "start": 61.233,
+          "end": 61.489
+        },
+        {
+          "word": "of",
+          "start": 61.535,
+          "end": 61.582
+        },
+        {
+          "word": "my",
+          "start": 61.651,
+          "end": 61.756
+        },
+        {
+          "word": "colleagues",
+          "start": 61.825,
+          "end": 62.232
+        },
+        {
+          "word": "can",
+          "start": 62.278,
+          "end": 62.406
+        },
+        {
+          "word": "confirm",
+          "start": 62.464,
+          "end": 62.928
+        },
+        {
+          "word": "all",
+          "start": 62.986,
+          "end": 63.16
+        },
+        {
+          "word": "of",
+          "start": 63.207,
+          "end": 63.253
+        },
+        {
+          "word": "this.",
+          "start": 63.3,
+          "end": 63.962
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Okay, thank you. Is there anything I need to do right now?",
+      "start": 64.311,
+      "end": 67.562,
+      "words": [
+        {
+          "word": "Okay,",
+          "start": 64.311,
+          "end": 64.694
+        },
+        {
+          "word": "thank",
+          "start": 64.729,
+          "end": 64.973
+        },
+        {
+          "word": "you.",
+          "start": 65.054,
+          "end": 65.379
+        },
+        {
+          "word": "Is",
+          "start": 65.449,
+          "end": 65.588
+        },
+        {
+          "word": "there",
+          "start": 65.623,
+          "end": 65.751
+        },
+        {
+          "word": "anything",
+          "start": 65.785,
+          "end": 66.064
+        },
+        {
+          "word": "I",
+          "start": 66.122,
+          "end": 66.145
+        },
+        {
+          "word": "need",
+          "start": 66.227,
+          "end": 66.412
+        },
+        {
+          "word": "to",
+          "start": 66.447,
+          "end": 66.505
+        },
+        {
+          "word": "do",
+          "start": 66.575,
+          "end": 66.679
+        },
+        {
+          "word": "right",
+          "start": 66.737,
+          "end": 66.935
+        },
+        {
+          "word": "now?",
+          "start": 66.981,
+          "end": 67.562
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Nothing urgent. When you've got a moment, check your statement in the app, and tell us if anything else looks wrong. Take your time.",
+      "start": 67.912,
+      "end": 75.714,
+      "words": [
+        {
+          "word": "Nothing",
+          "start": 67.912,
+          "end": 68.26
+        },
+        {
+          "word": "urgent.",
+          "start": 68.33,
+          "end": 68.922
+        },
+        {
+          "word": "When",
+          "start": 69.363,
+          "end": 69.537
+        },
+        {
+          "word": "you've",
+          "start": 69.572,
+          "end": 69.746
+        },
+        {
+          "word": "got",
+          "start": 69.77,
+          "end": 69.909
+        },
+        {
+          "word": "a",
+          "start": 69.944,
+          "end": 69.967
+        },
+        {
+          "word": "moment,",
+          "start": 70.025,
+          "end": 70.466
+        },
+        {
+          "word": "check",
+          "start": 70.559,
+          "end": 70.791
+        },
+        {
+          "word": "your",
+          "start": 70.838,
+          "end": 70.954
+        },
+        {
+          "word": "statement",
+          "start": 70.989,
+          "end": 71.372
+        },
+        {
+          "word": "in",
+          "start": 71.418,
+          "end": 71.476
+        },
+        {
+          "word": "the",
+          "start": 71.523,
+          "end": 71.592
+        },
+        {
+          "word": "app,",
+          "start": 71.674,
+          "end": 72.057
+        },
+        {
+          "word": "and",
+          "start": 72.173,
+          "end": 72.324
+        },
+        {
+          "word": "tell",
+          "start": 72.37,
+          "end": 72.533
+        },
+        {
+          "word": "us",
+          "start": 72.579,
+          "end": 72.66
+        },
+        {
+          "word": "if",
+          "start": 72.707,
+          "end": 72.777
+        },
+        {
+          "word": "anything",
+          "start": 72.835,
+          "end": 73.136
+        },
+        {
+          "word": "else",
+          "start": 73.195,
+          "end": 73.392
+        },
+        {
+          "word": "looks",
+          "start": 73.427,
+          "end": 73.624
+        },
+        {
+          "word": "wrong.",
+          "start": 73.659,
+          "end": 74.147
+        },
+        {
+          "word": "Take",
+          "start": 74.588,
+          "end": 74.82
+        },
+        {
+          "word": "your",
+          "start": 74.855,
+          "end": 74.971
+        },
+        {
+          "word": "time.",
+          "start": 75.029,
+          "end": 75.714
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Great. Thanks for your help, Simon.",
+      "start": 76.064,
+      "end": 78.432,
+      "words": [
+        {
+          "word": "Great.",
+          "start": 76.064,
+          "end": 76.726
+        },
+        {
+          "word": "Thanks",
+          "start": 76.842,
+          "end": 77.121
+        },
+        {
+          "word": "for",
+          "start": 77.144,
+          "end": 77.237
+        },
+        {
+          "word": "your",
+          "start": 77.271,
+          "end": 77.388
+        },
+        {
+          "word": "help,",
+          "start": 77.434,
+          "end": 77.666
+        },
+        {
+          "word": "Simon.",
+          "start": 77.689,
+          "end": 78.432
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "You're welcome, Mrs Okafor. Take care. Goodbye.",
+      "start": 78.782,
+      "end": 81.894,
+      "words": [
+        {
+          "word": "You're",
+          "start": 78.782,
+          "end": 79.049
+        },
+        {
+          "word": "welcome,",
+          "start": 79.084,
+          "end": 79.444
+        },
+        {
+          "word": "Mrs",
+          "start": 79.467,
+          "end": 79.699
+        },
+        {
+          "word": "Okafor.",
+          "start": 79.78,
+          "end": 80.349
+        },
+        {
+          "word": "Take",
+          "start": 80.477,
+          "end": 80.698
+        },
+        {
+          "word": "care.",
+          "start": 80.721,
+          "end": 81.058
+        },
+        {
+          "word": "Goodbye.",
+          "start": 81.116,
+          "end": 81.893
+        }
+      ]
+    }
+  ]
+}

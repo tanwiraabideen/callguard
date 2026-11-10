@@ -1,0 +1,1092 @@
+{
+  "id": "dentist_appointment",
+  "title": "Dentist appointment (legitimate)",
+  "label": "legit",
+  "duration_seconds": 64.261,
+  "sample_rate": 16000,
+  "channels": 2,
+  "turns": [
+    {
+      "speaker": "caller",
+      "text": "Hello, it's Tom calling from Riverside Dental Practice. Is that Emma?",
+      "start": 0.0,
+      "end": 4.319,
+      "words": [
+        {
+          "word": "Hello,",
+          "start": 0.0,
+          "end": 0.372
+        },
+        {
+          "word": "it's",
+          "start": 0.395,
+          "end": 0.557
+        },
+        {
+          "word": "Tom",
+          "start": 0.604,
+          "end": 0.894
+        },
+        {
+          "word": "calling",
+          "start": 1.01,
+          "end": 1.335
+        },
+        {
+          "word": "from",
+          "start": 1.382,
+          "end": 1.509
+        },
+        {
+          "word": "Riverside",
+          "start": 1.579,
+          "end": 2.09
+        },
+        {
+          "word": "Dental",
+          "start": 2.125,
+          "end": 2.426
+        },
+        {
+          "word": "Practice.",
+          "start": 2.485,
+          "end": 3.123
+        },
+        {
+          "word": "Is",
+          "start": 3.367,
+          "end": 3.506
+        },
+        {
+          "word": "that",
+          "start": 3.553,
+          "end": 3.68
+        },
+        {
+          "word": "Emma?",
+          "start": 3.75,
+          "end": 4.319
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Yes, hi Tom.",
+      "start": 4.669,
+      "end": 5.784,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 4.669,
+          "end": 4.982
+        },
+        {
+          "word": "hi",
+          "start": 5.006,
+          "end": 5.133
+        },
+        {
+          "word": "Tom.",
+          "start": 5.203,
+          "end": 5.784
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Hi Emma. I'm just calling to confirm your check-up with Doctor Shah next Tuesday, at half past two. Is that still okay for you?",
+      "start": 6.133,
+      "end": 13.564,
+      "words": [
+        {
+          "word": "Hi",
+          "start": 6.133,
+          "end": 6.377
+        },
+        {
+          "word": "Emma.",
+          "start": 6.458,
+          "end": 6.83
+        },
+        {
+          "word": "I'm",
+          "start": 7.005,
+          "end": 7.155
+        },
+        {
+          "word": "just",
+          "start": 7.201,
+          "end": 7.353
+        },
+        {
+          "word": "calling",
+          "start": 7.398,
+          "end": 7.678
+        },
+        {
+          "word": "to",
+          "start": 7.712,
+          "end": 7.758
+        },
+        {
+          "word": "confirm",
+          "start": 7.816,
+          "end": 8.188
+        },
+        {
+          "word": "your",
+          "start": 8.235,
+          "end": 8.351
+        },
+        {
+          "word": "check-up",
+          "start": 8.397,
+          "end": 8.723
+        },
+        {
+          "word": "with",
+          "start": 8.758,
+          "end": 8.873
+        },
+        {
+          "word": "Doctor",
+          "start": 8.919,
+          "end": 9.198
+        },
+        {
+          "word": "Shah",
+          "start": 9.256,
+          "end": 9.524
+        },
+        {
+          "word": "next",
+          "start": 9.582,
+          "end": 9.79
+        },
+        {
+          "word": "Tuesday,",
+          "start": 9.825,
+          "end": 10.313
+        },
+        {
+          "word": "at",
+          "start": 10.337,
+          "end": 10.441
+        },
+        {
+          "word": "half",
+          "start": 10.498,
+          "end": 10.662
+        },
+        {
+          "word": "past",
+          "start": 10.72,
+          "end": 10.963
+        },
+        {
+          "word": "two.",
+          "start": 10.998,
+          "end": 11.508
+        },
+        {
+          "word": "Is",
+          "start": 12.02,
+          "end": 12.183
+        },
+        {
+          "word": "that",
+          "start": 12.217,
+          "end": 12.345
+        },
+        {
+          "word": "still",
+          "start": 12.402,
+          "end": 12.601
+        },
+        {
+          "word": "okay",
+          "start": 12.659,
+          "end": 12.89
+        },
+        {
+          "word": "for",
+          "start": 12.948,
+          "end": 13.029
+        },
+        {
+          "word": "you?",
+          "start": 13.076,
+          "end": 13.563
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Let me think. I've got a meeting that afternoon, but I should be finished by two.",
+      "start": 13.914,
+      "end": 18.883,
+      "words": [
+        {
+          "word": "Let",
+          "start": 13.914,
+          "end": 14.123
+        },
+        {
+          "word": "me",
+          "start": 14.169,
+          "end": 14.274
+        },
+        {
+          "word": "think.",
+          "start": 14.332,
+          "end": 14.866
+        },
+        {
+          "word": "I've",
+          "start": 15.191,
+          "end": 15.377
+        },
+        {
+          "word": "got",
+          "start": 15.4,
+          "end": 15.516
+        },
+        {
+          "word": "a",
+          "start": 15.551,
+          "end": 15.586
+        },
+        {
+          "word": "meeting",
+          "start": 15.632,
+          "end": 15.957
+        },
+        {
+          "word": "that",
+          "start": 16.004,
+          "end": 16.143
+        },
+        {
+          "word": "afternoon,",
+          "start": 16.201,
+          "end": 16.747
+        },
+        {
+          "word": "but",
+          "start": 16.782,
+          "end": 16.956
+        },
+        {
+          "word": "I",
+          "start": 17.037,
+          "end": 17.084
+        },
+        {
+          "word": "should",
+          "start": 17.165,
+          "end": 17.351
+        },
+        {
+          "word": "be",
+          "start": 17.385,
+          "end": 17.467
+        },
+        {
+          "word": "finished",
+          "start": 17.513,
+          "end": 17.838
+        },
+        {
+          "word": "by",
+          "start": 17.885,
+          "end": 18.059
+        },
+        {
+          "word": "two.",
+          "start": 18.14,
+          "end": 18.883
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Lovely. If anything changes, just give us a ring at least a day before, and we can move it for you.",
+      "start": 19.233,
+      "end": 24.62,
+      "words": [
+        {
+          "word": "Lovely.",
+          "start": 19.233,
+          "end": 19.767
+        },
+        {
+          "word": "If",
+          "start": 19.883,
+          "end": 20.011
+        },
+        {
+          "word": "anything",
+          "start": 20.057,
+          "end": 20.336
+        },
+        {
+          "word": "changes,",
+          "start": 20.394,
+          "end": 20.951
+        },
+        {
+          "word": "just",
+          "start": 21.044,
+          "end": 21.218
+        },
+        {
+          "word": "give",
+          "start": 21.253,
+          "end": 21.381
+        },
+        {
+          "word": "us",
+          "start": 21.416,
+          "end": 21.497
+        },
+        {
+          "word": "a",
+          "start": 21.543,
+          "end": 21.578
+        },
+        {
+          "word": "ring",
+          "start": 21.648,
+          "end": 21.845
+        },
+        {
+          "word": "at",
+          "start": 21.892,
+          "end": 21.95
+        },
+        {
+          "word": "least",
+          "start": 21.996,
+          "end": 22.194
+        },
+        {
+          "word": "a",
+          "start": 22.24,
+          "end": 22.275
+        },
+        {
+          "word": "day",
+          "start": 22.321,
+          "end": 22.461
+        },
+        {
+          "word": "before,",
+          "start": 22.519,
+          "end": 23.053
+        },
+        {
+          "word": "and",
+          "start": 23.146,
+          "end": 23.273
+        },
+        {
+          "word": "we",
+          "start": 23.308,
+          "end": 23.378
+        },
+        {
+          "word": "can",
+          "start": 23.424,
+          "end": 23.54
+        },
+        {
+          "word": "move",
+          "start": 23.587,
+          "end": 23.761
+        },
+        {
+          "word": "it",
+          "start": 23.796,
+          "end": 23.854
+        },
+        {
+          "word": "for",
+          "start": 23.9,
+          "end": 24.051
+        },
+        {
+          "word": "you.",
+          "start": 24.121,
+          "end": 24.62
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Will do. Do I need to bring anything with me?",
+      "start": 24.97,
+      "end": 27.478,
+      "words": [
+        {
+          "word": "Will",
+          "start": 24.97,
+          "end": 25.237
+        },
+        {
+          "word": "do.",
+          "start": 25.295,
+          "end": 25.643
+        },
+        {
+          "word": "Do",
+          "start": 25.818,
+          "end": 25.922
+        },
+        {
+          "word": "I",
+          "start": 25.98,
+          "end": 26.003
+        },
+        {
+          "word": "need",
+          "start": 26.038,
+          "end": 26.177
+        },
+        {
+          "word": "to",
+          "start": 26.212,
+          "end": 26.259
+        },
+        {
+          "word": "bring",
+          "start": 26.294,
+          "end": 26.444
+        },
+        {
+          "word": "anything",
+          "start": 26.491,
+          "end": 26.758
+        },
+        {
+          "word": "with",
+          "start": 26.804,
+          "end": 26.955
+        },
+        {
+          "word": "me?",
+          "start": 27.013,
+          "end": 27.478
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "Only a list of any medication you're taking, if it's changed since your last visit. And it's worth arriving five minutes early, as we've got a new check-in screen at reception.",
+      "start": 27.828,
+      "end": 37.952,
+      "words": [
+        {
+          "word": "Only",
+          "start": 27.828,
+          "end": 28.13
+        },
+        {
+          "word": "a",
+          "start": 28.188,
+          "end": 28.211
+        },
+        {
+          "word": "list",
+          "start": 28.269,
+          "end": 28.49
+        },
+        {
+          "word": "of",
+          "start": 28.548,
+          "end": 28.594
+        },
+        {
+          "word": "any",
+          "start": 28.652,
+          "end": 28.78
+        },
+        {
+          "word": "medication",
+          "start": 28.85,
+          "end": 29.407
+        },
+        {
+          "word": "you're",
+          "start": 29.442,
+          "end": 29.616
+        },
+        {
+          "word": "taking,",
+          "start": 29.651,
+          "end": 30.162
+        },
+        {
+          "word": "if",
+          "start": 30.336,
+          "end": 30.463
+        },
+        {
+          "word": "it's",
+          "start": 30.522,
+          "end": 30.661
+        },
+        {
+          "word": "changed",
+          "start": 30.719,
+          "end": 31.16
+        },
+        {
+          "word": "since",
+          "start": 31.23,
+          "end": 31.45
+        },
+        {
+          "word": "your",
+          "start": 31.485,
+          "end": 31.613
+        },
+        {
+          "word": "last",
+          "start": 31.683,
+          "end": 31.915
+        },
+        {
+          "word": "visit.",
+          "start": 31.984,
+          "end": 32.495
+        },
+        {
+          "word": "And",
+          "start": 33.099,
+          "end": 33.238
+        },
+        {
+          "word": "it's",
+          "start": 33.296,
+          "end": 33.412
+        },
+        {
+          "word": "worth",
+          "start": 33.447,
+          "end": 33.668
+        },
+        {
+          "word": "arriving",
+          "start": 33.714,
+          "end": 34.097
+        },
+        {
+          "word": "five",
+          "start": 34.167,
+          "end": 34.422
+        },
+        {
+          "word": "minutes",
+          "start": 34.457,
+          "end": 34.713
+        },
+        {
+          "word": "early,",
+          "start": 34.782,
+          "end": 35.258
+        },
+        {
+          "word": "as",
+          "start": 35.374,
+          "end": 35.514
+        },
+        {
+          "word": "we've",
+          "start": 35.56,
+          "end": 35.723
+        },
+        {
+          "word": "got",
+          "start": 35.746,
+          "end": 35.874
+        },
+        {
+          "word": "a",
+          "start": 35.909,
+          "end": 35.932
+        },
+        {
+          "word": "new",
+          "start": 35.99,
+          "end": 36.129
+        },
+        {
+          "word": "check-in",
+          "start": 36.187,
+          "end": 36.524
+        },
+        {
+          "word": "screen",
+          "start": 36.605,
+          "end": 36.895
+        },
+        {
+          "word": "at",
+          "start": 36.942,
+          "end": 37.0
+        },
+        {
+          "word": "reception.",
+          "start": 37.058,
+          "end": 37.952
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "No problem. How long will it take, roughly?",
+      "start": 38.302,
+      "end": 40.763,
+      "words": [
+        {
+          "word": "No",
+          "start": 38.302,
+          "end": 38.488
+        },
+        {
+          "word": "problem.",
+          "start": 38.557,
+          "end": 39.033
+        },
+        {
+          "word": "How",
+          "start": 39.242,
+          "end": 39.382
+        },
+        {
+          "word": "long",
+          "start": 39.428,
+          "end": 39.544
+        },
+        {
+          "word": "will",
+          "start": 39.567,
+          "end": 39.672
+        },
+        {
+          "word": "it",
+          "start": 39.718,
+          "end": 39.788
+        },
+        {
+          "word": "take,",
+          "start": 39.823,
+          "end": 40.113
+        },
+        {
+          "word": "roughly?",
+          "start": 40.136,
+          "end": 40.763
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "About twenty minutes for the check-up. If you need a clean with the hygienist, we can usually book that on the same day.",
+      "start": 41.113,
+      "end": 47.382,
+      "words": [
+        {
+          "word": "About",
+          "start": 41.113,
+          "end": 41.426
+        },
+        {
+          "word": "twenty",
+          "start": 41.473,
+          "end": 41.775
+        },
+        {
+          "word": "minutes",
+          "start": 41.821,
+          "end": 42.065
+        },
+        {
+          "word": "for",
+          "start": 42.088,
+          "end": 42.181
+        },
+        {
+          "word": "the",
+          "start": 42.216,
+          "end": 42.286
+        },
+        {
+          "word": "check-up.",
+          "start": 42.32,
+          "end": 42.878
+        },
+        {
+          "word": "If",
+          "start": 43.122,
+          "end": 43.249
+        },
+        {
+          "word": "you",
+          "start": 43.284,
+          "end": 43.354
+        },
+        {
+          "word": "need",
+          "start": 43.4,
+          "end": 43.551
+        },
+        {
+          "word": "a",
+          "start": 43.586,
+          "end": 43.621
+        },
+        {
+          "word": "clean",
+          "start": 43.667,
+          "end": 43.934
+        },
+        {
+          "word": "with",
+          "start": 43.981,
+          "end": 44.097
+        },
+        {
+          "word": "the",
+          "start": 44.132,
+          "end": 44.201
+        },
+        {
+          "word": "hygienist,",
+          "start": 44.248,
+          "end": 44.921
+        },
+        {
+          "word": "we",
+          "start": 44.979,
+          "end": 45.084
+        },
+        {
+          "word": "can",
+          "start": 45.118,
+          "end": 45.235
+        },
+        {
+          "word": "usually",
+          "start": 45.304,
+          "end": 45.594
+        },
+        {
+          "word": "book",
+          "start": 45.653,
+          "end": 45.838
+        },
+        {
+          "word": "that",
+          "start": 45.896,
+          "end": 46.094
+        },
+        {
+          "word": "on",
+          "start": 46.152,
+          "end": 46.221
+        },
+        {
+          "word": "the",
+          "start": 46.268,
+          "end": 46.337
+        },
+        {
+          "word": "same",
+          "start": 46.372,
+          "end": 46.605
+        },
+        {
+          "word": "day.",
+          "start": 46.663,
+          "end": 47.382
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Oh yes, I'd like that. I haven't had one for a while.",
+      "start": 47.732,
+      "end": 51.587,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 47.732,
+          "end": 47.964
+        },
+        {
+          "word": "yes,",
+          "start": 48.045,
+          "end": 48.498
+        },
+        {
+          "word": "I'd",
+          "start": 48.58,
+          "end": 48.765
+        },
+        {
+          "word": "like",
+          "start": 48.823,
+          "end": 49.079
+        },
+        {
+          "word": "that.",
+          "start": 49.125,
+          "end": 49.543
+        },
+        {
+          "word": "I",
+          "start": 49.787,
+          "end": 49.833
+        },
+        {
+          "word": "haven't",
+          "start": 49.915,
+          "end": 50.158
+        },
+        {
+          "word": "had",
+          "start": 50.205,
+          "end": 50.356
+        },
+        {
+          "word": "one",
+          "start": 50.426,
+          "end": 50.576
+        },
+        {
+          "word": "for",
+          "start": 50.623,
+          "end": 50.727
+        },
+        {
+          "word": "a",
+          "start": 50.774,
+          "end": 50.797
+        },
+        {
+          "word": "while.",
+          "start": 50.843,
+          "end": 51.587
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "I'll put a note on your file, and you can pay at the desk after your appointment, as usual.",
+      "start": 51.937,
+      "end": 56.999,
+      "words": [
+        {
+          "word": "I'll",
+          "start": 51.937,
+          "end": 52.169
+        },
+        {
+          "word": "put",
+          "start": 52.204,
+          "end": 52.332
+        },
+        {
+          "word": "a",
+          "start": 52.367,
+          "end": 52.39
+        },
+        {
+          "word": "note",
+          "start": 52.459,
+          "end": 52.668
+        },
+        {
+          "word": "on",
+          "start": 52.703,
+          "end": 52.773
+        },
+        {
+          "word": "your",
+          "start": 52.819,
+          "end": 52.935
+        },
+        {
+          "word": "file,",
+          "start": 52.994,
+          "end": 53.446
+        },
+        {
+          "word": "and",
+          "start": 53.562,
+          "end": 53.69
+        },
+        {
+          "word": "you",
+          "start": 53.737,
+          "end": 53.806
+        },
+        {
+          "word": "can",
+          "start": 53.853,
+          "end": 53.969
+        },
+        {
+          "word": "pay",
+          "start": 54.015,
+          "end": 54.189
+        },
+        {
+          "word": "at",
+          "start": 54.224,
+          "end": 54.282
+        },
+        {
+          "word": "the",
+          "start": 54.317,
+          "end": 54.387
+        },
+        {
+          "word": "desk",
+          "start": 54.445,
+          "end": 54.828
+        },
+        {
+          "word": "after",
+          "start": 54.898,
+          "end": 55.176
+        },
+        {
+          "word": "your",
+          "start": 55.211,
+          "end": 55.327
+        },
+        {
+          "word": "appointment,",
+          "start": 55.374,
+          "end": 55.908
+        },
+        {
+          "word": "as",
+          "start": 55.942,
+          "end": 56.105
+        },
+        {
+          "word": "usual.",
+          "start": 56.198,
+          "end": 56.999
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Perfect. Thank you for calling.",
+      "start": 57.349,
+      "end": 59.16,
+      "words": [
+        {
+          "word": "Perfect.",
+          "start": 57.349,
+          "end": 57.883
+        },
+        {
+          "word": "Thank",
+          "start": 57.906,
+          "end": 58.127
+        },
+        {
+          "word": "you",
+          "start": 58.162,
+          "end": 58.243
+        },
+        {
+          "word": "for",
+          "start": 58.289,
+          "end": 58.382
+        },
+        {
+          "word": "calling.",
+          "start": 58.44,
+          "end": 59.16
+        }
+      ]
+    },
+    {
+      "speaker": "caller",
+      "text": "You're welcome, Emma. See you on Tuesday. Bye for now.",
+      "start": 59.51,
+      "end": 62.807,
+      "words": [
+        {
+          "word": "You're",
+          "start": 59.51,
+          "end": 59.765
+        },
+        {
+          "word": "welcome,",
+          "start": 59.8,
+          "end": 60.149
+        },
+        {
+          "word": "Emma.",
+          "start": 60.183,
+          "end": 60.52
+        },
+        {
+          "word": "See",
+          "start": 60.636,
+          "end": 60.81
+        },
+        {
+          "word": "you",
+          "start": 60.834,
+          "end": 60.903
+        },
+        {
+          "word": "on",
+          "start": 60.961,
+          "end": 61.043
+        },
+        {
+          "word": "Tuesday.",
+          "start": 61.089,
+          "end": 61.693
+        },
+        {
+          "word": "Bye",
+          "start": 61.809,
+          "end": 62.018
+        },
+        {
+          "word": "for",
+          "start": 62.041,
+          "end": 62.145
+        },
+        {
+          "word": "now.",
+          "start": 62.192,
+          "end": 62.807
+        }
+      ]
+    },
+    {
+      "speaker": "user",
+      "text": "Bye.",
+      "start": 63.157,
+      "end": 63.761,
+      "words": [
+        {
+          "word": "Bye.",
+          "start": 63.157,
+          "end": 63.761
+        }
+      ]
+    }
+  ]
+}
