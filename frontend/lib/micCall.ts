@@ -9,6 +9,7 @@ export async function startMicCall(
   isSpeakingAsUser: () => boolean,
   onPlayed: (seconds: number) => void,
   onEnded: (reason: EndReason) => void,
+  onLevel: (level: number) => void,
 ): Promise<CallController> {
   const context = new AudioContext({ sampleRate: MIC_SAMPLE_RATE });
   await context.audioWorklet.addModule("/micProcessor.js");
@@ -49,6 +50,8 @@ export async function startMicCall(
 
     // The other channel stays silent, so each voice stays with one speaker.
     const samples = event.data;
+    // Loudest sample in this chunk, from 0 (silent) to 1, for the level meter.
+    onLevel(samples.reduce((loudest, sample) => Math.max(loudest, Math.abs(sample)), 0));
     const speakerOffset = isSpeakingAsUser() ? 1 : 0;
     const pcm = new Int16Array(samples.length * 2);
     samples.forEach((sample, index) => {
@@ -60,5 +63,6 @@ export async function startMicCall(
     onPlayed(framesSent / MIC_SAMPLE_RATE);
   };
 
-  return { stop: finish, setCallerLevel: () => {} };
+  // A live user is a real person, so there's nothing to lower or mute.
+  return { stop: finish, setCallerLevel: () => {}, muteUser: () => {} };
 }

@@ -22,6 +22,7 @@ export type EndReason =
 export type CallController = {
   stop: (reason: EndReason) => void;
   setCallerLevel: (level: number) => void;
+  muteUser: () => void;
 };
 
 // The browser decodes audio to numbers from -1 to 1. This converts them back to
@@ -59,16 +60,18 @@ export async function playCall(
   });
   const audio = await context.decodeAudioData(await response.arrayBuffer());
 
-  // Each channel goes to both ears. The caller has its own volume so that it
-  // can be lowered during a whisper.
+  // Each channel goes to both ears. Each has its own volume, so the caller can
+  // be lowered during a whisper and the user silenced when the agent takes over.
   const source = context.createBufferSource();
   const splitter = context.createChannelSplitter(2);
   const callerGain = context.createGain();
+  const userGain = context.createGain();
   source.buffer = audio;
   source.connect(splitter);
   splitter.connect(callerGain, 0);
+  splitter.connect(userGain, 1);
   callerGain.connect(context.destination);
-  splitter.connect(context.destination, 1);
+  userGain.connect(context.destination);
 
   socket.send(JSON.stringify({ type: "call_start", call_id: call.id }));
 
@@ -131,6 +134,12 @@ export async function playCall(
     setCallerLevel: (level) => {
       if (!ended) {
         callerGain.gain.setTargetAtTime(level, context.currentTime, 0.05);
+      }
+    },
+    // The recording carries on, but a real person would stop talking here.
+    muteUser: () => {
+      if (!ended) {
+        userGain.gain.setTargetAtTime(0, context.currentTime, 0.05);
       }
     },
   };

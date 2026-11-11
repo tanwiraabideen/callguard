@@ -9,6 +9,7 @@ import asyncio
 import json
 import logging
 import time
+from array import array
 from collections.abc import Awaitable, Callable
 
 from app.agent.controller import AgentController
@@ -44,7 +45,9 @@ class CallSession:
         self.speech_tasks: set[asyncio.Task] = set()
         self.limit_reached = False
         self.bytes_received = 0
+        self.peak_levels = {"caller": 0, "user": 0}
         self.next_progress_seconds = 0.0
+        self.peak_levels = {"caller": 0, "user": 0}
 
     @property
     def seconds_received(self) -> float:
@@ -98,6 +101,7 @@ class CallSession:
         self.title = "Live call" if is_live else call["title"]
         self.limit_reached = False
         self.bytes_received = 0
+        self.peak_levels = {"caller": 0, "user": 0}
         self.next_progress_seconds = settings.audio_progress_interval_seconds
         self.alerts = AlertManager()
         self.risk_engine = RiskEngine(self.handle_risk_message)
@@ -141,9 +145,13 @@ class CallSession:
                 "reason": reason,
                 "seconds_received": round(self.seconds_received, 2),
                 "bytes_received": self.bytes_received,
+                # 0 means silence and 1 is the loudest possible. Helps spot a muted mic.
+                "peak_levels": {
+                    speaker: round(peak / 32768, 3) for speaker, peak in self.peak_levels.items()
+                },
             }
         )
-        logger.info("Call ended: %s, %s", self.call_id, reason)
+        logger.info("Call ended: %s, %s, peaks %s", self.call_id, reason, self.peak_levels)
         await self.send(
             build_summary(
                 self.call_id,
@@ -170,6 +178,7 @@ class CallSession:
             return
 
         self.bytes_received += len(chunk)
+        self.record_peak_levels(chunk)
         if self.transcriber is not None:
             try:
                 await self.transcriber.send_audio(chunk)
@@ -187,7 +196,25 @@ class CallSession:
             self.limit_reached = True
             await self.send({"type": "call_limit_reached", "seconds": settings.max_call_seconds})
 
+    def record_peak_levels(self, chunk: bytes) -> None:
+        samples = array("h")
+        samples.frombytes(chunk)
+        for speaker, channel in (("caller", samples[0::2]), ("user", samples[1::2])):
+            if channel:
+                loudest = max(max(channel), -min(channel))
+                self.peak_levels[speaker] = max(self.peak_levels[speaker], loudest)
+
     async def send_segment(self, segment: dict) -> None:
+        # Once the agent has taken over, it speaks for the user, so anything the
+        # user starts saying after that point is left out.
+        took_over_at = self.agent.took_over_at if self.agent else None
+        if (
+            segment["speaker"] == "user"
+            and took_over_at is not None
+            and segment["start"] >= took_over_at
+        ):
+            return
+
         await self.send_if_connected({"type": "transcript", **segment})
         if self.risk_engine is None:
             return

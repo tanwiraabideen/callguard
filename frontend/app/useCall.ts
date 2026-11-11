@@ -41,6 +41,7 @@ export function useCall() {
   const [secondsPlayed, setSecondsPlayed] = useState(0);
   const [secondsReceived, setSecondsReceived] = useState(0);
   const [maxSeconds, setMaxSeconds] = useState<number | null>(null);
+  const [micLevel, setMicLevel] = useState(0);
   const [transcriptionMode, setTranscriptionMode] = useState("not started");
   const [llmMode, setLlmMode] = useState("not started");
   const [agentMode, setAgentMode] = useState("not started");
@@ -172,6 +173,7 @@ export function useCall() {
             () => speakingAsUserRef.current,
             updatePlayed,
             handleCallEnded,
+            setMicLevel,
           ),
         true,
       );
@@ -271,6 +273,7 @@ export function useCall() {
         setTrace((previous) => [...previous, message]);
         if (message.event === "agent_start" && message.mode === "take_over") {
           agentTakingOverRef.current = true;
+          controllerRef.current?.muteUser();
         }
         break;
       case "speech":
@@ -379,6 +382,7 @@ export function useCall() {
     secondsPlayed,
     secondsReceived,
     maxSeconds,
+    micLevel,
     transcriptionMode,
     llmMode,
     agentMode,

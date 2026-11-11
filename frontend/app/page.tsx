@@ -65,6 +65,26 @@ export default function Home() {
 
         {call.isLive && call.callStatus === "playing" && (
           <p>
+            Mic level:{" "}
+            <span
+              style={{ display: "inline-block", width: 160, height: 10, background: "lightgray" }}
+            >
+              <span
+                id="mic-level"
+                style={{
+                  display: "block",
+                  height: "100%",
+                  width: `${Math.min(100, call.micLevel * 100)}%`,
+                  background: "seagreen",
+                }}
+              />
+            </span>{" "}
+            {call.micLevel < 0.01 ? "No sound from your microphone" : ""}
+          </p>
+        )}
+
+        {call.isLive && call.callStatus === "playing" && (
+          <p>
             You are the caller. To answer as the person being scammed, for example to say
             &quot;let me grab a pen&quot;:{" "}
             <button

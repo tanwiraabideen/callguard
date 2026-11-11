@@ -37,6 +37,7 @@ class AgentController:
         self.detector = TriggerDetector()
         self.trigger_count = 0
         self.took_over = False
+        self.took_over_at: float | None = None
         self.last_user_speech = 0.0
         self.high_risk_since: float | None = None
         self.queue: list[tuple[str, str, float]] = []
@@ -76,6 +77,7 @@ class AgentController:
     def start(self, mode: str, reason: str, now: float) -> None:
         if mode == TAKE_OVER:
             self.took_over = True
+            self.took_over_at = now
         self.queue.append((mode, reason, now))
         if self.task is None or self.task.done():
             self.task = asyncio.create_task(self.run_queue())
